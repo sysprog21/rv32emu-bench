@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695626281074,
+  "lastUpdate": 1695626775911,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -365,6 +365,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1098.546,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "d36f0d6e40cb60c9c2422ead2f8d9b34510b07ec",
+          "message": "Add a new fusion instruction and remove unnecessary ones ",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/227/commits/d36f0d6e40cb60c9c2422ead2f8d9b34510b07ec"
+        },
+        "date": 1695626775648,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1261.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1131.483,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
