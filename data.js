@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696131071397,
+  "lastUpdate": 1696172879731,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -815,6 +815,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1200.252,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e5db6a7ff71ca9aade2cf1896e6dd824f3b7bb5c",
+          "message": "Explain implementation aspects for certain RISC-V instructions",
+          "timestamp": "2023-10-01T23:00:30+08:00",
+          "tree_id": "0fd7970eb1692251bea8446db5d9b8e9337b0ed2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e5db6a7ff71ca9aade2cf1896e6dd824f3b7bb5c"
+        },
+        "date": 1696172879211,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1256.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1059.54,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
