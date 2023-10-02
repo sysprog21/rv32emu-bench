@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696219377891,
+  "lastUpdate": 1696241437476,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -883,6 +883,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1194.448,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "012f117b2b20c63f6b32d9f42421bf1ab08b70ee",
+          "message": "Reduce memory usage for instruction block",
+          "timestamp": "2023-02-23T15:04:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/232/commits/012f117b2b20c63f6b32d9f42421bf1ab08b70ee"
+        },
+        "date": 1696241436956,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1046.6,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 987.419,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
