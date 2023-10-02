@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696241437476,
+  "lastUpdate": 1696247649372,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -913,6 +913,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 987.419,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "s921975628@gmail.com",
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "00312241db570add3b9948a023e7ebbe2041919f",
+          "message": "Reduce memory usage for instruction block (#232)\n\nThe original memory allocation strategy for instruction blocks was found\r\nto be inefficient, leading to excessive memory usage. In the previous\r\napproach, a fixed amount of memory was allocated for each block, resulting\r\nin significant wastage.\r\n\r\nTo address this issue, we have implemented a more efficient memory\r\nallocation scheme. Instead of allocating a fixed size for each block, we\r\nnow maintain a pool of rv_insn_t and allocate memory only when needed.\r\nThis new approach minimizes heap allocations and optimizes memory usage.\r\n\r\nWe have introduced a parameter, BLOCK_POOL_SIZE, which allows us to control\r\nthe balance between the number of calloc calls and memory consumption. This\r\nflexibility ensures that memory allocation occurs only when the pool is\r\ndepleted.\r\n\r\nAs a result of these changes, the heap memory allocation has significantly\r\nimproved. For example, in the puzzle.elf example, we observed a reduction in\r\nheap memory allocation from 20,306,989 bytes to just 313,461 bytes.\r\n\r\nWhile this design may lead to some discontinuity in memory spaces for\r\ninstructions in sequence, the impact on random access is minimal, as random\r\naccess is primarily required for certain fuse operations. In cases where\r\nrandom access is needed, we can employ linear search method. The potential\r\ncache locality issues resulting from the discontinuous memory spaces can\r\nalso be mitigated by adjusting the BLOCK_POOL_SIZE parameter for better\r\nperformance.",
+          "timestamp": "2023-10-02T19:50:34+08:00",
+          "tree_id": "7417f92613792c4c3be19bef45e3c0c3c60062a7",
+          "url": "https://github.com/sysprog21/rv32emu/commit/00312241db570add3b9948a023e7ebbe2041919f"
+        },
+        "date": 1696247649132,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1130,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 966.211,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
