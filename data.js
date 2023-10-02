@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696172879731,
+  "lastUpdate": 1696219377891,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -849,6 +849,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1059.54,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a2075748788deb8804b14c96f4b185fecc787c48",
+          "message": "Inline performance-critical functions in debug builds",
+          "timestamp": "2023-10-02T11:56:05+08:00",
+          "tree_id": "06f4637d00e51040ab0c106449063a1edbf29aa1",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a2075748788deb8804b14c96f4b185fecc787c48"
+        },
+        "date": 1696219377671,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1215.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1194.448,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
