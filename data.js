@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696250845247,
+  "lastUpdate": 1696250902696,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -981,6 +981,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 984.096,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "ae2de71ae55d060f924d5deecd4f068702dbe4f5",
+          "message": "Disable control flow integrity for instruction dispatching",
+          "timestamp": "2023-09-30T08:34:51Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/236/commits/ae2de71ae55d060f924d5deecd4f068702dbe4f5"
+        },
+        "date": 1696250902265,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1125.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 966.574,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
