@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696250902696,
+  "lastUpdate": 1696251773114,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1011,6 +1011,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 966.574,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79ce1925f7e5d776f30cfff11099a802df799c93",
+          "message": "Disable control flow integrity for instruction dispatching (#236)\n\nReturn-oriented programming (ROP) manipulates the stack to compromise\r\ncontrol flow and execute malicious code. Recent Linux distributions such\r\nas Ubuntu enforce control-flow enforcement protection, by generating\r\nextra instructions. To avoid potential code bloating, passing\r\n\"-fcf-protection=none\" to GCC/Clang disables endbr64 instruction\r\ngeneration, resulting in a slightly shorter instruction dispatch path.  \r\n\r\n[ original ]\r\n$ size build/rv32emu\r\n   text    data     bss     dec     hex filename\r\n  94637    3920    4464  103021   1926d build/rv32emu\r\n\r\n000000000000b2b0 <do_addi>:\r\n    b2b0:       f3 0f 1e fa             endbr64\r\n    b2b4:       48 83 87 a8 01 00 00    addq   $0x1,0x1a8(%rdi)\r\n    b2bb:       01\r\n    b2bc:       0f b6 4e 05             movzbl 0x5(%rsi),%ecx\r\n    b2c0:       0f b6 56 04             movzbl 0x4(%rsi),%edx\r\n    b2c4:       8b 06                   mov    (%rsi),%eax\r\n    b2c6:       03 44 8f 58             add    0x58(%rdi,%rcx,4),%eax\r\n    b2ca:       89 44 97 58             mov    %eax,0x58(%rdi,%rdx,4)\r\n    b2ce:       0f b6 46 1c             movzbl 0x1c(%rsi),%eax\r\n    b2d2:       01 87 d8 00 00 00       add    %eax,0xd8(%rdi)\r\n    b2d8:       0f b6 46 1d             movzbl 0x1d(%rsi),%eax\r\n    b2dc:       84 c0                   test   %al,%al\r\n    b2de:       75 18                   jne    b2f8 <do_addi+0x48>\r\n    b2e0:       0f b6 87 10 01 00 00    movzbl 0x110(%rdi),%eax\r\n    b2e7:       84 c0                   test   %al,%al\r\n    b2e9:       75 0d                   jne    b2f8 <do_addi+0x48>\r\n    b2eb:       48 8b 76 38             mov    0x38(%rsi),%rsi\r\n    b2ef:       ff 66 20                jmpq   *0x20(%rsi)\r\n    b2f2:       66 0f 1f 44 00 00       nopw   0x0(%rax,%rax,1)\r\n    b2f8:       c3                      retq\r\n    b2f9:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)\r\n\r\n[ proposed ]\r\n$ size build/rv32emu\r\n   text    data     bss     dec     hex filename\r\n  91845    3920    4464  100229   18785 build/rv32emu\r\n\r\n000000000000a970 <do_addi>:\r\n    a970:       48 83 87 a8 01 00 00    addq   $0x1,0x1a8(%rdi)\r\n    a977:       01\r\n    a978:       0f b6 4e 05             movzbl 0x5(%rsi),%ecx\r\n    a97c:       0f b6 56 04             movzbl 0x4(%rsi),%edx\r\n    a980:       8b 06                   mov    (%rsi),%eax\r\n    a982:       03 44 8f 58             add    0x58(%rdi,%rcx,4),%eax\r\n    a986:       89 44 97 58             mov    %eax,0x58(%rdi,%rdx,4)\r\n    a98a:       0f b6 46 1c             movzbl 0x1c(%rsi),%eax\r\n    a98e:       01 87 d8 00 00 00       add    %eax,0xd8(%rdi)\r\n    a994:       0f b6 46 1d             movzbl 0x1d(%rsi),%eax\r\n    a998:       0a 87 10 01 00 00       or     0x110(%rdi),%al\r\n    a99e:       75 10                   jne    a9b0 <do_addi+0x40>\r\n    a9a0:       48 8b 76 38             mov    0x38(%rsi),%rsi\r\n    a9a4:       ff 66 20                jmpq   *0x20(%rsi)\r\n    a9a7:       66 0f 1f 84 00 00 00    nopw   0x0(%rax,%rax,1)\r\n    a9ae:       00 00\r\n    a9b0:       c3                      retq\r\n    a9b1:       66 66 2e 0f 1f 84 00    data16 nopw %cs:0x0(%rax,%rax,1)\r\n    a9b8:       00 00 00 00\r\n    a9bc:       0f 1f 40 00             nopl   0x0(%rax)",
+          "timestamp": "2023-10-02T20:59:24+08:00",
+          "tree_id": "ba869e55ce1b068dcf80592e50354dbcb0db37b2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/79ce1925f7e5d776f30cfff11099a802df799c93"
+        },
+        "date": 1696251772862,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1136.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 988.202,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
