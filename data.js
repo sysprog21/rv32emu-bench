@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696258125656,
+  "lastUpdate": 1696304666587,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1075,6 +1075,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 813.513,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "06ed289db01245e2fe6061021c6de7b63b23739b",
+          "message": "Limit the memory usage of block and block IR",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/234/commits/06ed289db01245e2fe6061021c6de7b63b23739b"
+        },
+        "date": 1696304666366,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1136.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 984.143,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
