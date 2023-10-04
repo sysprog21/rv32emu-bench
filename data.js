@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696322198994,
+  "lastUpdate": 1696397540158,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1135,6 +1135,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 836.547,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "29e4fe696a478b4ef665c7632d417219e1ed78e9",
+          "message": "Macro operation fusion: sequential shift instructions",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/237/commits/29e4fe696a478b4ef665c7632d417219e1ed78e9"
+        },
+        "date": 1696397539715,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1133.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 871.828,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
