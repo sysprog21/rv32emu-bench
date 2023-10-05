@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696487306074,
+  "lastUpdate": 1696488277993,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1229,6 +1229,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 872.683,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "48278026+qwe661234@users.noreply.github.com",
+            "name": "YenFuChen",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47f85366a3b1a87ed890d38a6e51f453bb9ddb9f",
+          "message": "Fuse reordered lw/sw instructions (#240)\n\nOriginally, we only fused LW/SW instructions with continuous memory\r\naddresses. However, some LW/SW instructions cannot be fused due to\r\ncompiler instruction reordering. For example:\r\n  108e8: 01312e23 sw s3, 28(sp)\r\n  108ec: 02112623 sw ra, 44(sp)\r\n  108f0: 02812423 sw s0, 40(sp)\r\n  108f4: 02912223 sw s1, 36(sp)\r\n  108f8: 03212023 sw s2, 32(sp)\r\n  108fc: 01412c23 sw s4, 24(sp)\r\n\r\nTo fuse more lw/sw instructions that are reordered by the compiler, we\r\nneed to relax the restriction. With this modification, we can fuse\r\nreordered LW/SW instructions.\r\n\r\nClose #218",
+          "timestamp": "2023-10-05T14:38:37+08:00",
+          "tree_id": "15755faf2915b812a33892b0df70dceef871a001",
+          "url": "https://github.com/sysprog21/rv32emu/commit/47f85366a3b1a87ed890d38a6e51f453bb9ddb9f"
+        },
+        "date": 1696488277736,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1264.4,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1014.908,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
