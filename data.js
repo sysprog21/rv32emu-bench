@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696400838085,
+  "lastUpdate": 1696487306074,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1199,6 +1199,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1014.215,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "2ef684265bf2a31a3a7d17a39a0cd7e2f14d1fba",
+          "message": "Modify fused lw/sw instruction",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/240/commits/2ef684265bf2a31a3a7d17a39a0cd7e2f14d1fba"
+        },
+        "date": 1696487305339,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1016.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 872.683,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
