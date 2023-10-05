@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696497376189,
+  "lastUpdate": 1696497931710,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1297,6 +1297,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 856.132,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "26729696c77122a8f6bb0ee7d85dc1a7ce8c0e56",
+          "message": "Place __UNREACHABLE for compiler optimizations\n\n\"__builtin_unreachable()\" in GCC and Clang serves as an optimization\npragma rather than an assertion. If control does happen to reach a\n\"__builtin_unreachable()\" statement, it does not necessarily result in\nprogram termination.\n\n[ original ]\n$ size  build/rv32emu\n   text    data     bss     dec     hex filename\n  92405    3920    4464  100789   189b5 build/rv32emu\n\n[ proposed ]\n$ size build/rv32emu\n   text    data     bss     dec     hex filename\n  92341    3920    4464  100725   18975 build/rv32emu",
+          "timestamp": "2023-10-05T17:18:09+08:00",
+          "tree_id": "d8e6756ac6a729d99b9bf8fe1b8407c803ce4c92",
+          "url": "https://github.com/sysprog21/rv32emu/commit/26729696c77122a8f6bb0ee7d85dc1a7ce8c0e56"
+        },
+        "date": 1696497931081,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1271.85,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1017.142,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
