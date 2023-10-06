@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696497931710,
+  "lastUpdate": 1696561215310,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1331,6 +1331,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1017.142,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "1c2be0a9e3017753a6dbaa711c8f646d360feb6a",
+          "message": "Tweak constopt_info_t code manipulation\n\nThis patch simplifies the naming scheme for constant optimization\nroutines. In addition, an unused parameter warning is eliminated.",
+          "timestamp": "2023-10-06T10:47:29+08:00",
+          "tree_id": "4c915f1512ffb6ef5211230bdaf38c8569b35408",
+          "url": "https://github.com/sysprog21/rv32emu/commit/1c2be0a9e3017753a6dbaa711c8f646d360feb6a"
+        },
+        "date": 1696561215047,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1279.5,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1021.535,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
