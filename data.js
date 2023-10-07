@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696657893827,
+  "lastUpdate": 1696658623783,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1429,6 +1429,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1024.756,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "48278026+qwe661234@users.noreply.github.com",
+            "name": "YenFuChen",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "73ea55c376d5785f740dd7ff27118304efe06d12",
+          "message": "Handle CSR MSTATUS and MISA correctly (#243)\n\nIn the privileged section of the RISC-V Architecture Test, we must\r\nconfigure the extensions specified in the Machine ISA (MISA) Register\r\nand set the Machine Status Register to privileged mode when invoking\r\nthe exception handler.\r\n\r\nWith this commit, all tests have passed successfully.",
+          "timestamp": "2023-10-07T13:56:40+08:00",
+          "tree_id": "1e9462c54f53f88b116576ded0f8ebe6fb30c987",
+          "url": "https://github.com/sysprog21/rv32emu/commit/73ea55c376d5785f740dd7ff27118304efe06d12"
+        },
+        "date": 1696658623561,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1301.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1023.706,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
