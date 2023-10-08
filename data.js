@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696672617499,
+  "lastUpdate": 1696789430984,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1497,6 +1497,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 897.752,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "24e857a0c620f2174dbd19b3bbc2423594cf1d7f",
+          "message": "Refactor detect_mem{set,cpy}\n\nThis commit decouples the instruction listings for mem{set,cpy} out of\nsrc/emulate.c, enhancing the maintainability of these listings.",
+          "timestamp": "2023-10-09T02:12:46+08:00",
+          "tree_id": "ae7dbddf20e8086ecfd05f9ce457bee5b062d183",
+          "url": "https://github.com/sysprog21/rv32emu/commit/24e857a0c620f2174dbd19b3bbc2423594cf1d7f"
+        },
+        "date": 1696789430759,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1276.5,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1020.681,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
