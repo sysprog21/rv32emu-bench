@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696789430984,
+  "lastUpdate": 1696792170226,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1531,6 +1531,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1020.681,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e2a60b8626416bb1c5d78f51f4f47b4ebb021d19",
+          "message": "Use shortcuts to access each field of specified instruction\n\nMacro IF_{insn,rd,rs1,rs2,imm} can be used respectively. In particular,\nit would be useful for writing macro-op fusion code.",
+          "timestamp": "2023-10-09T02:57:36+08:00",
+          "tree_id": "240fc6ca64fbf560ee7cf8ecbbc0dfb8bb53ab96",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e2a60b8626416bb1c5d78f51f4f47b4ebb021d19"
+        },
+        "date": 1696792169770,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1307.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1025.138,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
