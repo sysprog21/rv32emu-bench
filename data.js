@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697032462500,
+  "lastUpdate": 1697033370958,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -1715,6 +1715,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 929.887,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "1d8694b092827028c5c72c79c01bf6abba6e7586",
+          "message": "Remove tailcall member in rv_insn_t",
+          "timestamp": "2023-02-23T15:04:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/245/commits/1d8694b092827028c5c72c79c01bf6abba6e7586"
+        },
+        "date": 1697033370382,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1297.75,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1023.707,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
