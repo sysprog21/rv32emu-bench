@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697125598640,
+  "lastUpdate": 1697125639386,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2195,6 +2195,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1255.403,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e91506914501a58497c4045db29bf0228b41bd78",
+          "message": "Enforce 'musttail' for assured tail call optimization\n\nThe 'musttail' attribute is enforced for return statements that yield\nthe result of a function call. This enhancement ensures more efficient\ncode generation by Clang.",
+          "timestamp": "2023-10-12T15:37:03Z",
+          "tree_id": "80542010b0b002003a4320aa36a3b76c77c972ab",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e91506914501a58497c4045db29bf0228b41bd78"
+        },
+        "date": 1697125638847,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1243.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1052.455,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
