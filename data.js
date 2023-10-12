@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697119331865,
+  "lastUpdate": 1697125598640,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2165,6 +2165,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1138.7,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "e91506914501a58497c4045db29bf0228b41bd78",
+          "message": "Enforce 'musttail' for assured tail call optimization",
+          "timestamp": "2023-10-12T09:48:33Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/247/commits/e91506914501a58497c4045db29bf0228b41bd78"
+        },
+        "date": 1697125598079,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1379.5,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1255.403,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
