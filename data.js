@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697116850099,
+  "lastUpdate": 1697119331865,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2135,6 +2135,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1257.61,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "b3ecce384ff6f8d79a683d9d75f2b1c1892b6e04",
+          "message": "Move block and IRs memory pool to rv",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/246/commits/b3ecce384ff6f8d79a683d9d75f2b1c1892b6e04"
+        },
+        "date": 1697119331210,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1448.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1138.7,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
