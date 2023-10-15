@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697346877037,
+  "lastUpdate": 1697347894349,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2263,6 +2263,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1117.705,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "fdf30b69dfe49a69cc2210ed70f111c4df149747",
+          "message": "Relax inline heuristics hints\n\nThis relaxation allows compiler optimization to perform certain kinds\nof code rearrangement that preserve the semantics of properly.",
+          "timestamp": "2023-10-15T13:24:14+08:00",
+          "tree_id": "3453636f8bcbdbf96aa7c84c8bf60ce9c744319d",
+          "url": "https://github.com/sysprog21/rv32emu/commit/fdf30b69dfe49a69cc2210ed70f111c4df149747"
+        },
+        "date": 1697347894100,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1421.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1242.639,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
