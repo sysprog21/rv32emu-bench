@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697125639386,
+  "lastUpdate": 1697346877037,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2229,6 +2229,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1052.455,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "925b587e726f1f96bad0f58dd4b65efc1ac55747",
+          "message": "Simplify branch_{taken,untaken} and BRANCH_ macro\n\nThis commit does not introduce any functional changes; it is intended\nsolely as a cosmetic modification.",
+          "timestamp": "2023-10-15T13:03:26+08:00",
+          "tree_id": "51461885f6391d2632dbae06d790cb5f30dfa4d3",
+          "url": "https://github.com/sysprog21/rv32emu/commit/925b587e726f1f96bad0f58dd4b65efc1ac55747"
+        },
+        "date": 1697346876772,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1437.12,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1117.705,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
