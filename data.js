@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697462123478,
+  "lastUpdate": 1697469387873,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2447,6 +2447,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1135.534,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "98c45e6bc8065a4d5549bbba991d67ff65469710",
+          "message": "Unify the hash function of cache and map",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/249/commits/98c45e6bc8065a4d5549bbba991d67ff65469710"
+        },
+        "date": 1697469387566,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1424.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1247.916,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
