@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697516479997,
+  "lastUpdate": 1698304521553,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2537,6 +2537,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1125.137,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0337caae7de10cec3110b3f094649f90008182e7",
+          "message": "Simplify file descriptor handling",
+          "timestamp": "2023-10-26T15:08:00+08:00",
+          "tree_id": "7da45019a8477e766a8b4b5fc15e8ae1d53c6af0",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0337caae7de10cec3110b3f094649f90008182e7"
+        },
+        "date": 1698304520922,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1237,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1056.257,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
