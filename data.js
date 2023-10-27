@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698312302803,
+  "lastUpdate": 1698413059765,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2605,6 +2605,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1164.239,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "87f11c299f8550168ac88ffe34b3a3d7e9a47b38",
+          "message": "Improve the comments about mtval",
+          "timestamp": "2023-10-27T21:17:05+08:00",
+          "tree_id": "085dba789e021164882e03f4e81e7ccbe5953d29",
+          "url": "https://github.com/sysprog21/rv32emu/commit/87f11c299f8550168ac88ffe34b3a3d7e9a47b38"
+        },
+        "date": 1698413059190,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1174.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1053.546,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
