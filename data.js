@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699101717573,
+  "lastUpdate": 1699186710544,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2703,6 +2703,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1493.22,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "a882d74760710e6458e494273de60c2027ec1255",
+          "message": "Fix NULL pointer dereference in remove_next_nth_ir()",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/255/commits/a882d74760710e6458e494273de60c2027ec1255"
+        },
+        "date": 1699186710251,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1317.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1069.319,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
