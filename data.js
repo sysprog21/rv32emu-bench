@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699190818616,
+  "lastUpdate": 1699195098293,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -2763,6 +2763,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1500.599,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "7ffd089e94a44908e78b465db74fdbe7a6d89781",
+          "message": "Fix the inaccuracy in the number of IR elements to be removed",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/256/commits/7ffd089e94a44908e78b465db74fdbe7a6d89781"
+        },
+        "date": 1699195098067,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1787.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1539.987,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
