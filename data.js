@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699731648313,
+  "lastUpdate": 1699734086705,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3067,6 +3067,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1155.8,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "9ebd8fa9fed64812a70bd295198f0c89cbd639e1",
+          "message": "Comprehensive F extension support with SoftFloat integration",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/260/commits/9ebd8fa9fed64812a70bd295198f0c89cbd639e1"
+        },
+        "date": 1699734086504,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1736.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1478.631,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
