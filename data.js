@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699734086705,
+  "lastUpdate": 1699741798006,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3097,6 +3097,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1478.631,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "45bf7e2ec1636cb5dad5a3768c9c978507ccc918",
+          "message": "Remove unused 'isnanf' and 'isinff' functions",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/262/commits/45bf7e2ec1636cb5dad5a3768c9c978507ccc918"
+        },
+        "date": 1699741797484,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1567,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1149.915,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
