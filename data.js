@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700104723203,
+  "lastUpdate": 1700108724716,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3217,6 +3217,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1431.286,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c9dda3fcd57f2549d256709077448e859223b23a",
+          "message": "Improve comments for RV32I instructions",
+          "timestamp": "2023-11-16T12:19:43+08:00",
+          "tree_id": "ccd023617e18ac11f497053b7cfe0e6acb274708",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c9dda3fcd57f2549d256709077448e859223b23a"
+        },
+        "date": 1700108724201,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1566.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1425.212,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
