@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700092098468,
+  "lastUpdate": 1700099307021,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3157,6 +3157,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1431.712,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "88f6e1b6521d66db296054f5e6f69026e15ae781",
+          "message": "Fix a potential issue where the block_find() might return NULL",
+          "timestamp": "2023-11-11T09:23:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/265/commits/88f6e1b6521d66db296054f5e6f69026e15ae781"
+        },
+        "date": 1700099306789,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1714.14,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1443.153,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
