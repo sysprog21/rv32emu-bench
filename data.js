@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700160939446,
+  "lastUpdate": 1700161806179,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3281,6 +3281,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1435.919,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "129aca275f5036b3cd4fda3a3cfdcac525c9de10",
+          "message": "Fix softfloat build failure",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/266/commits/129aca275f5036b3cd4fda3a3cfdcac525c9de10"
+        },
+        "date": 1700161805910,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1723.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1447.526,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
