@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700161806179,
+  "lastUpdate": 1700383873647,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3311,6 +3311,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1447.526,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "69e45054dd5914822596a5d9b7441a3fad03843f",
+          "message": "Apply branch prediction for indirect jump",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/269/commits/69e45054dd5914822596a5d9b7441a3fad03843f"
+        },
+        "date": 1700383873056,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1733.12,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1437.66,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
