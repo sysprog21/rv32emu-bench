@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1700665594684,
+  "lastUpdate": 1700665766728,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -3551,6 +3551,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1505.036,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "eafabd4fefb05fcffc01148a150a35f1bbc91bf0",
+          "message": "Improve efficiency of branch history table",
+          "timestamp": "2023-02-23T15:04:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/271/commits/eafabd4fefb05fcffc01148a150a35f1bbc91bf0"
+        },
+        "date": 1700665766460,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1611.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1506.229,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
