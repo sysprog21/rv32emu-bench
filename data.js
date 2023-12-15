@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702641946575,
+  "lastUpdate": 1702641984522,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -4391,6 +4391,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1511.638,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "1b0118dab629249b404534a7d9ed93f70ba6c68a",
+          "message": "Fix constant optimization on RV32F instructions",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/292/commits/1b0118dab629249b404534a7d9ed93f70ba6c68a"
+        },
+        "date": 1702641984285,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1637.42,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1494.403,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
