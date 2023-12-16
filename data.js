@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702648514088,
+  "lastUpdate": 1702733413482,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -4541,6 +4541,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1489.067,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "883ae8b0df0244c194746965ae33464c000b1b98",
+          "message": "Refine documentation for JIT compiler",
+          "timestamp": "2023-12-16T21:24:12+08:00",
+          "tree_id": "e93a8547065bed553be44df00e56ddcae0f916ea",
+          "url": "https://github.com/sysprog21/rv32emu/commit/883ae8b0df0244c194746965ae33464c000b1b98"
+        },
+        "date": 1702733413090,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1776.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1466.165,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
