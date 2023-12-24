@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703437247910,
+  "lastUpdate": 1703439317767,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -5297,6 +5297,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1523.871,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "92706cebfe5a9db42079611c28d32291d1f397a8",
+          "message": "Introduce a tier-1 JIT compiler based on aarch64 architecture",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/304/commits/92706cebfe5a9db42079611c28d32291d1f397a8"
+        },
+        "date": 1703439317149,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1667.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1524.028,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
