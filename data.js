@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703489509005,
+  "lastUpdate": 1703508587114,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -5507,6 +5507,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1510.077,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "9193105c12a7be064d45228d44a3c73660a25473",
+          "message": "Consolidate memory allocation",
+          "timestamp": "2023-12-16T07:24:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/307/commits/9193105c12a7be064d45228d44a3c73660a25473"
+        },
+        "date": 1703508586838,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1670.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1519.987,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
