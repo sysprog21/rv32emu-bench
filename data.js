@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704023913347,
+  "lastUpdate": 1704027437744,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -5601,6 +5601,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1510.57,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "f1a868bfda6152280c9434583e7d9cfd21b052d1",
+          "message": "Fix invalid free and memory leak",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/314/commits/f1a868bfda6152280c9434583e7d9cfd21b052d1"
+        },
+        "date": 1704027437491,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1656.4,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1526.33,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
