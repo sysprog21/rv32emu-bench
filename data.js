@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704266963518,
+  "lastUpdate": 1704275046824,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -5901,6 +5901,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1518.768,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "8eced3b006f47b4ba6d9495d935f6871db3fdd10",
+          "message": "Refine clang-format style\n\nAttributeMacros: A vector of strings that should be interpreted as\nattributes/qualifiers instead of identifiers.\n\nStatementAttributeLikeMacros: Macros which are ignored in front of\na statement, as if they were an attribute.\n\nStatementMacros: Typical macros are expressions, and require a\nsemi-colon to be added; sometimes this is not the case, and this\nallows to make clang-format aware of such cases.",
+          "timestamp": "2024-01-03T17:33:26+08:00",
+          "tree_id": "179e23eefd03ee0fab862766aaeba4914cb8c8a0",
+          "url": "https://github.com/sysprog21/rv32emu/commit/8eced3b006f47b4ba6d9495d935f6871db3fdd10"
+        },
+        "date": 1704275046207,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1694.11,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1520.039,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
