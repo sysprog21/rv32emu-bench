@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704275046824,
+  "lastUpdate": 1704294187632,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -5935,6 +5935,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1520.039,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "f43ec4b14c38100e547c4bcd9a791ff3d4269111",
+          "message": "Fix alignment exceptions issue for F and C extensions",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/317/commits/f43ec4b14c38100e547c4bcd9a791ff3d4269111"
+        },
+        "date": 1704294187369,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1645.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1510.875,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
