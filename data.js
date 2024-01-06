@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704557319179,
+  "lastUpdate": 1704571443254,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -6265,6 +6265,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1485.413,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "32895fbe49dc754ab489e82b80bc261588cccdb5",
+          "message": "Fix signed integer overflow in RV32IM",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/324/commits/32895fbe49dc754ab489e82b80bc261588cccdb5"
+        },
+        "date": 1704571442609,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1614.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1526.805,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
