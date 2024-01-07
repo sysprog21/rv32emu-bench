@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704600717431,
+  "lastUpdate": 1704602607953,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -6325,6 +6325,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1513.913,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "james1qaz2wsx12qw@gmail.com",
+            "name": "Shih-Sheng Yang",
+            "username": "fourcolor"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6dad720dbb5cab3009f22995fbab3243f2e2566e",
+          "message": "Fix cmv constant optimize bug (#325)",
+          "timestamp": "2024-01-07T12:38:31+08:00",
+          "tree_id": "645d55a9692b6677b223a69c4efd80d8dae2b625",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6dad720dbb5cab3009f22995fbab3243f2e2566e"
+        },
+        "date": 1704602607573,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1626.12,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1480.653,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
