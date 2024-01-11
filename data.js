@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704930685947,
+  "lastUpdate": 1704931351393,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -6419,6 +6419,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1499.334,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "3ce09280a959c3d03c339c34fad7523b5b2a1ccb",
+          "message": "Fix file descriptor resource leaks",
+          "timestamp": "2023-11-11T09:23:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/327/commits/3ce09280a959c3d03c339c34fad7523b5b2a1ccb"
+        },
+        "date": 1704931351149,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1670.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1490.491,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
