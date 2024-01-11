@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704931351393,
+  "lastUpdate": 1704932304408,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -6449,6 +6449,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1490.491,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "f02b041b165629e8c8510f11205072bb8f59662a",
+          "message": "Fix bugs caught by infer",
+          "timestamp": "2023-11-11T09:23:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/327/commits/f02b041b165629e8c8510f11205072bb8f59662a"
+        },
+        "date": 1704932303808,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1777,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1502.012,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
