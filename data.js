@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705765854750,
+  "lastUpdate": 1705766072577,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -6599,6 +6599,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1493.992,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "d1b9c2c3165f70a96f6a95855a884c53d624fdd3",
+          "message": "Enforce doubly-linked chained block",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/331/commits/d1b9c2c3165f70a96f6a95855a884c53d624fdd3"
+        },
+        "date": 1705766072018,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1791,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1501.89,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
