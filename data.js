@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706088124081,
+  "lastUpdate": 1706173902923,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -7049,6 +7049,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1491.632,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "HenryChaing",
+            "username": "HenryChaing"
+          },
+          "committer": {
+            "name": "HenryChaing",
+            "username": "HenryChaing"
+          },
+          "id": "177d885090302bf79c1f2364bf63122a596c00f8",
+          "message": "Add specialized instruction to rv32emu",
+          "timestamp": "2024-01-03T08:20:08Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/334/commits/177d885090302bf79c1f2364bf63122a596c00f8"
+        },
+        "date": 1706173902635,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1627.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1483.374,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
