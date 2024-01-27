@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706175034024,
+  "lastUpdate": 1706333994055,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -7109,6 +7109,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1504.632,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "5bf9063bf5cd20dbb120874c714afabc0c5f188c",
+          "message": "Correct wrong opcode of conditional jump",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/335/commits/5bf9063bf5cd20dbb120874c714afabc0c5f188c"
+        },
+        "date": 1706333993455,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1770.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1493.866,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
