@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706351351070,
+  "lastUpdate": 1706457845407,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -7199,6 +7199,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1500.869,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "de3b92be55a69cb8c8f5b35cb1a8640d120c335f",
+          "message": "Fix csrrc instruction behavior when rs1 is 0",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/338/commits/de3b92be55a69cb8c8f5b35cb1a8640d120c335f"
+        },
+        "date": 1706457845113,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1769.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1502.812,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
