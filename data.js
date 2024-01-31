@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706730168705,
+  "lastUpdate": 1706730480396,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -7319,6 +7319,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1491.58,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "19dd832d3e74f563213e29000474f9363d8e1f69",
+          "message": "Refine riscv.[ch] public API",
+          "timestamp": "2023-12-16T07:24:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/340/commits/19dd832d3e74f563213e29000474f9363d8e1f69"
+        },
+        "date": 1706730480113,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1616.22,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1493.814,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
