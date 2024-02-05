@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707152238863,
+  "lastUpdate": 1707158469565,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8189,6 +8189,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1489.654,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "77e5936c7dcbe3582dae50ef2c03a1e2dfcd5d11",
+          "message": "Fix a bug where a file descriptor isn't closed after allocation",
+          "timestamp": "2023-11-11T09:23:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/344/commits/77e5936c7dcbe3582dae50ef2c03a1e2dfcd5d11"
+        },
+        "date": 1707158468958,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1765.75,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1501.069,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
