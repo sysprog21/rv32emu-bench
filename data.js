@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707158469565,
+  "lastUpdate": 1707160713537,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8219,6 +8219,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1501.069,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrybear327@users.noreply.github.com",
+            "name": "Chun-Hung Tseng",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7bc47a4f2fc3b3d777853cd1dcd794213879dd02",
+          "message": "Add missing fclose (#344)\n\nCo-authored-by: Chun-Hung Tseng <chun-hung.tseng@swisscom.com>",
+          "timestamp": "2024-02-06T03:13:40+08:00",
+          "tree_id": "933ce5a8ce60525d416617198858a90b3de6616d",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7bc47a4f2fc3b3d777853cd1dcd794213879dd02"
+        },
+        "date": 1707160712939,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1595.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1507.773,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
