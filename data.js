@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707111538814,
+  "lastUpdate": 1707111616614,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -7979,6 +7979,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1495.261,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "94256128eecbb3d847638e237256e8d9c5d8aa7f",
+          "message": "Introducing register allocation for the tier-1 JIT compiler",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/341/commits/94256128eecbb3d847638e237256e8d9c5d8aa7f"
+        },
+        "date": 1707111616040,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1760.55,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1495.657,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
