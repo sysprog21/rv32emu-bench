@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707260326462,
+  "lastUpdate": 1707315817297,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8381,6 +8381,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1506.684,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "52fe009fcb7f1635aad16888720d998d87b7d2f4",
+          "message": "Fix illegal instruction handling for SLLI, SRLI, and SRAI",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/348/commits/52fe009fcb7f1635aad16888720d998d87b7d2f4"
+        },
+        "date": 1707315817025,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1662.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1527.967,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
