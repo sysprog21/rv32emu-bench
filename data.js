@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707798152440,
+  "lastUpdate": 1707825640275,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8501,6 +8501,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1531.116,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "48278026+qwe661234@users.noreply.github.com",
+            "name": "YenFuChen",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c3d4405145cc990dc5788ffc6514e46b7402719",
+          "message": "Introducing local register allocation for the tier-1 JIT compiler (#341)\n\nLocal register allocation (RA) effectively reuses the host register\r\nvalue within a basic block scope, thereby reducing the number of load\r\nand store instructions.\r\n\r\nTake continuous addi instructions as an example:\r\n  addi t0, t0, 1\r\n  addi t0, t0, 1\r\n  addi t0, t0, 1\r\n\r\nThe generated machine code without register allocation\r\n  load t0, t0_addr\r\n  add t0, 1\r\n  sw t0, t0_addr\r\n  load t0, t0_addr\r\n  add t0, 1\r\n  sw t0, t0_addr\r\n  load t0, t0_addr\r\n  add t0, 1\r\n  sw t0, t0_addr\r\n\r\nThe generated machine code without register allocation\r\n  load t0, t0_addr\r\n  add t0, 1\r\n  add t0, 1\r\n  add t0, 1\r\n  sw t0, t0_addr\r\n\r\nAs shown in the above example, register allocation reuses the host\r\nregister and reduces the number of load and store instructions.\r\n\r\n* x86-64(i7-11700)\r\n| Metric    |  w/o RA  |  w/ RA   | SpeedUp |\r\n|-----------+----------+----------+---------|\r\n| dhrystone |  0.342 s |  0.328 s |  +4.27% |                                                                                                                 \r\n| miniz     |  1.243 s |  1.185 s |  +4.89% |\r\n| primes    |  1.716 s |  1.689 s |  +1.60% |\r\n| sha512    |  2.063 s |  1.880 s |  +9.73% |\r\n| stream    | 11.619 s | 11.419 s |  +1.75% |\r\n\r\n* Aarch64 (eMag)\r\n| Metric    |  w/o RA  |  w/ RA   | SpeedUp |\r\n|-----------+----------+----------+---------|\r\n| dhrystone |  1.935 s |  1.301 s | +48.73% |\r\n| miniz     |  7.706 s |  4.362 s | +76.66% |\r\n| primes    | 10.513 s |  9.633 s |  +9.14% |\r\n| sha512    |  6.508 s |  6.119 s |  +6.36% |\r\n| stream    | 45.174 s | 38.037 s | +18.76% |\r\n\r\nAs demonstrated in the performance analysis, the register allocation\r\nimproves the overall performance for the T1C generated machine code.\r\nWithout RA, the generated machine need to store back the register\r\nvalue in the end of intruction. With RA, we only need to store back the\r\nregister value in the end of basic block or when host registers are\r\nfully occupied. The performance enhancement is particularly pronounced\r\non Aarch64 due to its increased availability of registers, providing a\r\nmore extensive mapping capability for VM registers.",
+          "timestamp": "2024-02-13T19:55:47+08:00",
+          "tree_id": "f4bc32f0bddedef8ca1abac7cee8afded20688e0",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3c3d4405145cc990dc5788ffc6514e46b7402719"
+        },
+        "date": 1707825639877,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1592.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1500.619,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
