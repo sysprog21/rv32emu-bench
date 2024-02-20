@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707825640275,
+  "lastUpdate": 1708399828593,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8535,6 +8535,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1500.619,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "f15e4c4f55421b012d93ad98ba00e047a997f7ab",
+          "message": "Fix signed integer comparison in AMOMIN.W and AMOMAX.W",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/352/commits/f15e4c4f55421b012d93ad98ba00e047a997f7ab"
+        },
+        "date": 1708399828181,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1585.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1525.848,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
