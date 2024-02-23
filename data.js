@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708399828593,
+  "lastUpdate": 1708681337295,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8565,6 +8565,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1525.848,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "ef29d7dbb81bda1ee3b0cfb04272bd1d29884292",
+          "message": "Improve the performance of indirect jump for T1C",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/355/commits/ef29d7dbb81bda1ee3b0cfb04272bd1d29884292"
+        },
+        "date": 1708681336984,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1770.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1520.527,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
