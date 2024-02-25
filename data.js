@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708791202559,
+  "lastUpdate": 1708835700446,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8685,6 +8685,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1518.137,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "654029f0aefca17befeaa5843a59599b49a91934",
+          "message": "Binding IO handlers during RISC-V initialization",
+          "timestamp": "2023-12-16T07:24:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/356/commits/654029f0aefca17befeaa5843a59599b49a91934"
+        },
+        "date": 1708835700014,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1584.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1494.659,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
