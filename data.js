@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708835700446,
+  "lastUpdate": 1708841081590,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8715,6 +8715,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1494.659,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "541008ba31468a23b8b3d8df5b1313ead8c8e1e9",
+          "message": "Bind IO handlers during emulator initialization",
+          "timestamp": "2023-12-16T07:24:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/357/commits/541008ba31468a23b8b3d8df5b1313ead8c8e1e9"
+        },
+        "date": 1708841081315,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1777.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1517.492,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
