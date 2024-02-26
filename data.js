@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708951876352,
+  "lastUpdate": 1708964108125,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8835,6 +8835,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1505.809,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alanjian85@outlook.com",
+            "name": "Alan Jian",
+            "username": "alanjian85"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d511c1e2b07a9deb145971be40e2a7c779068152",
+          "message": "Use the canonical order of RISC-V extension names (#363)\n\nThe RISC-V Instruction Set Manual Vol. 1 specifies the canonical order in which\r\nISA extension names should appear in architecture name strings in Table 1.1 of\r\nChapter 27. However, the repository description and the code state that rv32emu\r\nsupports RV32IMACF, whereas the correct string in canonical order should be\r\nRV32IMAFC.  This string may cause problems when used in some tools that need\r\nthe canonical order of extensions, such as the -march option of GCC.\r\n\r\nClose #359",
+          "timestamp": "2024-02-27T00:10:14+08:00",
+          "tree_id": "c2f53588068bee9d6de59532d3da8814d3abb1b4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d511c1e2b07a9deb145971be40e2a7c779068152"
+        },
+        "date": 1708964107466,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1579.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1505.187,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
