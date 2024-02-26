@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708842248568,
+  "lastUpdate": 1708951876352,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8805,6 +8805,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1522.345,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "alanjian85",
+            "username": "alanjian85"
+          },
+          "committer": {
+            "name": "alanjian85",
+            "username": "alanjian85"
+          },
+          "id": "d6871d9d231f6988b6add4902cb6899362708a3d",
+          "message": "Use the canonical order of RISC-V extension names",
+          "timestamp": "2022-08-02T09:42:40Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/363/commits/d6871d9d231f6988b6add4902cb6899362708a3d"
+        },
+        "date": 1708951876055,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1649.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1505.809,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
