@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709134605098,
+  "lastUpdate": 1709395947535,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -8899,6 +8899,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1517.908,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv.tw@gmail.com",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "acb06dc07a5872ecb04507584cafd9203e773d2a",
+          "message": "Apply editorial changes",
+          "timestamp": "2024-03-03T00:07:20+08:00",
+          "tree_id": "609986fbf7f67d4327d8cb54bb50074facfd0ba4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/acb06dc07a5872ecb04507584cafd9203e773d2a"
+        },
+        "date": 1709395946868,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1596,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1486.308,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
