@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709754525828,
+  "lastUpdate": 1709754559292,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9147,6 +9147,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1468.111,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "873e211e1caa416bb5deb2ad0f8ba61d7798d899",
+          "message": "CI: Add Clang static analyzer",
+          "timestamp": "2023-11-11T09:23:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/361/commits/873e211e1caa416bb5deb2ad0f8ba61d7798d899"
+        },
+        "date": 1709754559013,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1778,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1475.282,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
