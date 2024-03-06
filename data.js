@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709597783676,
+  "lastUpdate": 1709732193561,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9087,6 +9087,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1494.347,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "d21b6fccc2dad248dc9c5863ce409c57d07bde89",
+          "message": "End the indirect jump when potential hotspot is detected",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/371/commits/d21b6fccc2dad248dc9c5863ce409c57d07bde89"
+        },
+        "date": 1709732192948,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1773.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1478.111,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
