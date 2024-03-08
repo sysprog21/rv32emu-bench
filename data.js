@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709860111614,
+  "lastUpdate": 1709909209859,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9511,6 +9511,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1479.865,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "ffd0e0b23e608527953ec97140eaf9fe4fd9bbcb",
+          "message": "Fix several critical RV32A instruction implementations",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/373/commits/ffd0e0b23e608527953ec97140eaf9fe4fd9bbcb"
+        },
+        "date": 1709909209246,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1645.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1465.64,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
