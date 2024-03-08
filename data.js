@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709819226400,
+  "lastUpdate": 1709860111614,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9477,6 +9477,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1469.53,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrybear327@users.noreply.github.com",
+            "name": "Chun-Hung Tseng",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae73316a105b51cbcebd1fb7fa8c8efe965279e3",
+          "message": "CI: Add Clang static analyzer (#361)\n\nThe clang static analyzer is invoked by executing scan-build. \r\n\r\nIf any issues are detected by scan-build, it will halt the pipeline. \r\nIf halting the pipeline is not the desired behavior, remove the flag \r\n--status-bugs .\r\n\r\nThe analysis result can be viewed in the GitHub Action execution log.\r\n\r\nUbuntu-latest is used to enable us to utilize the latest version of the \r\ntool.\r\n\r\nReferences:\r\n- https://gitlab.xfce.org/xfce/xfce4-dev-tools/-/issues/51\r\n- https://gitlab.com/gnuwget/wget2/-/blob/cabedf3847afd3926cbeaa67d4ee9f28f78979d9/.gitlab-ci.yml#L279",
+          "timestamp": "2024-03-08T09:03:41+08:00",
+          "tree_id": "1d7dc859a8d08c7baefa71971fe24d4e2616fc36",
+          "url": "https://github.com/sysprog21/rv32emu/commit/ae73316a105b51cbcebd1fb7fa8c8efe965279e3"
+        },
+        "date": 1709860110296,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1783.62,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1479.865,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
