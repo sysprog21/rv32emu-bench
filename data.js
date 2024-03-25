@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711385579708,
+  "lastUpdate": 1711385651323,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9631,6 +9631,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1476.261,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "bef66b8665cc205c06959554f7edf732bcea4019",
+          "message": "Enable run video games using WebAssembly",
+          "timestamp": "2024-03-21T03:08:15Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/385/commits/bef66b8665cc205c06959554f7edf732bcea4019"
+        },
+        "date": 1711385651036,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1590.1,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1458.497,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
