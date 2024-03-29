@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711386623812,
+  "lastUpdate": 1711700885890,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9691,6 +9691,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1459.784,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "856f082efa85841f3b68e6304707490f072c28ff",
+          "message": "Fix missing dirty flag in `cmv` instruction",
+          "timestamp": "2024-02-27T19:54:29Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/395/commits/856f082efa85841f3b68e6304707490f072c28ff"
+        },
+        "date": 1711700885539,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1758.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1497.349,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
