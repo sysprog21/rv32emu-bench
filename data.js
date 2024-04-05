@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712295825435,
+  "lastUpdate": 1712332182764,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9751,6 +9751,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1496.044,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "a50bc462fef50edf97446c06536d1aa47e72b7de",
+          "message": "Fix ELF typo in html and output process completion indicator",
+          "timestamp": "2024-03-21T03:08:15Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/404/commits/a50bc462fef50edf97446c06536d1aa47e72b7de"
+        },
+        "date": 1712332182022,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1766.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1495.927,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
