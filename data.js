@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712553786674,
+  "lastUpdate": 1712554539935,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9811,6 +9811,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1467.267,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "9408d8c661975555213ae80b169fd71fb5dea9be",
+          "message": "Fix trailing whitespace",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/412/commits/9408d8c661975555213ae80b169fd71fb5dea9be"
+        },
+        "date": 1712554539542,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1605.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1465.346,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
