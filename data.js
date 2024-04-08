@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712332182764,
+  "lastUpdate": 1712553786674,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9781,6 +9781,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1495.927,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "079ac677441787caab22b2ab50ef35fedc81ecbc",
+          "message": "Streamline rounding modes checks and settings in RV32F",
+          "timestamp": "2023-08-31T21:02:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/410/commits/079ac677441787caab22b2ab50ef35fedc81ecbc"
+        },
+        "date": 1712553785945,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1603.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1467.267,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
