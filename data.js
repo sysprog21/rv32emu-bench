@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712566503332,
+  "lastUpdate": 1713357995397,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9871,6 +9871,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1501.415,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "efd94a470670f21dca1cebaf23677ab38d308fea",
+          "message": "Remove the backward jump from the T1C condition",
+          "timestamp": "2022-12-07T09:30:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/414/commits/efd94a470670f21dca1cebaf23677ab38d308fea"
+        },
+        "date": 1713357995042,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1759.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1498.311,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
