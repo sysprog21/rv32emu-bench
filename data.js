@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713357995397,
+  "lastUpdate": 1713787837295,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9901,6 +9901,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1498.311,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "0d258e6d7d8259d86366811ac4d4cc3293c405d3",
+          "message": "Add code cache flush mechanism",
+          "timestamp": "2024-04-22T04:39:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/417/commits/0d258e6d7d8259d86366811ac4d4cc3293c405d3"
+        },
+        "date": 1713787836970,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1744.6,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1496.516,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
