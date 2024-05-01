@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713790923811,
+  "lastUpdate": 1714546840685,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -9961,6 +9961,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1502.731,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "e7e7ef72136cfd2b83177f4a4af481af65d5bd3b",
+          "message": "Integrate LLVM JIT compiler as T2C",
+          "timestamp": "2024-05-01T06:20:12Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/419/commits/e7e7ef72136cfd2b83177f4a4af481af65d5bd3b"
+        },
+        "date": 1714546840029,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1745.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1498.801,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
