@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715029189528,
+  "lastUpdate": 1715030622538,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10535,6 +10535,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1506.573,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yikming2222@gmail.com",
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "06ce6d2a95e7028e834ae1b41603bf587ff884af",
+          "message": "Consolidate consistency of AMO RVOP (#428)\n\nThe 'addr' variable is used to specify the memory address in many I/O\r\noperations within the RVOP macro, such as the 'lh' and 'lw' instructions.\r\nHowever, most of the AMO (Atomic Memory Operation) instructions did not\r\nuse it. To maintain consistency, the use of the 'addr' variable has been\r\nconsolidated.",
+          "timestamp": "2024-05-07T05:18:42+08:00",
+          "tree_id": "b0e32b0429211f9548c4c5875965ed21d08dc9ae",
+          "url": "https://github.com/sysprog21/rv32emu/commit/06ce6d2a95e7028e834ae1b41603bf587ff884af"
+        },
+        "date": 1715030621903,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1606,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1471.53,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
