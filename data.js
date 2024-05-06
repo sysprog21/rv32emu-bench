@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715027178960,
+  "lastUpdate": 1715029189528,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10505,6 +10505,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1511.811,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "96af57c7518e34de988eb8e57a7c8407c92d9c93",
+          "message": "Consolidate AMO RVOP coding consistency",
+          "timestamp": "2024-05-06T20:32:42Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/428/commits/96af57c7518e34de988eb8e57a7c8407c92d9c93"
+        },
+        "date": 1715029189186,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1760.44,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1506.573,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
