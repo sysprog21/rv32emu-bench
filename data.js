@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715148719208,
+  "lastUpdate": 1715152482476,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10719,6 +10719,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1503.12,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "102530486+p96114175@users.noreply.github.com",
+            "name": "Huaxin",
+            "username": "p96114175"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a3d2418b95ccd3ee7824690f8b49a7fd01952a08",
+          "message": "Fix typo (#430)",
+          "timestamp": "2024-05-08T15:09:22+08:00",
+          "tree_id": "02386745969a65145e16b8ac3e6cfaf803e3e845",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a3d2418b95ccd3ee7824690f8b49a7fd01952a08"
+        },
+        "date": 1715152481833,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1608,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1476.195,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
