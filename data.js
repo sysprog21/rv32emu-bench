@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715152482476,
+  "lastUpdate": 1715264278176,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10753,6 +10753,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1476.195,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "644124a1ddc38ff46291bd993bc52b6d96f5b49e",
+          "message": "Raise illegal instruction exception for Zicsr",
+          "timestamp": "2024-05-08T10:47:05Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/432/commits/644124a1ddc38ff46291bd993bc52b6d96f5b49e"
+        },
+        "date": 1715264277676,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1754.22,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1503.058,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
