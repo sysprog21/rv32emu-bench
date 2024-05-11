@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715264278176,
+  "lastUpdate": 1715444086109,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10783,6 +10783,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1503.058,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "d3ff48d31b2d579cf60ca225d7ef6581b2621f5d",
+          "message": "Consolidate the block_translate fucntion",
+          "timestamp": "2024-05-11T16:04:06Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/437/commits/d3ff48d31b2d579cf60ca225d7ef6581b2621f5d"
+        },
+        "date": 1715444085774,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1754.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1502.295,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
