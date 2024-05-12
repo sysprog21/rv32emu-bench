@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715533129057,
+  "lastUpdate": 1715533597999,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -10873,6 +10873,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1474.188,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "66c2b9d8b44304867c849c2f6ee7b0ad34275de0",
+          "message": "Support emulating memory management unit(MMU)",
+          "timestamp": "2024-05-12T16:34:29Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/438/commits/66c2b9d8b44304867c849c2f6ee7b0ad34275de0"
+        },
+        "date": 1715533597384,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1755.22,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1502.888,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
