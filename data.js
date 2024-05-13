@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715588795009,
+  "lastUpdate": 1715589865987,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11083,6 +11083,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1569.296,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "e9cecd11b0811b36af2a077743466d61235c7b6b",
+          "message": "Implement minimal SBI v0.3",
+          "timestamp": "2024-05-12T16:34:29Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/439/commits/e9cecd11b0811b36af2a077743466d61235c7b6b"
+        },
+        "date": 1715589865349,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1742.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1499.792,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
