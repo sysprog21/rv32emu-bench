@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715591868957,
+  "lastUpdate": 1715592102486,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11207,6 +11207,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1492.807,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "384ce23a23cadac716d423f11ba1c2bdf9001681",
+          "message": "Implement tier-2 JIT compiler to accelerate ISS",
+          "timestamp": "2024-05-13T05:47:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/425/commits/384ce23a23cadac716d423f11ba1c2bdf9001681"
+        },
+        "date": 1715592102023,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1747.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1492.714,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
