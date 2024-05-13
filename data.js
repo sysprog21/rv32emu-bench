@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715591013462,
+  "lastUpdate": 1715591868957,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11173,6 +11173,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1497.964,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yikming2222@gmail.com",
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d13e82671a8f962739a6bf9d26fc371431d1b64",
+          "message": "Implement minimal SBI (#439)\n\nSBI acts as a communication layer between S-mode software and M-mode\r\nhardware. To boot the Linux kernel, some minimal SBI extensions (v0.3)\r\nhave to be implemented, and they are:\r\n1. Base extension (EID=0x10)\r\n2. Timer extension (EID=0x54494D45)\r\n\r\nThe SRST extension (EID=0x53525354) is optional, so only the shutdown\r\nreason has been implemented.",
+          "timestamp": "2024-05-13T17:12:40+08:00",
+          "tree_id": "650c3930d3fd74a1861fa36793b102d48eb9e304",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7d13e82671a8f962739a6bf9d26fc371431d1b64"
+        },
+        "date": 1715591868473,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1745.55,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1492.807,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
