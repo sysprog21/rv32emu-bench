@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715616174213,
+  "lastUpdate": 1716732482130,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11447,6 +11447,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1479.155,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "33e50685cdfc8847d512ef149102ed109e83349c",
+          "message": "Specify can_branch for sret instruction",
+          "timestamp": "2024-05-26T13:56:03Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/443/commits/33e50685cdfc8847d512ef149102ed109e83349c"
+        },
+        "date": 1716732481388,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3.5,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
