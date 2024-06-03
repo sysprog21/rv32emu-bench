@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717406691187,
+  "lastUpdate": 1717430056523,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11772,6 +11772,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 11.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "ded6f042ef2a294d668e7d2dc54f808644a6278e",
+          "message": "Remove libc subsituation",
+          "timestamp": "2024-06-01T07:30:47Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/450/commits/ded6f042ef2a294d668e7d2dc54f808644a6278e"
+        },
+        "date": 1717430056104,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 4.37,
             "unit": "Average DMIPS over 10 runs"
           },
           {
