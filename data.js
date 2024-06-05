@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717434727782,
+  "lastUpdate": 1717558733460,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -11862,6 +11862,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 3,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "83b80e7e2c10faa80af06a8a5684333c9b24ad73",
+          "message": "Add sret case to insn_is_unconditional_branch",
+          "timestamp": "2024-06-05T03:23:54Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/452/commits/83b80e7e2c10faa80af06a8a5684333c9b24ad73"
+        },
+        "date": 1717558733081,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 5.8,
             "unit": "Average DMIPS over 10 runs"
           },
           {
