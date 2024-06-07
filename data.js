@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717582903787,
+  "lastUpdate": 1717776336895,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12042,6 +12042,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 4.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "aa24f9d199dbd797db24f27b31438add2fbfe801",
+          "message": "jit: Fix overflow handling in function muldivmod",
+          "timestamp": "2024-06-05T06:10:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/454/commits/aa24f9d199dbd797db24f27b31438add2fbfe801"
+        },
+        "date": 1717776336192,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 5.33,
             "unit": "Average DMIPS over 10 runs"
           },
           {
