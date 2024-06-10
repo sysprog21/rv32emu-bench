@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717776336895,
+  "lastUpdate": 1718028759870,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12072,6 +12072,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 5.33,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "48278026+qwe661234@users.noreply.github.com",
+            "name": "YenFuChen",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40ea0b541b46656b3bacef1cc8dbd508078292b4",
+          "message": "jit: Fix overflow handling in function muldivmod (#454)\n\nThe behavior of the host instructions div and mod differs from that of\r\nRISC-V. Additional checks are required to align with RISC-V's DIV[U] and\r\nREM[U] behavior, particularly when handling division by zero and\r\noverflow scenarios.\r\n\r\nClose #297",
+          "timestamp": "2024-06-10T22:11:38+08:00",
+          "tree_id": "e824b2380e17e6edab220564a4a4f07b74fcf202",
+          "url": "https://github.com/sysprog21/rv32emu/commit/40ea0b541b46656b3bacef1cc8dbd508078292b4"
+        },
+        "date": 1718028759445,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 9.4,
             "unit": "Average DMIPS over 10 runs"
           },
           {
