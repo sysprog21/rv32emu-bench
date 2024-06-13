@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718258095543,
+  "lastUpdate": 1718258256452,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12256,6 +12256,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 6.75,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "committer": {
+            "name": "qwe661234",
+            "username": "qwe661234"
+          },
+          "id": "eb20baf5711305ea5d38b2fc26cdac587a7daa58",
+          "message": "Introduce background compilation",
+          "timestamp": "2024-06-13T04:43:38Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/457/commits/eb20baf5711305ea5d38b2fc26cdac587a7daa58"
+        },
+        "date": 1718258255680,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 7.87,
             "unit": "Average DMIPS over 10 runs"
           },
           {
