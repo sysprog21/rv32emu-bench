@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718474350503,
+  "lastUpdate": 1718561394526,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12466,6 +12466,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 7.22,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "809c15189cef79cd2a6b9ffb41e695db05acccc4",
+          "message": "Preliminary support \"Svinval\" Standard Extension",
+          "timestamp": "2024-06-16T03:09:31Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/458/commits/809c15189cef79cd2a6b9ffb41e695db05acccc4"
+        },
+        "date": 1718561394130,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 4.37,
             "unit": "Average DMIPS over 10 runs"
           },
           {
