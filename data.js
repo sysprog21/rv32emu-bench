@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718572081907,
+  "lastUpdate": 1718573829824,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12740,6 +12740,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 7.75,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "eaf18a9bd3bd0ee936c97578a7a2ca8b806ceb38",
+          "message": "Introduce Valgrind to the CI pipeline",
+          "timestamp": "2024-06-16T20:27:26Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/369/commits/eaf18a9bd3bd0ee936c97578a7a2ca8b806ceb38"
+        },
+        "date": 1718573829297,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 13.87,
             "unit": "Average DMIPS over 10 runs"
           },
           {
