@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718561394526,
+  "lastUpdate": 1718565920328,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12496,6 +12496,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 4.37,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yikming2222@gmail.com",
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d23e0f16d0c19f826c537624ed10404583080432",
+          "message": "Add supervisor memory fence instruction SFENCE.VMA (#458)\n\nThe supervisor memory-management fence instruction SFENCE.VMA is used\r\nto synchronize updates to in-memory memory-management data structures\r\nwith current execution. Linux kernel leverage this instruction for\r\nsynchronization, support emulating this instruction is needed to boot\r\nLinux kernel. Since we have only one hart and we have not yet support\r\ncache (TLB) at present, the implementation of this instruction is\r\nstraight forward and it could be further improved in the future.\r\n\r\nRelated: #310, #438",
+          "timestamp": "2024-06-17T03:24:12+08:00",
+          "tree_id": "7cdb908ba59359568b7dfa7149335226906a2560",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d23e0f16d0c19f826c537624ed10404583080432"
+        },
+        "date": 1718565919854,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3.12,
             "unit": "Average DMIPS over 10 runs"
           },
           {
