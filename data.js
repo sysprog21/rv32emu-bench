@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718602630768,
+  "lastUpdate": 1718628829236,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12920,6 +12920,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 4.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "1e4ef3c8802143795e7f4f4e2fee04f995412793",
+          "message": "Initialize ir->branch_table->PC with safe value",
+          "timestamp": "2024-06-17T12:40:17Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/462/commits/1e4ef3c8802143795e7f4f4e2fee04f995412793"
+        },
+        "date": 1718628828773,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 5,
             "unit": "Average DMIPS over 10 runs"
           },
           {
