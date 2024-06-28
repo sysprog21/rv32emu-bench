@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719593901434,
+  "lastUpdate": 1719594335830,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -13850,6 +13850,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 5.22,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "50bc9d801552813a5a9ab75acf53b77be8bec003",
+          "message": "Add RV32I memory ordering instruction FENCE",
+          "timestamp": "2024-06-21T22:23:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/464/commits/50bc9d801552813a5a9ab75acf53b77be8bec003"
+        },
+        "date": 1719594335395,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 5,
             "unit": "Average DMIPS over 10 runs"
           },
           {
