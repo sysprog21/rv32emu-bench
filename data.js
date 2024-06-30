@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719594335830,
+  "lastUpdate": 1719760688033,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -13880,6 +13880,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 5,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "4ec1432149a9046bc6fd810743146793fcdf0be7",
+          "message": "Support trap handling during block emulation",
+          "timestamp": "2024-06-21T22:23:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/463/commits/4ec1432149a9046bc6fd810743146793fcdf0be7"
+        },
+        "date": 1719760687250,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 6.66,
             "unit": "Average DMIPS over 10 runs"
           },
           {
