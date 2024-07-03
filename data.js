@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720048509847,
+  "lastUpdate": 1720049909088,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -14000,6 +14000,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 8,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "4af2f7af63a9a1f9b4e07fcec2b483d1caf112ed",
+          "message": "Fix benchmark CI pipeline",
+          "timestamp": "2024-07-02T20:03:33Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/460/commits/4af2f7af63a9a1f9b4e07fcec2b483d1caf112ed"
+        },
+        "date": 1720049908469,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 43.37,
             "unit": "Average DMIPS over 10 runs"
           },
           {
