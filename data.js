@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720527894995,
+  "lastUpdate": 1720531412065,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -15500,6 +15500,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 6.25,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "bd7ef0f7797d570229824c695134056dbe499085",
+          "message": "Upgrade CI ubuntu version to 24.04",
+          "timestamp": "2024-07-08T20:04:02Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/467/commits/bd7ef0f7797d570229824c695134056dbe499085"
+        },
+        "date": 1720531411491,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2.87,
             "unit": "Average DMIPS over 10 runs"
           },
           {
