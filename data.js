@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720612059079,
+  "lastUpdate": 1721575371406,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -15865,6 +15865,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1402.631,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "8ac3c95bfb03de4abbcca4d639056894a5e2df7f",
+          "message": "Add Wait for Interrupt instruction (WFI)",
+          "timestamp": "2024-07-21T15:04:07Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/470/commits/8ac3c95bfb03de4abbcca4d639056894a5e2df7f"
+        },
+        "date": 1721575370541,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1630.77,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1490.998,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
