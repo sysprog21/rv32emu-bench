@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722792717789,
+  "lastUpdate": 1723050972602,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -16075,6 +16075,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1402.368,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "2b492f46612099d36fa9a092507d90030e7fd6cd",
+          "message": "Improve `JALR` execution with JIT-cache",
+          "timestamp": "2024-07-03T08:33:40Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/471/commits/2b492f46612099d36fa9a092507d90030e7fd6cd"
+        },
+        "date": 1723050972016,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1575.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1413.569,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
