@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723052362830,
+  "lastUpdate": 1724176427021,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -16135,6 +16135,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1407.431,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "1924bdfb5a0d1337fad2172348a3560e14fe614e",
+          "message": "Fix jit-cache without T2C enabled",
+          "timestamp": "2024-07-03T08:33:40Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/476/commits/1924bdfb5a0d1337fad2172348a3560e14fe614e"
+        },
+        "date": 1724176426321,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1585.87,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1396.388,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
