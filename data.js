@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724176427021,
+  "lastUpdate": 1724247837952,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -16165,6 +16165,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1396.388,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "559dffeda2d1cec79e28dd1f6bc4cbe54e40f94e",
+          "message": "Fix unexpected \"JALR\" behavior in JIT",
+          "timestamp": "2024-07-03T08:33:40Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/479/commits/559dffeda2d1cec79e28dd1f6bc4cbe54e40f94e"
+        },
+        "date": 1724247837189,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1593,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1405.282,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
