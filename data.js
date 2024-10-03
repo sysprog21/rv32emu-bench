@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727992650898,
+  "lastUpdate": 1727995298249,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -16263,6 +16263,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1370.845,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "57a047c4ea38bd484dd660b20e65b87ed48d3845",
+          "message": "CI: Bump Ubuntu to 24.04-LTS\n\nUbuntu Linux 24.04 (noble) is the latest LTS release, and this commit\nupdates the CI pipeline hosts and recommended development environments\naccordingly. The version of clang-format is updated to v18, with all C\nsource files re-indented. LLVM is also upgraded to version 18.\n\nAfter the adjustment of benchmark iterations, Dhrystone and CoreMark\ntake significantly longer, and the aggregation script is limited to\nsingle run.",
+          "timestamp": "2024-10-04T06:35:54+08:00",
+          "tree_id": "d00669ee2a9b616826701884e639a996c3b9ef0e",
+          "url": "https://github.com/sysprog21/rv32emu/commit/57a047c4ea38bd484dd660b20e65b87ed48d3845"
+        },
+        "date": 1727995297680,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1598,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1409.83,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
