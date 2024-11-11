@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731337964893,
+  "lastUpdate": 1731338396025,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -19575,6 +19575,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1435.698,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "6d8f3a325ea33e56ff2a6fd0ac6c6e61e45bd16d",
+          "message": "Bring up Linux kernel",
+          "timestamp": "2024-11-05T20:01:13Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/508/commits/6d8f3a325ea33e56ff2a6fd0ac6c6e61e45bd16d"
+        },
+        "date": 1731338395241,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1528,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1434.657,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
