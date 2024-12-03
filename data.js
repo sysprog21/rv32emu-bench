@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733230060614,
+  "lastUpdate": 1733243780542,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -20115,6 +20115,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1400.104,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "5ffb157eeaecdfd165f26949914fd8e7a326e217",
+          "message": "jit: Replace LFU with LRU cache replacement policy",
+          "timestamp": "2024-11-19T06:47:52Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/518/commits/5ffb157eeaecdfd165f26949914fd8e7a326e217"
+        },
+        "date": 1733243779412,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1512,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1399.459,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
