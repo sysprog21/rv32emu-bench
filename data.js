@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734350021836,
+  "lastUpdate": 1734423828515,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -21525,6 +21525,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1409.44,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "330a5748c6abad1d022800bcd4e7554e1d52c5ab",
+          "message": "Support just-in-time (JIT) compilation in system simulation ",
+          "timestamp": "2024-11-19T06:47:52Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/521/commits/330a5748c6abad1d022800bcd4e7554e1d52c5ab"
+        },
+        "date": 1734423827817,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1305,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 979.653,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
