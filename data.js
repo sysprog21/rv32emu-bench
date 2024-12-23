@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734930023031,
+  "lastUpdate": 1734961194008,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -21705,6 +21705,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 977.65,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "73dea0c5e3a9473b523b0e5536c061d6b3521d19",
+          "message": "Add bitmanip extension support",
+          "timestamp": "2024-10-28T01:32:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/525/commits/73dea0c5e3a9473b523b0e5536c061d6b3521d19"
+        },
+        "date": 1734961193376,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1337,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 975.043,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
