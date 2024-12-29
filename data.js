@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735485338801,
+  "lastUpdate": 1735487360295,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -22275,6 +22275,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.255,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "f5609553d5e7ace85f95e3fd89853f7a98e4c084",
+          "message": "Fix declaration error when using clang",
+          "timestamp": "2024-12-29T15:08:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/532/commits/f5609553d5e7ace85f95e3fd89853f7a98e4c084"
+        },
+        "date": 1735487359650,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1284,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 976.216,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
