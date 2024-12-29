@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735402884394,
+  "lastUpdate": 1735480133968,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -22185,6 +22185,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 974.922,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "ee5d6558ac0d43e0a4f158b15a35d83f80447b44",
+          "message": "Fix crash on system without mmap()",
+          "timestamp": "2024-12-28T07:42:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/531/commits/ee5d6558ac0d43e0a4f158b15a35d83f80447b44"
+        },
+        "date": 1735480133118,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1326,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 962.053,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
