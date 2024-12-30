@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735522456236,
+  "lastUpdate": 1735522617548,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -22395,6 +22395,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 970.604,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "howjmay",
+            "username": "howjmay"
+          },
+          "committer": {
+            "name": "howjmay",
+            "username": "howjmay"
+          },
+          "id": "1f4ad39bc6a3c00953259eba8a94cec6985b8ecc",
+          "message": "Add decoder for RVV instructions",
+          "timestamp": "2024-02-11T09:22:23Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/501/commits/1f4ad39bc6a3c00953259eba8a94cec6985b8ecc"
+        },
+        "date": 1735522616718,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1335,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 966.39,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
