@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735525042775,
+  "lastUpdate": 1735534145236,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -22515,6 +22515,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 964.938,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "f554a005f401de86ae7de59339bdc20d63a234de",
+          "message": "Avoid to wrongly allocate memory in map_file()",
+          "timestamp": "2024-12-29T13:41:49Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/531/commits/f554a005f401de86ae7de59339bdc20d63a234de"
+        },
+        "date": 1735534144623,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1287,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 962.761,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
