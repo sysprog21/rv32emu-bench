@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736097474801,
+  "lastUpdate": 1736099483458,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -22635,6 +22635,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 965.162,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "9df29e0f574cdd115f06769b3d8d83f751713581",
+          "message": "Customize bootargs for system emulation ",
+          "timestamp": "2025-01-05T17:44:28Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/534/commits/9df29e0f574cdd115f06769b3d8d83f751713581"
+        },
+        "date": 1736099482811,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1327,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 972.262,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
