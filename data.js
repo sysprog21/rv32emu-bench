@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736957335201,
+  "lastUpdate": 1737039979706,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -23055,6 +23055,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 971.845,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "committer": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "id": "3f37f514e33891e2d35bc614fb8d33035f2a4e24",
+          "message": "Fix build failures and expand test coverage",
+          "timestamp": "2025-01-05T15:46:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/535/commits/3f37f514e33891e2d35bc614fb8d33035f2a4e24"
+        },
+        "date": 1737039978608,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1317,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 956.978,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
