@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737282845267,
+  "lastUpdate": 1737284264846,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -23295,6 +23295,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 971.418,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "19c34952ccb9908c3e4df5f4f40223252ed1288c",
+          "message": "Refine hard-coded memory layout for system emulation",
+          "timestamp": "2025-01-19T07:58:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/537/commits/19c34952ccb9908c3e4df5f4f40223252ed1288c"
+        },
+        "date": 1737284264208,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1311,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 958.56,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
