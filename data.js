@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737612185012,
+  "lastUpdate": 1737615068470,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -23385,6 +23385,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 963.207,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "otteryc",
+            "username": "otteryc"
+          },
+          "committer": {
+            "name": "otteryc",
+            "username": "otteryc"
+          },
+          "id": "202fbd95fd96bc19b535f834ad7513e8c15a2341",
+          "message": "Migrate virtio-blk from semu",
+          "timestamp": "2025-01-20T07:46:47Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/539/commits/202fbd95fd96bc19b535f834ad7513e8c15a2341"
+        },
+        "date": 1737615067791,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1335,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 959.928,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
