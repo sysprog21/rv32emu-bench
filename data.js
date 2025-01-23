@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737644941473,
+  "lastUpdate": 1737646260815,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -23535,6 +23535,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 972.899,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "committer": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "id": "e83fefe03a42ca188566545b882513d1b3fa4158",
+          "message": "Add support for the RV32E base ISA variant",
+          "timestamp": "2025-01-05T15:46:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/541/commits/e83fefe03a42ca188566545b882513d1b3fa4158"
+        },
+        "date": 1737646259936,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1319,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 972.178,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
