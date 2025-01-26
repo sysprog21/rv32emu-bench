@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737903644954,
+  "lastUpdate": 1737907678983,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -24323,6 +24323,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.276,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "35604a22e59dfab4c02adee25cde2a3db5f20e79",
+          "message": "CI: Use newer Aarch64/Linux host",
+          "timestamp": "2025-01-24T14:05:36Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/548/commits/35604a22e59dfab4c02adee25cde2a3db5f20e79"
+        },
+        "date": 1737907678313,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1319,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.861,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
