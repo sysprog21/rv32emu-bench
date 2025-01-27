@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737912522172,
+  "lastUpdate": 1737964878225,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -24579,6 +24579,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 967.511,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "71a327784133bc40d99fef44b26b549a5626f45d",
+          "message": "Change for CI pipeline",
+          "timestamp": "2025-01-27T15:54:21+08:00",
+          "tree_id": "9bcfa7dbc8f2c009a25a019acf92b116d0abddd9",
+          "url": "https://github.com/sysprog21/rv32emu/commit/71a327784133bc40d99fef44b26b549a5626f45d"
+        },
+        "date": 1737964877503,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1332,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 974.562,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
