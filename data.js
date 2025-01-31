@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738335827412,
+  "lastUpdate": 1738366675798,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -25003,6 +25003,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 955.384,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "3b4b3b4670feb60f20adf81bedf67c2e54903cdf",
+          "message": "Trap guestOS to run SDL-oriented applications",
+          "timestamp": "2025-01-30T18:35:37Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/551/commits/3b4b3b4670feb60f20adf81bedf67c2e54903cdf"
+        },
+        "date": 1738366675016,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1330,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 969.266,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
