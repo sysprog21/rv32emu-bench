@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738423430751,
+  "lastUpdate": 1738424863082,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -25243,6 +25243,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 974.943,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "otteryc",
+            "username": "otteryc"
+          },
+          "committer": {
+            "name": "otteryc",
+            "username": "otteryc"
+          },
+          "id": "fd051c24c9c7143cb43fed6de603139aa116326e",
+          "message": "Implement VirtIO block device",
+          "timestamp": "2025-02-01T15:38:35Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/539/commits/fd051c24c9c7143cb43fed6de603139aa116326e"
+        },
+        "date": 1738424862330,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1299,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 959.33,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
