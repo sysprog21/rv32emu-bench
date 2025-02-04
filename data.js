@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738649183304,
+  "lastUpdate": 1738651859186,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -25603,6 +25603,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.043,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "85701c40e26bcfd033bd8fb3e3b511ba317f19fc",
+          "message": "Standardize logging utility",
+          "timestamp": "2025-02-03T15:18:15Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/552/commits/85701c40e26bcfd033bd8fb3e3b511ba317f19fc"
+        },
+        "date": 1738651857927,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1307,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 969.939,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
