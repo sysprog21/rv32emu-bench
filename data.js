@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738770130305,
+  "lastUpdate": 1738784809167,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -25813,6 +25813,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 940.264,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vestata",
+            "username": "vestata"
+          },
+          "committer": {
+            "name": "vestata",
+            "username": "vestata"
+          },
+          "id": "1627a4be248671d8c8b96f1c6fd6a7ac7974b4d5",
+          "message": "Support partial vector extension instructions",
+          "timestamp": "2025-01-09T13:20:26Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/545/commits/1627a4be248671d8c8b96f1c6fd6a7ac7974b4d5"
+        },
+        "date": 1738784808362,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1333,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 952.577,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
