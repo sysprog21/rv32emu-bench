@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738738171063,
+  "lastUpdate": 1738739397294,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -25723,6 +25723,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 917.654,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "a669e4077ed69d84eef303cb4b67959a15b7d26b",
+          "message": "jit: Add architecture test",
+          "timestamp": "2024-11-19T06:47:52Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/547/commits/a669e4077ed69d84eef303cb4b67959a15b7d26b"
+        },
+        "date": 1738739396440,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1318,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 945.353,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
