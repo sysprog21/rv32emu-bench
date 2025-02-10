@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739114462580,
+  "lastUpdate": 1739162521143,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -26309,6 +26309,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 940.535,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "b7cee67b9d37b9d1ad2e943a4a2ba3b89f0b6d10",
+          "message": "Suppress logging outputs to honor -q option",
+          "timestamp": "2025-02-09T20:52:55Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/562/commits/b7cee67b9d37b9d1ad2e943a4a2ba3b89f0b6d10"
+        },
+        "date": 1739162520272,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1342,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 938.555,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
