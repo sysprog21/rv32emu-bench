@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739264585401,
+  "lastUpdate": 1739264624517,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -26429,6 +26429,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 935.793,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "391fe0926327de3af4b79fe2231aca001eb52253",
+          "message": "Use upstream SoftFloat and unify build system\n\nReplace custom Berkeley SoftFloat 3 package in 'src/softfloat' with the\nupstream one. It streamlines build system onfiguration for consistency.",
+          "timestamp": "2025-02-11T16:55:55+08:00",
+          "tree_id": "60efe7ea394124a20280338bffc2bc4a912836e4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/391fe0926327de3af4b79fe2231aca001eb52253"
+        },
+        "date": 1739264623714,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1079,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 978.921,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
