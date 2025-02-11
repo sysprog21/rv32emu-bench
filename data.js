@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739285733865,
+  "lastUpdate": 1739286901954,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -26719,6 +26719,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 941.903,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "9941a43048953871a4f938a1e15276db48fc8232",
+          "message": "Use upstream SoftFloat and unify build system",
+          "timestamp": "2025-02-11T08:57:23Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/557/commits/9941a43048953871a4f938a1e15276db48fc8232"
+        },
+        "date": 1739286901176,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1343,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 947.611,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
