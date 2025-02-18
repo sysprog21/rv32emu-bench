@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739845119199,
+  "lastUpdate": 1739869213306,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -27407,6 +27407,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 946.035,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "2d9f2f12db540ed3b7c34b83cd512be1564fb1c4",
+          "message": "CI: Integrate macOS/arm64",
+          "timestamp": "2025-02-15T15:59:13Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/569/commits/2d9f2f12db540ed3b7c34b83cd512be1564fb1c4"
+        },
+        "date": 1739869212370,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1264,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 972.173,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
