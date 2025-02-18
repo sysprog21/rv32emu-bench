@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739891834893,
+  "lastUpdate": 1739895136038,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -27617,6 +27617,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 968.431,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "banglday",
+            "username": "banglday"
+          },
+          "committer": {
+            "name": "banglday",
+            "username": "banglday"
+          },
+          "id": "c475d34cfff8d360c9d6ab0ee84b6e26972c65dc",
+          "message": "Return error code -1 when closing file descriptors < 3 (stdin, stdout, stderr)",
+          "timestamp": "2025-02-18T15:10:11Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/566/commits/c475d34cfff8d360c9d6ab0ee84b6e26972c65dc"
+        },
+        "date": 1739895135190,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1257,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 971.038,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
