@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740510519347,
+  "lastUpdate": 1740549646676,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -27707,6 +27707,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 969.057,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "f0536056a5b144c5584a154ed91d8ed9862f2ee5",
+          "message": "Fix deploy-wasm CI trigger condition and miscellaneous changes",
+          "timestamp": "2025-02-25T19:21:08Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/577/commits/f0536056a5b144c5584a154ed91d8ed9862f2ee5"
+        },
+        "date": 1740549645797,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1306,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 968.906,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
