@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740749719189,
+  "lastUpdate": 1740749801600,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -27977,6 +27977,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 940.573,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "committer": {
+            "name": "eleanorLYJ",
+            "username": "eleanorLYJ"
+          },
+          "id": "05640e9676979a4dd911bfaf856ce41294325b10",
+          "message": "Raise exception when RV32E instructions use x16-x31",
+          "timestamp": "2025-01-05T15:46:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/578/commits/05640e9676979a4dd911bfaf856ce41294325b10"
+        },
+        "date": 1740749800804,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1328,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 941.867,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
