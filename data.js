@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741809275217,
+  "lastUpdate": 1741837080556,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -28187,6 +28187,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 914.629,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "7beced09bb06117d48f4fc59a88e676f503367ed",
+          "message": "Support readonly feature of VirtIO block device",
+          "timestamp": "2025-03-12T18:57:34Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/584/commits/7beced09bb06117d48f4fc59a88e676f503367ed"
+        },
+        "date": 1741837079565,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1310,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 917.229,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
