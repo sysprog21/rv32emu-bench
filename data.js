@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742277693612,
+  "lastUpdate": 1742278869980,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -28517,6 +28517,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.981,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "5db091a0ac7872a75c52967fff3a3b1f4ceac25f",
+          "message": "Enable VirtIO block to access hostOS /dev/ block devices",
+          "timestamp": "2025-03-17T06:37:41Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/572/commits/5db091a0ac7872a75c52967fff3a3b1f4ceac25f"
+        },
+        "date": 1742278868768,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1149,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 917.075,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
