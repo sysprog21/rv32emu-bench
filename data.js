@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742278869980,
+  "lastUpdate": 1742311205937,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -28547,6 +28547,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 917.075,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "ec68944b5c37eb5068c98e67cf348a6c6de72816",
+          "message": "Dynamically configure VirtIO node of Device Tree",
+          "timestamp": "2025-03-17T06:37:41Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/586/commits/ec68944b5c37eb5068c98e67cf348a6c6de72816"
+        },
+        "date": 1742311205025,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1282,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 916.539,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
