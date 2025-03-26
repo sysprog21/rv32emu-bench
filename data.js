@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743003764878,
+  "lastUpdate": 1743004259355,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29057,6 +29057,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 920.715,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "committer": {
+            "name": "RinHizakura",
+            "username": "RinHizakura"
+          },
+          "id": "874ad5c7660c2ccfc1d59a495d0a5b5ef286dcc3",
+          "message": "Update mini-gdbstub with the API changes",
+          "timestamp": "2025-03-26T15:17:18Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/589/commits/874ad5c7660c2ccfc1d59a495d0a5b5ef286dcc3"
+        },
+        "date": 1743004258333,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1287,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 910.358,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
