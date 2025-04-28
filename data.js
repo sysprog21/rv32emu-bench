@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745840749461,
+  "lastUpdate": 1745861930192,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29147,6 +29147,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 920.508,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "e0208af0278ef2b6ba692eca748fe13506ccff94",
+          "message": "Update timer correctly",
+          "timestamp": "2024-11-19T06:47:52Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/592/commits/e0208af0278ef2b6ba692eca748fe13506ccff94"
+        },
+        "date": 1745861929083,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1274,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 920.78,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
