@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745905091629,
+  "lastUpdate": 1745946340057,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29267,6 +29267,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 915.504,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "committer": {
+            "name": "vacantron",
+            "username": "vacantron"
+          },
+          "id": "a27625bbbb672ea690717b12f0c13378fd462d69",
+          "message": "Advance timer properly during JIT execution",
+          "timestamp": "2024-11-19T06:47:52Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/592/commits/a27625bbbb672ea690717b12f0c13378fd462d69"
+        },
+        "date": 1745946339061,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1285,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 915.126,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
