@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752403996441,
+  "lastUpdate": 1752723037901,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29807,6 +29807,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 913.009,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "39ff299b34daee1339aee693cb4bc9b3626ead5e",
+          "message": "Enable System Emulation in Web Browsers",
+          "timestamp": "2025-07-15T15:58:14Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/602/commits/39ff299b34daee1339aee693cb4bc9b3626ead5e"
+        },
+        "date": 1752723036857,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1294,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 925.371,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
