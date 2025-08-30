@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752723037901,
+  "lastUpdate": 1756592453414,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29837,6 +29837,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 925.371,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "e68162177c2f96d92f33b58298a61b73c133f281",
+          "message": "Support multiple virtio block devices",
+          "timestamp": "2025-07-21T02:53:08Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/605/commits/e68162177c2f96d92f33b58298a61b73c133f281"
+        },
+        "date": 1756592452302,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1287,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 921.901,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
