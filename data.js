@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758486480923,
+  "lastUpdate": 1758486494703,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30273,6 +30273,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 923.471,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "21484fbe139e6058574e65955b1bd26df91b3e72",
+          "message": "Fix T2C memory visibility race\n\nThe T2C compilation thread could set hot2 flag before compiled code was\nfully visible to the main thread, causing execution of invalid function\npointers. This resulted in incorrect calculation results in the pi test.\n\nFixed by declaring hot2 as volatile to ensure proper cross-thread\nvisibility. The volatile qualifier guarantees fresh reads from memory\nand prevents compiler optimizations that could reorder accesses.",
+          "timestamp": "2025-09-22T04:20:40+08:00",
+          "tree_id": "db70c1c3e53d95601dcc489fb9cb9b33f5dae610",
+          "url": "https://github.com/sysprog21/rv32emu/commit/21484fbe139e6058574e65955b1bd26df91b3e72"
+        },
+        "date": 1758486493668,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1241,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 920.561,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
