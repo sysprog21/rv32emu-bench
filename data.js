@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758478225247,
+  "lastUpdate": 1758478230936,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30081,6 +30081,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.461,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a3d46479af193e38b78370d2a02d4c224466094c",
+          "message": "Eliminate ThreadSanitizer warnings in JIT T2C mode\n\nThis fixes data races detected by ThreadSanitizer when running with JIT\ncompilation enabled:\n1. Fix quit flag data race:\n   - Change 'volatile bool quit' to '_Atomic bool quit'\n   - Use atomic_store() for writes and atomic_load() for reads\n2. Fix TOCTOU race in wait_queue access:\n   - Move list_empty() check inside mutex-protected critical section\n   - Hold mutex during entire queue manipulation\n\nThese changes ensure thread-safe communication between the main thread\nand T2C compilation thread, eliminating all TSAN warning while improving\nCPU efficiency by avoiding busy-waiting.",
+          "timestamp": "2025-09-22T02:02:29+08:00",
+          "tree_id": "402d3b32caae3387f0911f8467f460fb3bbd616f",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a3d46479af193e38b78370d2a02d4c224466094c"
+        },
+        "date": 1758478229893,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1301,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 916.226,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
