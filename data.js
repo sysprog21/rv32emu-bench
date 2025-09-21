@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758468100783,
+  "lastUpdate": 1758477518096,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -29987,6 +29987,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 917.35,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c69de51348f9738316caf6d24510424165884d4d",
+          "message": "Eliminate ThreadSanitizer warnings in JIT T2C mode\n\nThis fixes data races detected by ThreadSanitizer when running with JIT\ncompilation enabled:\n\n1. Fix quit flag data race:\n   - Change 'volatile bool quit' to '_Atomic bool quit'\n   - Use atomic_store() for writes and atomic_load() for reads\n   - Initialize with atomic_init()\n\n2. Fix TOCTOU race in wait_queue access:\n   - Move list_empty() check inside mutex-protected critical section\n   - Hold mutex during entire queue manipulation\n\nThese changes ensure thread-safe communication between the main thread\nand T2C compilation thread, eliminating all TSAN warning while improving\nCPU efficiency by avoiding busy-waiting.",
+          "timestamp": "2025-09-22T01:48:15+08:00",
+          "tree_id": "42d04977f7d2debaaeb7b7fe9eb8e0f45fc5c51b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c69de51348f9738316caf6d24510424165884d4d"
+        },
+        "date": 1758477516805,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1303,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 900.293,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
