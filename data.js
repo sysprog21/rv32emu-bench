@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758481605167,
+  "lastUpdate": 1758481611803,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30145,6 +30145,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 919.892,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c75998b09a192093aecf6163c45189aaa29917c3",
+          "message": "Eliminate ThreadSanitizer warnings in JIT T2C mode\n\nThis fixes data races detected by ThreadSanitizer when running with JIT\ncompilation enabled:\n1. Fix quit flag data race:\n2. Fix TOCTOU race in wait_queue access:\n   - Move list_empty() check inside mutex-protected critical section\n   - Hold mutex during entire queue manipulation\n\nThese changes ensure thread-safe communication between the main thread\nand T2C compilation thread, eliminating all TSAN warning while improving\nCPU efficiency by avoiding busy-waiting.",
+          "timestamp": "2025-09-22T02:59:05+08:00",
+          "tree_id": "8ccd16cefef4e651df7269e070cfef3e9fe0e1bb",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c75998b09a192093aecf6163c45189aaa29917c3"
+        },
+        "date": 1758481610792,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1268,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 902.578,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
