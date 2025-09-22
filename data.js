@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758511543803,
+  "lastUpdate": 1758532744724,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30627,6 +30627,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 924.646,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "d98c571a8148c9e348024bdb448d6c484bf0f211",
+          "message": "Fix T2C synchronization races\n\nThis commit addresses critical race conditions in the T2C and implements\na complete thread-safe memory management system using hazard pointers\nand C11 atomics.\n\nRoot Causes Addressed:\n1. Memory ordering issue where hot2 flag could become visible before the\n   function pointer, leading to execution of uninitialized code\n2. Use-after-free when T2C-compiled blocks are evicted from cache while\n   still executing in another thread\n3. Missing synchronization between compilation and execution threads\n4. Inconsistent use of atomic operations\n\nSolution:\n\n1. Hazard Pointer Implementation:\n   - Complete hazard pointer system for safe memory reclamation\n   - Per-thread hazard pointer slots with atomic operations\n   - Retired list with batch reclamation (threshold: 128 blocks)\n   - Protects blocks during both execution and compilation\n   - Lock-free memory management without performance penalty\n\n2. C11 Atomics Throughout:\n   - All atomic operations use standard C11 atomics\n   - _Atomic(bool) for hot2 and compiled flags\n   - _Atomic(void*) for function pointer\n   - Proper atomic initialization with atomic_init()\n   - Consistent memory ordering semantics\n\n3. Memory Ordering and Barriers:\n   - SEQ_CST barrier between function pointer and hot2 flag\n   - Double-check pattern for hot2 validation\n   - ACQUIRE/RELEASE semantics for all critical operations\n   - Proper synchronization for cache coherency\n\n4. Block State Management:\n   - Blocks being compiled are protected from eviction\n   - Sequence numbers prevent ABA problems\n   - Reference counting alternative via hazard pointers\n   - Safe state transitions with atomic operations",
+          "timestamp": "2025-09-22T17:09:58+08:00",
+          "tree_id": "7ea54e77198cc76e1b9d054dd05ef407c0d3a97e",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d98c571a8148c9e348024bdb448d6c484bf0f211"
+        },
+        "date": 1758532743724,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1274,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 897.375,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
