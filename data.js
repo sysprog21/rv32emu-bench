@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758508789440,
+  "lastUpdate": 1758508801748,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30401,6 +30401,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 917.547,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "f9feb2f688186ae71cd424d1373cfb2a58c9007a",
+          "message": "Fix T2C memory visibility race\n\nThe T2C compilation thread could set hot2 flag before compiled code was\nfully visible to the main thread, causing execution of invalid function\npointers. This resulted in incorrect calculation results in the pi test.\n\nProblem:\n- volatile alone doesn't provide memory ordering guarantees\n- CPU could reorder operations, making hot2=true visible before block->func\n- Led to executing stale or partially written function pointers\n\nSolution:\n- Use __atomic_store_n with __ATOMIC_RELEASE when setting hot2\n- Use __atomic_load_n with __ATOMIC_ACQUIRE when reading hot2\n- Release-Acquire synchronization ensures proper ordering\n\nThis creates a happens-before relationship: when the main thread\nobserves hot2=true via acquire, it is guaranteed to see all writes\n(including block->func) that happened before the release.",
+          "timestamp": "2025-09-22T10:32:27+08:00",
+          "tree_id": "822d6277d0eac2d7a8903ee5da2b3d818f8a8f42",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f9feb2f688186ae71cd424d1373cfb2a58c9007a"
+        },
+        "date": 1758508800344,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1326,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 923.558,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
