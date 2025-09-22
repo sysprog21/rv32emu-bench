@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758563105204,
+  "lastUpdate": 1758563172245,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30947,6 +30947,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 960.879,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "09667fb81b7a3a17a9ee6c5aa03f1a0dc19fd332",
+          "message": "Fix T2C race conditions",
+          "timestamp": "2025-09-22T17:09:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/614/commits/09667fb81b7a3a17a9ee6c5aa03f1a0dc19fd332"
+        },
+        "date": 1758563170826,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1332,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 964.248,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
