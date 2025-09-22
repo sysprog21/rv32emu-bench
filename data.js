@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758562436118,
+  "lastUpdate": 1758563105204,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -30913,6 +30913,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 953.647,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "09667fb81b7a3a17a9ee6c5aa03f1a0dc19fd332",
+          "message": "Fix T2C race conditions with immutable cache\n\nThe tier-2 JIT compiler (T2C) had critical race conditions, and multiple\nthreads were accessing and modifying shared block structures without\nproper synchronization.\n\nRoot causes identified:\n- T2C compilation thread held pointers to blocks that could be evicted\n- Block reuse from memory pool caused stale function pointer access\n- Complex synchronization with hot2 flag and reference counting was\n  insufficient\n\nSolution implemented:\n1. Created separate immutable T2C cache (t2c_cache) for compiled blocks\n   - T2C entries are never modified once created\n   - Eliminates all race conditions on compiled function access\n2. Deep copy block IR chains when queuing for compilation\n   - Compilation thread works on copies, not live blocks\n   - Blocks can be safely evicted during compilation\n3. Simplified synchronization logic\n   - Removed hot2 flag and complex reference counting\n   - Use simple compiled flag only to prevent re-queuing\n   - Clear flag when T2C code becomes available\n4. Fixed eviction logic to properly check compilation status",
+          "timestamp": "2025-09-23T01:31:27+08:00",
+          "tree_id": "258522ac44f8c008e3c961a528f3d5698008ce79",
+          "url": "https://github.com/sysprog21/rv32emu/commit/09667fb81b7a3a17a9ee6c5aa03f1a0dc19fd332"
+        },
+        "date": 1758563103934,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1333,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 960.879,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
