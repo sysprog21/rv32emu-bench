@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758859718519,
+  "lastUpdate": 1758859720811,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31327,6 +31327,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 956.905,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "95f8e66ae68f8c44f98209f514788879fe4a140c",
+          "message": "Attempt to fix JIT icache coherency on Arm64\n\nThe JIT compiler was experiencing intermittent failures on Arm64/Apple\nSilicon due to missing instruction cache invalidation after patching\nbranch instructions. When update_branch_imm() modified branch targets\nin JIT-compiled code, the CPU's icache wasn't being invalidated, causing\nit to execute stale cached instructions instead of the newly patched\nones.\n\nThis manifested as non-deterministic test failures, particularly in\ncompute-intensive benchmarks like the pi calculation test.\n\nThe fix adds sys_icache_invalidate() after memcpy() in update_branch_imm\nto ensure the icache is synchronized with the data cache after code\nmodification. This is critical on Arm64 cores which have separate L1\ninstruction and data caches.",
+          "timestamp": "2025-09-26T12:01:21+08:00",
+          "tree_id": "ce73adaefca1ab712d4793bc4ba4e7b27c5787b9",
+          "url": "https://github.com/sysprog21/rv32emu/commit/95f8e66ae68f8c44f98209f514788879fe4a140c"
+        },
+        "date": 1758859719422,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1321,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 906.157,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
