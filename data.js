@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758863720641,
+  "lastUpdate": 1758863732193,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31519,6 +31519,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 955.708,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "9ba555370ad56ec73f725afedf863ff9454f6c05",
+          "message": "Fix JIT regression when code cache flushes during translation\n\nThis addresses critical issues in the JIT compiler that caused failures,\nparticularly noticeable when ENABLE_EXT_F=0:\n1. Check translation success before execution: The emulator now verifies\n   that jit_translate() successfully marked a block as \"hot\" before\n   attempting to execute the JIT-compiled code. This prevents execution\n   of incomplete or failed translations.\n2. Reset jump count on cache flush: The state->n_jumps counter was not\n   being reset during code_cache_flush(), causing stale jump entries to\n   persist and corrupt subsequent translations.\n3. Mark incomplete translations properly: When a cache flush occurs\n   mid-translation, the block is now correctly marked as not hot,\n   ensuring it won't be mistakenly executed as valid JIT code.\n\nThese fixes resolve the non-deterministic test failures observed in\nthe pi calculation test and other compute-intensive benchmarks.",
+          "timestamp": "2025-09-26T13:08:07+08:00",
+          "tree_id": "d76115f49642af3fa896a4e2a3d0e81e4d700911",
+          "url": "https://github.com/sysprog21/rv32emu/commit/9ba555370ad56ec73f725afedf863ff9454f6c05"
+        },
+        "date": 1758863730750,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1323,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 906.292,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
