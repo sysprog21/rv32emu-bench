@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758863732193,
+  "lastUpdate": 1758868595836,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31553,6 +31553,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 906.292,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "ef57d84484b240cd0c0b04f7ad7c8f6d433ffc50",
+          "message": "Attempt to fix JIT instruction cache coherency on Arm64",
+          "timestamp": "2025-09-22T17:09:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/614/commits/ef57d84484b240cd0c0b04f7ad7c8f6d433ffc50"
+        },
+        "date": 1758868594523,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1333,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 957.852,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
