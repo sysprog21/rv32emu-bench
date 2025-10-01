@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759348910702,
+  "lastUpdate": 1759348948802,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31677,6 +31677,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 960.224,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "554be67be94e193a2a662a9a094394dc6a5ceb7b",
+          "message": "Fix critical memory allocation error handling\n\nThis adds proper NULL checks for all critical malloc/calloc/mpool_alloc\ncalls that previously relied solely on assert(), which compiles out in\nproduction builds with -DNDEBUG.\n\nIt also fixes critical JIT initialization error handling and syscall\nmemory safety issues.",
+          "timestamp": "2025-10-02T03:53:58+08:00",
+          "tree_id": "941bfac460666d8383ec0b314a8866f224633edd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/554be67be94e193a2a662a9a094394dc6a5ceb7b"
+        },
+        "date": 1759348947613,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1309,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 861.867,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
