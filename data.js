@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759348948802,
+  "lastUpdate": 1759351041928,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31711,6 +31711,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 861.867,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "9220ffb41505adcf874741bd55fd4d2a2bb2f9e0",
+          "message": "Fix critical memory issues\n\nThis adds proper NULL checks for all critical malloc/calloc/mpool_alloc\ncalls that previously relied solely on assert(), which compiles out in\nproduction builds with -DNDEBUG.\n\nIt also resolves critical memory safety issues found  that could allow\nguest code to corrupt host memory or cause crashes.\n- Fix potential integer underflow in memcpy length calculation\n- Add validation that args[0] length exceeds 7 before subtraction\n- Add bounds checking in memset_handler to validate dest and count\n- Add bounds checking in memcpy_handler for both src and dest\n- Prevent guest code from writing to arbitrary host memory addresses\n- Raise traps (STORE_MISALIGNED/LOAD_MISALIGNED) on violations\n- Reading arbitrary host memory via out-of-bounds memcpy source\n- Writing arbitrary host memory via out-of-bounds memcpy/memset dest\n- Causing host crashes via integer overflow in size calculations",
+          "timestamp": "2025-10-02T04:27:10+08:00",
+          "tree_id": "eb4080681a9d569f61ef0b49de77d0fa127afc42",
+          "url": "https://github.com/sysprog21/rv32emu/commit/9220ffb41505adcf874741bd55fd4d2a2bb2f9e0"
+        },
+        "date": 1759351040828,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1308,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 922.185,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
