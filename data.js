@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759377963448,
+  "lastUpdate": 1759377972492,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31809,6 +31809,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 969.812,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "adab7d7fc616d69e09049d78e2c1501c35cce163",
+          "message": "Fix critical memory allocation error handling",
+          "timestamp": "2025-10-01T08:01:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/617/commits/adab7d7fc616d69e09049d78e2c1501c35cce163"
+        },
+        "date": 1759377971071,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1302,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 952.843,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
