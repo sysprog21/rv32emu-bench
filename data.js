@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759351044277,
+  "lastUpdate": 1759377963448,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31775,6 +31775,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 958.558,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "adab7d7fc616d69e09049d78e2c1501c35cce163",
+          "message": "Fix critical memory safety issues\n\nThis adds explicit NULL checks for all malloc/calloc/mpool_alloc calls\nthat previously relied solely on assert(), which compiles out with\n'-DNDEBUG'. It prevents NULL pointer dereferences in production builds.\n- Add bounds checking in memory_write/memory_fill to prevent guest code\n  from accessing arbitrary host memory\n- Fix memcpy/memset handlers to validate addresses and raise traps on\n  violations (STORE_MISALIGNED/LOAD_MISALIGNED)\n- Add overflow-safe arithmetic for all size calculations\n- Implement proper error handling with goto-based cleanup chains\n- Fix memory leaks in error paths (mpool_extend, syscall_open)",
+          "timestamp": "2025-10-02T11:57:58+08:00",
+          "tree_id": "ce964ac44f6cda66a9378d0d288d47ba36d3e225",
+          "url": "https://github.com/sysprog21/rv32emu/commit/adab7d7fc616d69e09049d78e2c1501c35cce163"
+        },
+        "date": 1759377962354,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1334,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 969.812,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
