@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759377972492,
+  "lastUpdate": 1759651348371,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31839,6 +31839,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 952.843,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3bdcec5cc14332b2db204c0140c8a2eb2edf44a4",
+          "message": "Enable TSAN with FULL4G and T2C support\n\nThreadSanitizer (TSAN) can now detect race conditions across the entire\nmulti-threaded JIT pipeline with full 4GB address space emulation. This\nenables testing of the tier-2 LLVM compilation thread while maintaining\nproduction memory layout.\n\nMemory Layout (TSAN-compatible):\n- Main memory: MAP_FIXED at 0x7d0000000000 (4GB)\n- JIT buffer: MAP_FIXED at 0x7d1000000000\n- Both allocations within TSAN app range (0x7cf-0x7ff trillion)\n- Prevents conflicts with TSAN shadow memory (0x02a-0x7ce trillion)\n\nASLR Mitigation:\n- Added setarch -R wrapper for TSAN test execution\n- Disables ASLR to prevent random allocations in shadow memory\n- Only affects test runs, not production builds\n\nSDL Conflict Resolution:\n- SDL (uninstrumented system library) creates threads TSAN cannot track\n- Disabled SDL when TSAN enabled to focus on built-in race detection\n- Production builds still fully support SDL",
+          "timestamp": "2025-10-05T15:55:02+08:00",
+          "tree_id": "31f2f5fbb94f1984afea168e29ef198de5e59d73",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3bdcec5cc14332b2db204c0140c8a2eb2edf44a4"
+        },
+        "date": 1759651347277,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1213,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 961.733,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
