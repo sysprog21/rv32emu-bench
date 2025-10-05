@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759677756486,
+  "lastUpdate": 1759677806926,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -32121,6 +32121,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 968.078,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e6005e5b1e5178a018ca2512ed7318c54b54c3b7",
+          "message": "Add diagnostic logging to JIT compilation pipeline\n\nThis introduces debug-level logging throughout the JITC to facilitate\ntroubleshooting of intermittent compilation and execution failures on\nArm64.",
+          "timestamp": "2025-10-05T23:16:18+08:00",
+          "tree_id": "788caee5b865acbc2424e25b36023c636aa5e86b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e6005e5b1e5178a018ca2512ed7318c54b54c3b7"
+        },
+        "date": 1759677805542,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1327,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 947.737,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
