@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759653062992,
+  "lastUpdate": 1759673769624,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31993,6 +31993,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 952.82,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e72134d05aad5977c21fe1b2b1db7f15419040ca",
+          "message": "Add Arm64 TSAN support and fix JIT cache coherency\n\nThis commit adds ThreadSanitizer (TSAN) support for ARM64/Apple Silicon\nand fixes critical JIT instruction cache coherency issues.\n\nARM64 TSAN Support:\n- Extended TSAN-compatible memory allocation to ARM64 architecture\n- Main memory allocated at fixed address 0x150000000000 (21TB)\n- JIT buffer allocated at 0x151000000000 with MAP_JIT for Apple Silicon\n- Both allocations avoid TSAN shadow memory and enable race detection\n- Note: Requires ASLR disabled on macOS (SIP restrictions may apply)\n\nJIT Cache Coherency Fixes:\n1. Fixed pthread_jit_write_protect_np() ordering in update_branch_imm\n2. Added sys_icache_invalidate() in update_branch_imm\n3. Added cache invalidation in resolve_jumps() for x86_64",
+          "timestamp": "2025-10-05T22:09:01+08:00",
+          "tree_id": "0663b9e2e7f2720711e0e61356797d19a06571dc",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e72134d05aad5977c21fe1b2b1db7f15419040ca"
+        },
+        "date": 1759673768018,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1344,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 956.567,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
