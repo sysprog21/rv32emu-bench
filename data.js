@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759651348371,
+  "lastUpdate": 1759651406221,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -31873,6 +31873,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.733,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "3bdcec5cc14332b2db204c0140c8a2eb2edf44a4",
+          "message": "Enable TSAN with FULL4G and T2C support",
+          "timestamp": "2025-10-02T06:45:21Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/618/commits/3bdcec5cc14332b2db204c0140c8a2eb2edf44a4"
+        },
+        "date": 1759651405193,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1330,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 959.417,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
