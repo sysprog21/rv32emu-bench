@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760856608587,
+  "lastUpdate": 1760857672157,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -32827,6 +32827,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 951.961,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "457f6216393dfb7c57062ce53d1135b61be3764f",
+          "message": "Support ~ in virtio-blk paths and improve error handling",
+          "timestamp": "2025-10-10T09:09:54Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/623/commits/457f6216393dfb7c57062ce53d1135b61be3764f"
+        },
+        "date": 1760857670816,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1340,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 935.86,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
