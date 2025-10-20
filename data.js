@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760975222211,
+  "lastUpdate": 1760983160094,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -32887,6 +32887,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.709,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0fcee7091b71914a7b001a8262abf342ea710ff8",
+          "message": "Support CSR_INSTRETH for insn counter high bits\n\nThis completes the CSR performance counter implementation by adding the\nmissing CSR_INSTRETH handler. This register provides access to the upper\n32 bits of the retired instruction counter, maintaining symmetry with\nCSR_CYCLEH.",
+          "timestamp": "2025-10-21T01:51:02+08:00",
+          "tree_id": "4fc28a37ac62ff0e1671e3b669383ea7dd8e91ec",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0fcee7091b71914a7b001a8262abf342ea710ff8"
+        },
+        "date": 1760983158495,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1277,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 916.48,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
