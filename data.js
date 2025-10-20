@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760983160094,
+  "lastUpdate": 1760983163106,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -32921,6 +32921,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.48,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "0fcee7091b71914a7b001a8262abf342ea710ff8",
+          "message": "Support CSR_INSTRETH for insn counter high bits",
+          "timestamp": "2025-10-19T17:46:29Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/624/commits/0fcee7091b71914a7b001a8262abf342ea710ff8"
+        },
+        "date": 1760983159791,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1325,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.132,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
