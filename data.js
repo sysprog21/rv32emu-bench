@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761679113735,
+  "lastUpdate": 1762432255005,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -33041,6 +33041,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 917.019,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0a8c53cfa292806cf84c6efea94bfc29b1e5b451",
+          "message": "Add RISCOF compliance test support\n\nThis implements complete support for RISC-V architectural compliance\ntests that use the tohost/fromhost protocol.\n- Add check_tohost_write() function to detect writes to tohost address\n- Extract tohost/fromhost symbol addresses from ELF during init\n- Add tohost detection hooks to all store instructions:\n  * Basic stores: SB, SH, SW\n  * Atomic operations: SC.W, AMOSWAP.W, AMOADD.W, AMOXOR.W, AMOAND.W,\n    AMOOR.W, AMOMIN.W, AMOMAX.W, AMOMINU.W, AMOMAXU.W\n  * Floating point: FSW\n  * Compressed: C.SW, C.SWSP, C.FSW, C.FSWSP\n  * Fused operations: Multiple SW fusion\n- Remove exit code truncation to preserve full test numbers\n- Add tohost_addr/fromhost_addr fields to riscv_t structure\n\nAll changes are conditionally compiled with RV32_HAS(ARCH_TEST) to\nensure zero overhead when the feature is disabled. The implementation\nfollows the RISC-V tohost protocol: tests write exit code to tohost\n(extracted as value >> 1) and enter infinite loop.",
+          "timestamp": "2025-11-06T20:21:59+08:00",
+          "tree_id": "8d36e9a8bcdbd29032dddf2feb0a0f0a21fdb423",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0a8c53cfa292806cf84c6efea94bfc29b1e5b451"
+        },
+        "date": 1762432253701,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1265,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 902.645,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
