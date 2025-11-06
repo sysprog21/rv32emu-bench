@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762432361561,
+  "lastUpdate": 1762432431711,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -33109,6 +33109,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 918.874,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "0767f169631fa75b9a0e4511cdcf8d63b60ca3e5",
+          "message": "Add RISCOF compliance test support",
+          "timestamp": "2025-11-06T06:41:27Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/629/commits/0767f169631fa75b9a0e4511cdcf8d63b60ca3e5"
+        },
+        "date": 1762432430153,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1315,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 911.157,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
