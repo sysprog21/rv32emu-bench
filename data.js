@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762619390087,
+  "lastUpdate": 1762622990117,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -33679,6 +33679,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.732,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "b1e482517a31af78df9c783e7105e2e75cac9dd6",
+          "message": "Enable ThreadSanitizer across the entire multi-threaded JIT pipeline",
+          "timestamp": "2025-11-08T14:58:09Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/618/commits/b1e482517a31af78df9c783e7105e2e75cac9dd6"
+        },
+        "date": 1762622988425,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1274,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 921.305,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
