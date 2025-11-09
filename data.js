@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762707263132,
+  "lastUpdate": 1762710897318,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34231,6 +34231,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 907.062,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "49cd220f4a92785337f8a1b0d55804264f713ad1",
+          "message": "Improve ARM64 JITC with batched icache invalidation\n\nThis replaces per-instruction sys_icache_invalidate() calls with single\nblock-level invalidation after compilation completes. This eliminates\nredundant cache maintenance operations during JIT code generation.",
+          "timestamp": "2025-11-10T01:36:41+08:00",
+          "tree_id": "89eb9f3a1e06ea90ade50ee8a107fba46022a4bc",
+          "url": "https://github.com/sysprog21/rv32emu/commit/49cd220f4a92785337f8a1b0d55804264f713ad1"
+        },
+        "date": 1762710896020,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1291,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 916.218,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
