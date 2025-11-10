@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762778011086,
+  "lastUpdate": 1762778080260,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34325,6 +34325,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1013.179,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2b643f0182ee619362da19fddad1c275a4a310e5",
+          "message": "Detect early JIT compilation issues in CI/CD\n\nRevert batched icache invalidation optimization due to intermittent Linux\nkernel boot failures on x86_64 CI runners. The same commit shows both\npassing and failing runs, indicating a timing-dependent race condition or\nmemory ordering issue exposed by the optimization.\n\nEvidence:\n- Run 19212176228 (commit 49cd220): SUCCESS\n- Run 19212176313 (commit 49cd220): FAILURE (boot test hangs)\n- Local macOS ARM64: SUCCESS\n\nThe optimization provided 5.6x ARM64 JIT compilation speedup but triggers\nintermittent hangs in system emulation boot tests on x86_64 Linux. Further\ninvestigation needed to identify root cause before re-enabling.\n\nThis reverts commit a252f41405beeab19ff119f7fca0ff8911c76277.",
+          "timestamp": "2025-11-10T03:05:16+08:00",
+          "tree_id": "6ace725e6297f6824465881732d94c392b60921a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2b643f0182ee619362da19fddad1c275a4a310e5"
+        },
+        "date": 1762778078199,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1304,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 914.776,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
