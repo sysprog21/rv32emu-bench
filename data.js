@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762842988035,
+  "lastUpdate": 1762844284659,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34479,6 +34479,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.441,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Max042004",
+            "username": "Max042004"
+          },
+          "committer": {
+            "name": "Max042004",
+            "username": "Max042004"
+          },
+          "id": "f69568af97703918c107394b49e141ae4c6629c9",
+          "message": "Fix csr cycle unasync",
+          "timestamp": "2025-11-08T04:24:04Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/630/commits/f69568af97703918c107394b49e141ae4c6629c9"
+        },
+        "date": 1762844282633,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1318,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 914.12,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
