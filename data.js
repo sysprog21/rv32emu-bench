@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762930843123,
+  "lastUpdate": 1762930852074,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34863,6 +34863,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 914.551,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "07640f3968fdc2e12b85bd07d6863e987d8d0bcd",
+          "message": "CI: Retry apt ops for mirror sync resilience",
+          "timestamp": "2025-11-09T04:52:59Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/633/commits/07640f3968fdc2e12b85bd07d6863e987d8d0bcd"
+        },
+        "date": 1762930850736,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1267,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 920.518,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
