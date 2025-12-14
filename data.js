@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762935762614,
+  "lastUpdate": 1765695563059,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34923,6 +34923,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 967.171,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "ba3011f9ccc2508c1304f38597073577c93b05fb",
+          "message": "[WIP] Fix system emulation reboot",
+          "timestamp": "2025-12-13T08:43:09Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/638/commits/ba3011f9ccc2508c1304f38597073577c93b05fb"
+        },
+        "date": 1765695561743,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1305,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 956.404,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
