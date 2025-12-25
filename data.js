@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766679232134,
+  "lastUpdate": 1766679493966,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35423,6 +35423,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 958.284,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "ab3a40b22567d1b30ed4819cfc92fb330c9d3c72",
+          "message": "Fix JIT non-deterministic execution on Arm64\n\nThe JIT compiler produced inconsistent results on Apple Silicon due to\nseveral issues in register liveness tracking and cache maintenance:\n1. Store instructions (sb, sh, sw, csw) were not tracking rs2 liveness,\n   causing the register allocator to potentially evict the data register\n   before the store executed.\n2. I-cache invalidation now occurs BEFORE re-enabling write protection\n   to avoid a race window where executable code is not yet coherent.\n   Previous ordering risked stale instruction execution.\n3. Removed redundant ISB barriers since sys_icache_invalidate already\n   includes the required DSB/ISB sequence on macOS/arm64.\n4. Added final __builtin___clear_cache for the entire translated region\n   to guarantee all instructions are visible before execution.\n\nThe cache maintenance sequence now follows the correct ordering:\n  write → sys_icache_invalidate → pthread_jit_write_protect_np(true)\n\nThis ensures the I-cache is invalidated while the page is still writable,\nclosing the race window that existed in the previous implementation.",
+          "timestamp": "2025-12-26T00:09:31+08:00",
+          "tree_id": "49eca9c5403540578cf6c3129a2915bdd593d473",
+          "url": "https://github.com/sysprog21/rv32emu/commit/ab3a40b22567d1b30ed4819cfc92fb330c9d3c72"
+        },
+        "date": 1766679492485,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1332,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 963.024,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
