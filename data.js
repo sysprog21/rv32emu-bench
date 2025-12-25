@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766687121922,
+  "lastUpdate": 1766689691864,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35577,6 +35577,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 969.049,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "committer": {
+            "name": "visitorckw",
+            "username": "visitorckw"
+          },
+          "id": "10a229801323bdec1550773bcf812a3d132e3918",
+          "message": "Restore wall-clock time source for user mode",
+          "timestamp": "2025-12-11T15:42:53Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/646/commits/10a229801323bdec1550773bcf812a3d132e3918"
+        },
+        "date": 1766689690733,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1334,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.364,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
