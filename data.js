@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766643798339,
+  "lastUpdate": 1766647389998,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35111,6 +35111,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 953.612,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "bc5920b393de2655bcb97f1a858fbc5d0b38601e",
+          "message": "Update formatting to require clang-format-20\n\nThis bumps the required clang-format version from 18 to 20, including:\n- Update CI workflow to configure LLVM 20 apt repository with proper\n  GPG key handling (dearmored to binary format)\n- Update format checking script and Makefile to use clang-format-20\n- Update CONTRIBUTING.md to reflect new version requirement",
+          "timestamp": "2025-12-25T15:13:47+08:00",
+          "tree_id": "54076e29cb22eda461289e096dd3e9fc904bc276",
+          "url": "https://github.com/sysprog21/rv32emu/commit/bc5920b393de2655bcb97f1a858fbc5d0b38601e"
+        },
+        "date": 1766647388623,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1324,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 963.594,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
