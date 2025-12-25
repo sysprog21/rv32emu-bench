@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766647389998,
+  "lastUpdate": 1766647407619,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35145,6 +35145,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 963.594,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "bc5920b393de2655bcb97f1a858fbc5d0b38601e",
+          "message": "Update formatting to require clang-format-20",
+          "timestamp": "2025-12-25T06:54:49Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/641/commits/bc5920b393de2655bcb97f1a858fbc5d0b38601e"
+        },
+        "date": 1766647406410,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1334,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.046,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
