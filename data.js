@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766608798399,
+  "lastUpdate": 1766639548755,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -34983,6 +34983,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 968.213,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "ac608b2ec48578e0f29f5dbed9415218bcb1f0c7",
+          "message": "Fix preserve_none attribute usage for macOS",
+          "timestamp": "2025-12-24T10:57:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/639/commits/ac608b2ec48578e0f29f5dbed9415218bcb1f0c7"
+        },
+        "date": 1766639547600,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1338,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 953.973,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
