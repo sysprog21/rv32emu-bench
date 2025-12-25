@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766643786100,
+  "lastUpdate": 1766643798339,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35077,6 +35077,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 967.957,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "aa023f04706fa4595dc631768db3a3c57a39819f",
+          "message": "Fix preserve_none attribute usage for macOS\n\nThe preserve_none calling convention attribute must be applied to\nfunction declarations, not return statements. The previous commit\n(d8382ab) incorrectly added it to the MUST_TAIL macro which is used\non return statements, causing compilation errors.\n\nAdditionally, macOS clang falsely reports __has_attribute(preserve_none)\nas true but doesn't actually support the attribute, causing 20+ errors.\n\nThe optimization now works on Linux (Clang 19.1.0+) while building\ncleanly on macOS.",
+          "timestamp": "2025-12-25T14:14:42+08:00",
+          "tree_id": "d1ffeb7d1e29d6e814e9bbf72288338782f0a825",
+          "url": "https://github.com/sysprog21/rv32emu/commit/aa023f04706fa4595dc631768db3a3c57a39819f"
+        },
+        "date": 1766643796549,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1243,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 953.612,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
