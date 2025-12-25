@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766672516356,
+  "lastUpdate": 1766674560694,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35299,6 +35299,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1016.621,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "4d1be92d3afbebf9014308921c9ebb547f48e065",
+          "message": "Fix JIT non-deterministic execution on Arm64\n\nThe JIT compiler produced inconsistent results on Apple Silicon due to\nseveral issues in register liveness tracking and cache maintenance:\n1. Store instructions (sb, sh, sw, csw) were not tracking rs2 liveness,\n   causing the register allocator to potentially evict the data register\n   before the store executed.\n2. I-cache invalidation occurred before the W^X page transition on Apple\n   Silicon. ARM64 requires invalidation after the page becomes executable.\n3. Added ISB barriers after I-cache invalidation to ensure pipeline flush.\n4. Added final '__builtin___clear_cache' for the entire translated region\n   to guarantee all instructions are visible before execution.",
+          "timestamp": "2025-12-25T22:14:24+08:00",
+          "tree_id": "46ae40ebbfadd84f5dcd23bee19ff130c0ce4f51",
+          "url": "https://github.com/sysprog21/rv32emu/commit/4d1be92d3afbebf9014308921c9ebb547f48e065"
+        },
+        "date": 1766674558897,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1652,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1005.938,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
