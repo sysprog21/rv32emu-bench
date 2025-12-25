@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766674560694,
+  "lastUpdate": 1766677940346,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35333,6 +35333,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1005.938,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "de49fad09784ec7d05700c4d2950687d8af32eb4",
+          "message": "Fix hart halt when non-SDL programs exit via syscall 93",
+          "timestamp": "2025-12-25T15:37:23Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/643/commits/de49fad09784ec7d05700c4d2950687d8af32eb4"
+        },
+        "date": 1766677938354,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1339,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 972.144,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
