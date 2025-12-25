@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766692402292,
+  "lastUpdate": 1766692427316,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35765,6 +35765,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1020.363,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a332242edadbc827760bbd9cad3ec4dcc1a0decf",
+          "message": "Fix JIT non-deterministic execution on Arm64\n\nThe JIT compiler produced inconsistent results on Apple Silicon due to\nseveral issues in register liveness tracking and cache maintenance:\n\n1. Store instructions (sb, sh, sw, csw) were not tracking rs2 liveness,\n   causing the register allocator to potentially evict the data register\n   before the store executed.\n2. I-cache invalidation now occurs BEFORE re-enabling write protection\n   to avoid a race window where executable code is not yet coherent.\n   Previous ordering risked stale instruction execution.\n3. Removed redundant ISB barriers since sys_icache_invalidate already\n   includes the required DSB/ISB sequence on macOS/arm64.\n4. Added final __builtin___clear_cache for the entire translated region\n   to guarantee all instructions are visible before execution.\n5. Added cache flush after prepare_translate() in jit_state_init() to\n   ensure the prologue/epilogue code is cache-coherent.\n\nThe cache maintenance sequence now follows the correct ordering:\n  write → sys_icache_invalidate → pthread_jit_write_protect_np(true)\n\nThis ensures the I-cache is invalidated while the page is still writable,\nclosing the race window that existed in the previous implementation.",
+          "timestamp": "2025-12-26T03:45:58+08:00",
+          "tree_id": "394a907e58c0afa7eb916f3264ff98422dde8f78",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a332242edadbc827760bbd9cad3ec4dcc1a0decf"
+        },
+        "date": 1766692426208,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1320,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 962.442,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
