@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766752995584,
+  "lastUpdate": 1766767371152,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36149,6 +36149,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 956.653,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "f25bdd2e4a95c51f98b05198f071505e09836f6d",
+          "message": "Fix JIT register allocation in fused instruction\n\nThe do_fuse2 and do_fuse5 functions used map_vm_reg() which could\nallocate destination registers that clobber source registers before\nthey are read, causing non-deterministic execution on Arm64.\n\nChanged to map_vm_reg_reserved() to protect source registers during\ndestination allocation:\n- do_fuse2: protect rs1 when allocating rs2\n- do_fuse5: protect source register when allocating rd for shifts\n\nAlso batched write protection toggling on Apple Silicon to avoid\nrapid pthread_jit_write_protect_np() calls during code generation.",
+          "timestamp": "2025-12-27T00:35:16+08:00",
+          "tree_id": "8ade61f5b0b60398fd8023388420883bbf73a908",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f25bdd2e4a95c51f98b05198f071505e09836f6d"
+        },
+        "date": 1766767369604,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1720,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1016.175,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
