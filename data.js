@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766752983119,
+  "lastUpdate": 1766752995584,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36115,6 +36115,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 957.681,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "00dc4bff69b9a7de6ea2b90e0ee5d77a655888ae",
+          "message": "Fix JIT register allocation for three-operand instructions\n\nThe JIT compiler had a register allocation bug where allocating the\ndestination register (rd) after loading source operands (rs1, rs2)\ncould evict one of the source registers. This caused non-deterministic\nexecution failures, particularly visible in the pi test on ARM64.\n\nThe fix introduces:\n- reg_pick2(): selects a register while avoiding two reserved registers\n- map_vm_reg_reserved2(): maps a VM register while protecting two\n  already-allocated host registers from eviction\n\nAll R-type arithmetic/logic instructions (add, sub, sll, slt, sltu,\nxor, srl, sra, or, and), M-extension instructions (mul, mulh, mulhsu,\nmulhu, div, divu, rem, remu), and compressed equivalents (csub, cxor,\ncor, cand, cadd) now use map_vm_reg_reserved2 for rd allocation.",
+          "timestamp": "2025-12-26T20:32:34+08:00",
+          "tree_id": "ef3b3c7c37194102197f06ce2c0bbc41a388ee1c",
+          "url": "https://github.com/sysprog21/rv32emu/commit/00dc4bff69b9a7de6ea2b90e0ee5d77a655888ae"
+        },
+        "date": 1766752994122,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1335,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 956.653,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
