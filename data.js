@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766743026704,
+  "lastUpdate": 1766743045099,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36051,6 +36051,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.519,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "b79fd6ac127a603fc1411f3b4504ae621dbd8b06",
+          "message": "Improve JIT determinism on Arm64\n\nThis introduces JIT fixes for ARM64 (Apple Silicon):\n1. Add ISB (Instruction Synchronization Barrier) before executing JIT\n   code to ensure the CPU pipeline sees the latest generated code.\n2. Use SDIV for signed division operations instead of UDIV. The divmod\n   function was using UDIV for all division operations, which produced\n   incorrect results for signed integer division on ARM64.",
+          "timestamp": "2025-12-26T17:48:12+08:00",
+          "tree_id": "1b19a088078220cb9b44b84312b92c92d69faa49",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b79fd6ac127a603fc1411f3b4504ae621dbd8b06"
+        },
+        "date": 1766743043374,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1319,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 962.005,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
