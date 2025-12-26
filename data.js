@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766692427316,
+  "lastUpdate": 1766711933494,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35799,6 +35799,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.442,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "030d4956de1e3bb43ce20ca7b197f4640ab60e49",
+          "message": "Fix JIT non-deterministic execution on Arm64\n\nThe JIT compiler produced inconsistent results on Apple Silicon due to\nissues in register allocation, liveness tracking, and cache maintenance:\n1. Store instructions (sb, sh, sw, csw) were not tracking rs2 liveness,\n   causing the register allocator to potentially evict the source data\n   register before the store executed.\n2. I-cache invalidation ordering: must occur BEFORE re-enabling write\n   protection to avoid a race window where code is executable but not\n   yet cache-coherent. The correct sequence is:\n     write → sys_icache_invalidate → pthread_jit_write_protect_np(true)\n3. Sign extension for reused registers: when ra_load2_sext() reused an\n   already-mapped register, it skipped the load entirely. On ARM64,\n   emit_mov uses 32-bit add which zero-extends, leaving signed operands\n   incorrectly zero-extended for mulh/mulhsu/div/rem operations. Added\n   emit_sxtw() helper to sign-extend in place when registers are reused.\n4. Added __builtin___clear_cache() after prepare_translate() and at end\n   of jit_translate() to ensure all generated code is cache-coherent.",
+          "timestamp": "2025-12-26T09:10:12+08:00",
+          "tree_id": "455060fa338775c3039ba55360bf392df040a2a6",
+          "url": "https://github.com/sysprog21/rv32emu/commit/030d4956de1e3bb43ce20ca7b197f4640ab60e49"
+        },
+        "date": 1766711931817,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1326,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 953.751,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
