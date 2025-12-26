@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766777807471,
+  "lastUpdate": 1766777824948,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36371,6 +36371,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.451,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "cf7149cdaec2b37d95b95647387f4f7537c9ebdf",
+          "message": "Fix JIT thread safety and cache coherency on Arm64\n\nTwo issues identified by Codex review:\n\n1. Make jit_write_mode thread-local: pthread_jit_write_protect_np\n   operates per-thread, so a shared static flag causes race conditions\n   when multiple threads translate simultaneously.\n\n2. Add cache maintenance for non-Apple Arm64: After resolve_jumps()\n   patches branch immediates, the I-cache must be invalidated on all\n   Arm64 platforms, not just Apple. Previously, Linux Arm64 could\n   execute stale branch offsets from I-cache.",
+          "timestamp": "2025-12-27T03:28:03+08:00",
+          "tree_id": "b75d76381eae836d14c06122bd50eec80167ce6c",
+          "url": "https://github.com/sysprog21/rv32emu/commit/cf7149cdaec2b37d95b95647387f4f7537c9ebdf"
+        },
+        "date": 1766777823333,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1328,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 948.234,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
