@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766770961119,
+  "lastUpdate": 1766770965973,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36307,6 +36307,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.822,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "05215a315494d3aec0799b2c3428276df2bfb4c5",
+          "message": "Fix T2C thread safety issues on Arm64\n\nAddress multiple race conditions between the T2C compilation thread and\nthe main execution thread:\n\n1. t2c_runloop: Move mutex acquisition before checking/accessing the\n   wait_queue to prevent TOCTOU race conditions.\n\n2. t2c_compile: Add release barrier before setting block->hot2 to ensure\n   block->func is visible to other threads before they see hot2=true.\n\n3. jit_cache_update: Write entry before key with release barrier between\n   them, ensuring readers see valid entry when key matches.\n\n4. t2c_template: Add LLVM acquire fence in generated code after key\n   comparison succeeds, pairing with release in jit_cache_update.\n\n5. emulate.c: Add acquire barrier after reading block->hot2, pairing\n   with release in t2c_compile.\n\nThese barriers ensure proper memory ordering on weakly-ordered\narchitectures like ARM64, preventing non-deterministic execution\nwhen T2C compiled code races with compilation.",
+          "timestamp": "2025-12-27T01:32:36+08:00",
+          "tree_id": "a90faaa390c24907970acd34b3c07c91e93c3d72",
+          "url": "https://github.com/sysprog21/rv32emu/commit/05215a315494d3aec0799b2c3428276df2bfb4c5"
+        },
+        "date": 1766770964379,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1319,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 930.242,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
