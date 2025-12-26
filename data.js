@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766769800731,
+  "lastUpdate": 1766769849538,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36243,6 +36243,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 949.728,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "14ffd0210d71847b1a438f085e7dd5f203a5d6e8",
+          "message": "Improve JIT determinism on Arm64\n\nThe liveness_cmp comparator used with qsort could return 0 for registers\nwith equal liveness values. Since qsort is not guaranteed to be stable,\nthis caused non-deterministic register allocation ordering when multiple\nregisters had the same liveness count.\n\nAdd register index as a tie-breaker to ensure consistent ordering\nregardless of qsort implementation, eliminating JIT non-determinism\nobserved in CI with ENABLE_EXT_F=0 configuration.",
+          "timestamp": "2025-12-27T01:13:02+08:00",
+          "tree_id": "f9ab960b8f9147fab858aa8950c7bbaa72ea335b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/14ffd0210d71847b1a438f085e7dd5f203a5d6e8"
+        },
+        "date": 1766769848076,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1067,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.856,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
