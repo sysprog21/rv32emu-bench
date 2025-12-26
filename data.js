@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766718538530,
+  "lastUpdate": 1766735841768,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35957,6 +35957,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 970.018,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "e5ee9fbd132fffe0df26ff25eb85cc92ff6aee14",
+          "message": "Fix JIT non-deterministic execution on Arm64",
+          "timestamp": "2025-12-25T19:06:37Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/644/commits/e5ee9fbd132fffe0df26ff25eb85cc92ff6aee14"
+        },
+        "date": 1766735840644,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1312,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 969.94,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
