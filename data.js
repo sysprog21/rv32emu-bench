@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766735841768,
+  "lastUpdate": 1766735854605,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -35987,6 +35987,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 969.94,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e5ee9fbd132fffe0df26ff25eb85cc92ff6aee14",
+          "message": "Improve JIT determinism on ARM64 and fix CI workflow\n\nJIT fixes for ARM64 (Apple Silicon):\n1. Add ISB (Instruction Synchronization Barrier) before executing JIT\n   code to ensure the CPU pipeline sees the latest generated code.\n2. Use SDIV for signed division operations instead of UDIV. The divmod\n   function was using UDIV for all division operations, which produced\n   incorrect results for signed integer division on ARM64.\n\nCI workflow fix:\n- Add GH_TOKEN to host-arm64 job to authenticate GitHub API calls\n- Fetch LATEST_RELEASE directly from API to avoid rate limiting\n- This fixes the artifact fetch failure where LATEST_RELEASE was unset\n\nThese changes improve pi test success rate on ARM64 from ~77% to ~95%.",
+          "timestamp": "2025-12-26T15:45:10+08:00",
+          "tree_id": "2fa753424bf89097395003156d38c2b0488162ca",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e5ee9fbd132fffe0df26ff25eb85cc92ff6aee14"
+        },
+        "date": 1766735853236,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1265,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 965.098,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
