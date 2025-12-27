@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766818391844,
+  "lastUpdate": 1766819495184,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -37003,6 +37003,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 965.014,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "69d4742b8ae1f510bd7bdd59d3fdabd934bd2804",
+          "message": "CI: Migrate host-arm64 to native GitHub ARM runners",
+          "timestamp": "2025-12-27T06:18:51Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/648/commits/69d4742b8ae1f510bd7bdd59d3fdabd934bd2804"
+        },
+        "date": 1766819493673,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1336,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 966.52,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
