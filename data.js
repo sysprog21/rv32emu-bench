@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766862076573,
+  "lastUpdate": 1766862081526,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -37289,6 +37289,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 969.298,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2bab62c44fef964a6d3d0718e2d87173e5e3c82c",
+          "message": "Add ISB barrier for T2C execution path on ARM64\n\nThe tier-2 JIT (T2C) execution path was missing the ISB barrier that\ntier-1 paths have. Without this barrier, the CPU instruction pipeline\nmay execute stale instructions from the cache when running newly\ncompiled T2C code, causing non-deterministic computation results.\n\nThis completes the cache coherency fixes for JIT on ARM64, ensuring\ninstruction cache synchronization before executing any JIT-compiled\ncode.\n\nTest results after fix:\n- Sequential execution: 500/500 pass (100%)\n- Parallel execution (8 workers): 200/200 pass (100%)",
+          "timestamp": "2025-12-28T02:51:00+08:00",
+          "tree_id": "689c222940d533adf4096b6d3cb9d333316bd6ad",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2bab62c44fef964a6d3d0718e2d87173e5e3c82c"
+        },
+        "date": 1766862080372,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1295,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 934.422,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
