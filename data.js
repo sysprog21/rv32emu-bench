@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766807005342,
+  "lastUpdate": 1766807217125,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36811,6 +36811,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 961.453,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "1270c75ef7509b54547557ef04af19029f9f357c",
+          "message": "Fix JIT non-determinism and thread safety on Arm64\n\nThis commit addresses multiple JIT issues on Arm64/Apple Silicon:\n\nRegister Allocation:\n- Fix register allocation for three-operand instructions to avoid\n  clobbering source registers before all operands are read\n- Fix register allocation in fused multiply-add instructions\n\nCache Coherency:\n- Batch W^X protection toggling in jit_enter/exit_write_mode to avoid\n  rapid toggling that causes cache coherency issues on Apple Silicon\n- Add proper ISB barrier in T2C (hot2) path after atomic acquire fence\n  to synchronize instruction stream for code compiled by background thread\n- Extend cache maintenance (sys_icache_invalidate + DSB + ISB) to all\n  Arm64 platforms after patching branch immediates, not just Apple\n\nThread Safety:\n- Make jit_write_mode thread-local since pthread_jit_write_protect_np\n  operates per-thread; shared flag caused race conditions\n- Add proper memory barriers in T2C compilation path with release\n  semantics pairing with acquire in execution path\n- Initialize T2C queue before starting compiler thread to prevent\n  race condition during startup\n\nDeterminism:\n- Use explicit register mapping for VM registers to ensure consistent\n  code generation across runs\n- Add sign extension (emit_sxtw) for proper 32-bit to 64-bit conversion\n  on Arm64 when loading from memory",
+          "timestamp": "2025-12-27T11:38:44+08:00",
+          "tree_id": "f09a9d0e8e391d102a76298be94d36cda11e2844",
+          "url": "https://github.com/sysprog21/rv32emu/commit/1270c75ef7509b54547557ef04af19029f9f357c"
+        },
+        "date": 1766807215618,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1309,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 968.192,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
