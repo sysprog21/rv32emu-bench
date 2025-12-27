@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766807260426,
+  "lastUpdate": 1766817134223,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -36875,6 +36875,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 941.827,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "b157953c9e656eac06b54844c07dd1e980a553b4",
+          "message": "Fix JIT non-determinism and thread safety on Arm64\n\nAddress cache coherency and thread safety issues in the JIT compiler\nthat caused non-deterministic execution failures on Apple Silicon.\n\nKey changes:\n- Add thread-local JIT write mode tracking to batch write protection\n  toggling. Rapid toggling of pthread_jit_write_protect_np can cause\n  cache coherency issues on Apple Silicon.\n- Add acquire barrier in tier-2 JIT execution path to ensure proper\n  visibility of compiled code after seeing hot2=true flag.\n- Add ISB (instruction synchronization barrier) before executing JIT\n  code on aarch64 to ensure instruction cache coherency.\n- Refactor branch patching to separate write protection handling from\n  instruction modification, reducing redundant protection toggles.\n- Add DP2_SDIV opcode and emit_sxtw helper for signed operations.\n\nThe write mode is thread-local because pthread_jit_write_protect_np\noperates per-thread; a shared flag would cause race conditions if\nmultiple threads translate simultaneously.",
+          "timestamp": "2025-12-27T14:23:36+08:00",
+          "tree_id": "f1ef258886261cc14ea17623d852b15b433000a2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b157953c9e656eac06b54844c07dd1e980a553b4"
+        },
+        "date": 1766817132991,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1339,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 962.436,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
