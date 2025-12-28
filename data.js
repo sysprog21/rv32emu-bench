@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766862081526,
+  "lastUpdate": 1766891954053,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -37323,6 +37323,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 934.422,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "533bbff3ebd2caaa4b20f49322cb2cfd29ce4523",
+          "message": "Fix emit_mov on ARM64 to preserve 64-bit values\n\nThe emit_mov function on ARM64 was using a 32-bit add instruction\n(ADD Wd, Wn, WZR) which zero-extends the result to 64 bits. This\ncaused sign-extended values to lose their upper 32 bits.\n\nFor signed multiply operations (mulh, mulhsu) and signed divide\noperations (div, rem), ra_load2_sext sign-extends the operands,\nbut the subsequent emit_mov calls were undoing this sign extension\nby zero-extending.\n\nFix by using 64-bit ORR with zero register (ORR Xd, XZR, Xm) which\nis the canonical MOV instruction for 64-bit registers and preserves\nall 64 bits including any sign extension.\n\nThis improves the JIT reliability on ARM64 from ~79% to ~96%.",
+          "timestamp": "2025-12-28T03:35:53+08:00",
+          "tree_id": "056ec909b37446c4a2f8bdaeec33a8499379deca",
+          "url": "https://github.com/sysprog21/rv32emu/commit/533bbff3ebd2caaa4b20f49322cb2cfd29ce4523"
+        },
+        "date": 1766891952724,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1337,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 967.659,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
