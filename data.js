@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766891956104,
+  "lastUpdate": 1766920447535,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -37387,6 +37387,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 956.96,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "63892231735623dc21942c59d2ddb09e4ccedb36",
+          "message": "Exclude R18 from JIT register allocation on ARM64\n\nR18 (x18) is the platform register on Apple and Windows ARM64, reserved\nfor OS/runtime use. Using it in JIT-generated code caused intermittent\nhangs (~6% failure rate) during Linux kernel boot tests in CI, as the\nOS could corrupt values stored in x18 at unpredictable times.\n\nThis also improves the comment to document:\n- R18 reservation on both Apple and Windows platforms\n- R16/R17 (IP0/IP1) behavior across BLR calls with linker veneers",
+          "timestamp": "2025-12-28T19:01:21+08:00",
+          "tree_id": "d2c7f12a4598616828c4503a586c2623b09c9a0d",
+          "url": "https://github.com/sysprog21/rv32emu/commit/63892231735623dc21942c59d2ddb09e4ccedb36"
+        },
+        "date": 1766920446045,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1311,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 968.351,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
