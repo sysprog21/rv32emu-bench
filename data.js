@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767000951223,
+  "lastUpdate": 1767000998010,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -37763,6 +37763,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.484,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "c536e6dc51f24c19eee6a8e14971cb98e5bf37a8",
+          "message": "CI: Parallelize architecture tests",
+          "timestamp": "2025-12-29T07:49:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/654/commits/c536e6dc51f24c19eee6a8e14971cb98e5bf37a8"
+        },
+        "date": 1767000996132,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1188,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 926.592,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
