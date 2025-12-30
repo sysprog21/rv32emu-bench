@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767113985890,
+  "lastUpdate": 1767113988320,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38613,6 +38613,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 928.522,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "d122cbdd73c52d3b9eacb207c9bc64afbc791b64",
+          "message": "Fix unsafe string handling in virtio-blk path\n\nThis replaces strcpy/strcat with snprintf for ~ path expansion in virtio\nblock device initialization. The original code used banned functions\nfrom CERT C Secure Coding guidelines.",
+          "timestamp": "2025-12-31T00:50:46+08:00",
+          "tree_id": "96f1cda7cb41c48fe4c59a0ae4943eb209e3d72a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d122cbdd73c52d3b9eacb207c9bc64afbc791b64"
+        },
+        "date": 1767113986555,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1307,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 932.675,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
