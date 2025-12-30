@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767097546389,
+  "lastUpdate": 1767097553662,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38459,6 +38459,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 968.564,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "068116cce615def3dcf203546e8eb6afd6d06479",
+          "message": "Address code review feedback for demand paging\n\n- Add 4GB size limit check in memory_new() to protect bitmap bounds\n- Improve signal handler documentation (POSIX.1-2008 safety)\n- Cap Emscripten builds to 512MB (no mmap support)\n- Improve non-MMAP fallback documentation",
+          "timestamp": "2025-12-30T20:17:12+08:00",
+          "tree_id": "f8aa8e60b88f8c9ccb7d99d20e2444db18c592af",
+          "url": "https://github.com/sysprog21/rv32emu/commit/068116cce615def3dcf203546e8eb6afd6d06479"
+        },
+        "date": 1767097552277,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1291,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 936.131,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
