@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767076329573,
+  "lastUpdate": 1767077311406,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38177,6 +38177,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 950.293,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "8ffa68a6f4437c2716f5ebda2f8a401114ecfe0b",
+          "message": "Implement demand paging for automatic memory management",
+          "timestamp": "2025-12-30T00:28:37Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/655/commits/8ffa68a6f4437c2716f5ebda2f8a401114ecfe0b"
+        },
+        "date": 1767077310089,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1313,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 970.744,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
