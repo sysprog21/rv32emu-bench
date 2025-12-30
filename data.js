@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767031599400,
+  "lastUpdate": 1767057549348,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38049,6 +38049,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 954.895,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "7aab37bb7e8f377359f2593dda8ede37343a381c",
+          "message": "Implement demand paging for automatic memory management\n\nThis replaces ENABLE_FULL4G with signal-based demand paging that\nprovides:\n- Automatic memory growth: pages allocated only when accessed\n- Minimal footprint: typical programs use 128KB-1MB vs 256MiB virtual\n- Incremental GC: unused zero-filled chunks reclaimed via madvise",
+          "timestamp": "2025-12-30T09:10:06+08:00",
+          "tree_id": "d088e4ea4fea0b7a40f26167efc64c0eb0023109",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7aab37bb7e8f377359f2593dda8ede37343a381c"
+        },
+        "date": 1767057547996,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1337,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 930.951,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
