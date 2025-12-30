@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767077311406,
+  "lastUpdate": 1767077324984,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38207,6 +38207,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 970.744,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "8ffa68a6f4437c2716f5ebda2f8a401114ecfe0b",
+          "message": "Implement demand paging for automatic memory management\n\nReplace ENABLE_FULL4G with signal-based demand paging that provides:\n- Automatic memory growth: pages allocated only when accessed\n- Minimal footprint: typical programs use 128KB-1MB vs 256MiB virtual\n- Incremental GC: unused zero-filled chunks reclaimed via madvise\n\nKey changes:\n- src/io.c: Demand paging via SIGSEGV/SIGBUS handlers with 64KB chunks,\n  bitmap tracking, atomic statistics, and safe unaligned memory access\n- src/emulate.c: Periodic memory_gc() calls for incremental reclaim\n- Makefile: USER_MEM_SIZE (default 256 MiB) replaces ENABLE_FULL4G\n- Non-MMAP fallback: 512MB cap for systems without mmap (Windows/Emscripten)\n\nMemory safety improvements (from Gemini/Codex reviews):\n- Atomic counters for signal handler statistics\n- memcpy for safe unaligned memory access (no strict aliasing UB)\n- Byte-wise is_region_zero to avoid alignment issues\n- Correct teardown ordering (restore handlers before munmap)\n- mprotect before madvise to prevent race conditions\n- PRIu64 for portable uint64_t formatting\n- Exclude Emscripten from HAVE_MMAP (no signal-based demand paging support)",
+          "timestamp": "2025-12-30T14:40:11+08:00",
+          "tree_id": "ec1f67179a9bfce142962c5316bbdb94cca5ff93",
+          "url": "https://github.com/sysprog21/rv32emu/commit/8ffa68a6f4437c2716f5ebda2f8a401114ecfe0b"
+        },
+        "date": 1767077323533,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1294,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 899.278,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
