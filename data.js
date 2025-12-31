@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767167529154,
+  "lastUpdate": 1767167538308,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38933,6 +38933,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 951.875,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a246478ef308f51e0face059e85a8195fa9b8b9d",
+          "message": "Fix initrd size handling for SDL-enabled rootfs\n\nThe prebuilt rootfs with SDL support (~27 MiB) exceeded the default\nINITRD_SIZE (8 MiB), causing segfaults during boot.\n- Auto-detect INITRD_SIZE from actual rootfs.cpio at build time,\n  with fallback to 32 MiB when artifact is unavailable\n- Add runtime validation in map_file() to prevent buffer overflow\n- Add memory layout check to prevent underflow when MEM_SIZE is small\n\nClose #585",
+          "timestamp": "2025-12-31T15:25:31+08:00",
+          "tree_id": "35a58e3455da94a012c38763b8e8518b2c4d2395",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a246478ef308f51e0face059e85a8195fa9b8b9d"
+        },
+        "date": 1767167536584,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1309,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 942.884,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
