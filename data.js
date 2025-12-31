@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767166928025,
+  "lastUpdate": 1767167529154,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38903,6 +38903,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 943.62,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "a246478ef308f51e0face059e85a8195fa9b8b9d",
+          "message": "Fix initrd size handling for SDL-enabled rootfs",
+          "timestamp": "2025-12-31T06:20:10Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/659/commits/a246478ef308f51e0face059e85a8195fa9b8b9d"
+        },
+        "date": 1767167527584,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1321,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 951.875,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
