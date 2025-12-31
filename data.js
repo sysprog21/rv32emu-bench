@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767152515518,
+  "lastUpdate": 1767152519057,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38681,6 +38681,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 928.693,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "0aaa830fc0bf3e527fe2a63bf89b7485d3fc4a46",
+          "message": "Emulate misaligned access in default trap handler",
+          "timestamp": "2025-12-31T02:13:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/657/commits/0aaa830fc0bf3e527fe2a63bf89b7485d3fc4a46"
+        },
+        "date": 1767152515331,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1300,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 931.966,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
