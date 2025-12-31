@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767113988320,
+  "lastUpdate": 1767152515518,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38647,6 +38647,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 932.675,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0aaa830fc0bf3e527fe2a63bf89b7485d3fc4a46",
+          "message": "Emulate misaligned access in default trap handler\n\nPreviously, the default trap handler simply skipped misaligned memory\ninstructions, which does not match real RISC-V hardware behavior. This\nchange properly emulates misaligned load/store operations by breaking\nthem into smaller aligned accesses.\n- Add emulate_misaligned_load() for lw, lh, lhu and compressed variants\n- Add emulate_misaligned_store() for sw, sh and compressed variants\n- Use fast-path with halfword operations for 2-byte aligned addresses\n- Fall back to byte operations for odd addresses\n- Add jit_misaligned_handler() for future JIT integration\n\nThe fast-path reduces I/O callback overhead by 50% for the common case\nof 2-byte aligned word accesses (2 halfword ops vs 4 byte ops).\n\nClose #528",
+          "timestamp": "2025-12-31T11:32:36+08:00",
+          "tree_id": "fb8557dba1954c2bc529d5f6fc88c2d15ac541e8",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0aaa830fc0bf3e527fe2a63bf89b7485d3fc4a46"
+        },
+        "date": 1767152513916,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1322,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 928.693,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
