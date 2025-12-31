@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767200223420,
+  "lastUpdate": 1767202359273,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39425,6 +39425,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 952.798,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "af241927b275795354bdeacb0571c578bef32c1b",
+          "message": "Handle MMU trap during block translation\n\nWhen mmu_ifetch returns 0 with is_trapped set (e.g., due to a page\nfault on instruction fetch), block_translate must return early to let\nthe trap handler run. Previously, the code would hit assert(insn)\ncausing the misalignment test to fail.\n\nAlso includes the earlier fix for MMU trap handling in ELF_LOADER\nmode where is_trapped checks were inside !ELF_LOADER conditionals.",
+          "timestamp": "2026-01-01T01:24:35+08:00",
+          "tree_id": "a3b4025698b1b3e02404a1877d5b3f4d88b83e26",
+          "url": "https://github.com/sysprog21/rv32emu/commit/af241927b275795354bdeacb0571c578bef32c1b"
+        },
+        "date": 1767202357904,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1278,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 937.819,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
