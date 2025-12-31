@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767163930057,
+  "lastUpdate": 1767166766448,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -38775,6 +38775,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 935.35,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "bb6d6db6a22f9eefa557554e4763c0ecb1a5ea96",
+          "message": "Add TLB for MMU address translation caching\n\nThis implements a 64-entry direct-mapped TLB to reduce page table walk\noverhead in system simulation mode.\n- Add tlb_entry_t structure with VPN, PPN, permissions (R/W/X/U), and\n  valid flag\n- Implement tlb_lookup with privilege mode checks (U-mode,\n  S-mode + SUM, MXR)\n- Update mmu_translate to use TLB as fast path before page table walks\n- Flush TLB on SATP CSR changes and SFENCE.VMA instruction\n- Clear TLB and reset csr_satp in rv_reset to prevent stale translations\n- Invalidate block cache on SFENCE.VMA (non-JIT mode) for PTE changes\n\nSuperpages are handled by storing each 4KB slice with its computed PPN,\navoiding the need to track page level in TLB entries.\n\nClose #500",
+          "timestamp": "2025-12-31T15:30:25+08:00",
+          "tree_id": "62497664302454d0f0c3964c7e9ae4f56e3a4d15",
+          "url": "https://github.com/sysprog21/rv32emu/commit/bb6d6db6a22f9eefa557554e4763c0ecb1a5ea96"
+        },
+        "date": 1767166765139,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1312,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 949.402,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
