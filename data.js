@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767177789247,
+  "lastUpdate": 1767185198307,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39121,6 +39121,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 945.366,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "9c719c853feae7ab2c7d7b3c199fe71154661c56",
+          "message": "Add safety checks for MMU translation failures\n\nTwo additional safety improvements for system emulation:\n\n1. mmu_ifetch: Add null/validity check after page table re-walk.\n   If the kernel's fault handler doesn't successfully map the page,\n   the re-walk might still return NULL or an invalid PTE. Previously\n   this would cause undefined behavior by dereferencing a null pointer.\n   Now we return 0 to indicate fetch failure.\n\n2. __trap_handler: Remove assertion that instruction must be non-zero.\n   mmu_ifetch can legitimately return 0 in several cases:\n   - A signal is pending (need_handle_signal set)\n   - Retranslation is needed (need_retranslate set)\n   - Page fault during instruction fetch (double fault scenario)\n\n   Instead of asserting, we now gracefully exit the trap handler loop\n   to let the main emulation loop handle these conditions appropriately.\n\nThese changes make the system emulation more robust when handling\nedge cases in memory translation and trap handling.",
+          "timestamp": "2025-12-31T20:38:02+08:00",
+          "tree_id": "79c5000c5cc17f800fcf44444814c816830c1f64",
+          "url": "https://github.com/sysprog21/rv32emu/commit/9c719c853feae7ab2c7d7b3c199fe71154661c56"
+        },
+        "date": 1767185196845,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1307,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 941.688,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
