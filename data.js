@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767208687507,
+  "lastUpdate": 1767208696766,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39583,6 +39583,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 942.13,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "79870ea75a5fc2fff7db5f5c13965a8170e1dbd4",
+          "message": "Add TLB for MMU address translation caching\n\nThis implements a 64-entry direct-mapped TLB to reduce page table walk\noverhead in system simulation mode.\n\nTLB implementation:\n- Direct-mapped cache indexed by VPN lower bits for O(1) lookup\n- Each entry stores VPN, PPN, permissions (R/W/X/U), and valid flag\n- Superpages handled by caching each 4KB slice with computed PPN\n- TLB flushed on SATP changes and SFENCE.VMA instruction\n- Block cache invalidated on SFENCE.VMA for PTE consistency\n\nPrivilege checking (symmetric in TLB and page walk paths):\n- U-mode can only access pages with PTE_U bit set\n- S-mode accessing U-page requires SUM=1 in sstatus\n- MXR bit handling for executable page reads\n\nClose #500",
+          "timestamp": "2026-01-01T03:09:03+08:00",
+          "tree_id": "b75d3baafe1c5a9b8eae8bf81e57a72a2c035b91",
+          "url": "https://github.com/sysprog21/rv32emu/commit/79870ea75a5fc2fff7db5f5c13965a8170e1dbd4"
+        },
+        "date": 1767208695070,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1292,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 943.876,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
