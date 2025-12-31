@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767198558927,
+  "lastUpdate": 1767200223420,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39395,6 +39395,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 957.302,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "6a6a57b97a1413719470b17ac4504c2b27802811",
+          "message": "Add TLB for MMU address translation caching",
+          "timestamp": "2025-12-31T14:17:17Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/660/commits/6a6a57b97a1413719470b17ac4504c2b27802811"
+        },
+        "date": 1767200222080,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1314,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 952.798,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
