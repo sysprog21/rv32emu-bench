@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767303214710,
+  "lastUpdate": 1767307787492,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40331,6 +40331,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 936.19,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "72d712bdd161f14a50259bde8bbc434fea7c29dd",
+          "message": "Implement SFENCE.VMA JIT block invalidation\n\nAdd proper JIT block invalidation for SFENCE.VMA instruction to ensure\ncorrect behavior when virtual memory mappings change:\n\n- Add 'invalidated' flag to block_t for explicit invalidation tracking\n- Implement cache_invalidate_satp() for global SFENCE.VMA (rs1=0)\n- Implement cache_invalidate_va() for address-specific SFENCE.VMA\n- Check invalidated flag in all block lookup paths (emulate.c, jit.c,\n  rv32_template.c)\n- Handle full block page range in VA invalidation (pc_start to pc_end)\n\nThe invalidated flag approach is safer than the previous ~satp trick\nwhich could resurrect stale blocks if SATP happens to become ~old_satp.\n\nAlso includes MMU refactoring in system.c for cleaner page table walks.",
+          "timestamp": "2026-01-02T06:41:26+08:00",
+          "tree_id": "572eb212762c3c88bb3b684362f294169264f5ac",
+          "url": "https://github.com/sysprog21/rv32emu/commit/72d712bdd161f14a50259bde8bbc434fea7c29dd"
+        },
+        "date": 1767307786088,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1314,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 931.472,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
