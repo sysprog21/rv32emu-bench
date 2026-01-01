@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767274782114,
+  "lastUpdate": 1767274784250,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40083,6 +40083,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 940.585,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "9756ea16856553e1b55f0e4adc39358e52645ffe",
+          "message": "Add TLB for MMU and fix trap handling\n\nThis implements TLB for faster address translation:\n- 64-entry direct-mapped TLB indexed by VPN for O(1) lookup\n- Caches VPN, PPN, permissions (R/W/X/U), and validity\n- Superpages handled by caching each 4KB slice with computed PPN\n- Flushed on SATP changes and SFENCE.VMA instruction\n- Block cache invalidated on SFENCE.VMA for JIT/PTE consistency\n\nPrivilege and permission checking:\n- U-mode can only access pages with PTE_U bit set\n- S-mode accessing U-page requires SUM=1 in sstatus\n- MXR bit handling for executable page reads\n\nELF_LOADER+SYSTEM mode fixes:\n- Fix stack alignment: use &= -16 (not &= 16) for 16-byte boundary\n- Add retry-after-trap in mmu_ifetch/mmu_translate: after page fault\n  handler returns, retry page walk to check if page was mapped\n- Add page fault trap generation for out-of-bounds memory access\n- Remove duplicate DTB dependencies from Makefile\n\nMisaligned instruction fetch trap handler fix:\n- Use sret instead of ret to properly exit trap mode\n- Set sepc to return address before sret\n- Matches behavior of misaligned load/store handlers\n\nClose #500",
+          "timestamp": "2026-01-01T21:30:52+08:00",
+          "tree_id": "65565db3052acfe8d251abae0a90dca5bf5bc7da",
+          "url": "https://github.com/sysprog21/rv32emu/commit/9756ea16856553e1b55f0e4adc39358e52645ffe"
+        },
+        "date": 1767274780671,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1258,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 916.513,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
