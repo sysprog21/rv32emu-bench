@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767267555922,
+  "lastUpdate": 1767267601330,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39925,6 +39925,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1007.413,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6c94fd37f3e186ea93270117e7822ea8d936430a",
+          "message": "Fix Linux boot failure by reverting emulate.c trap handling changes\n\nThe previous commit included extensive changes to trap handling logic\nin emulate.c that caused the Linux kernel to panic when running init:\n  \"Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b\"\n\nThis commit reverts emulate.c to master's logic while keeping only the\nminimal TLB flush calls needed for SATP changes. The key changes reverted:\n\n- Restored assert(insn) in instruction fetch loop\n- Removed complex insn=0 handling that broke kernel mode\n- Removed ELF_LOADER-specific trap handling modifications\n\nThe TLB flush stubs in system.c remain as no-ops, allowing future TLB\nimplementation without affecting current functionality.\n\nVerified:\n- mmu-test passes locally\n- Linux kernel boots without panic locally",
+          "timestamp": "2026-01-01T19:30:19+08:00",
+          "tree_id": "4b60e4216a020bb7d279f0d283531c9d581928a7",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6c94fd37f3e186ea93270117e7822ea8d936430a"
+        },
+        "date": 1767267599800,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1296,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 934.844,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
