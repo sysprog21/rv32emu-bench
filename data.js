@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767275177942,
+  "lastUpdate": 1767275238053,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40151,6 +40151,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 936.415,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "c1768060f5c9b3ea562514b3aed0302ac7bb1a24",
+          "message": "Fix gdbstub exit handling for fd close syscalls",
+          "timestamp": "2026-01-01T09:25:45Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/668/commits/c1768060f5c9b3ea562514b3aed0302ac7bb1a24"
+        },
+        "date": 1767275236319,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1263,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 938.854,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
