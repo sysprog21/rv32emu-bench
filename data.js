@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767266413274,
+  "lastUpdate": 1767266569180,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39865,6 +39865,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 938.637,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "f68042db494b91b344996dcd2d1f025e83f0c536",
+          "message": "Implement Goldfish RTC",
+          "timestamp": "2025-12-30T12:22:38Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/613/commits/f68042db494b91b344996dcd2d1f025e83f0c536"
+        },
+        "date": 1767266567280,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1291,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 934.808,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
