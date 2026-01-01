@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767269559150,
+  "lastUpdate": 1767269569351,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40019,6 +40019,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 930.391,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0194225ab413de5931b42a05e138d837917626d5",
+          "message": "Add TLB for MMU and fix trap handling\n\nThis implement TLB for faster address translation:\n- 64-entry direct-mapped TLB indexed by VPN for O(1) lookup\n- Caches VPN, PPN, permissions (R/W/X/U), and validity\n- Superpages handled by caching each 4KB slice with computed PPN\n- Flushed on SATP changes and SFENCE.VMA instruction\n- Block cache invalidated on SFENCE.VMA for JIT/PTE consistency\n\nPrivilege and permission checking:\n- U-mode can only access pages with PTE_U bit set\n- S-mode accessing U-page requires SUM=1 in sstatus\n- MXR bit handling for executable page reads\n\nELF_LOADER+SYSTEM mode fixes:\n- Fix stack alignment: use &= -16 (not &= 16) for 16-byte boundary\n- Add retry-after-trap in mmu_ifetch/mmu_translate: after page fault\n  handler returns, retry page walk to check if page was mapped\n- Add page fault trap generation for out-of-bounds memory access\n- Remove duplicate DTB dependencies from Makefile\n\nMisaligned instruction fetch trap handler fix:\n- Use sret instead of ret to properly exit trap mode\n- Set sepc to return address before sret\n- Matches behavior of misaligned load/store handlers\n\nThe TLB flush stubs in system.c remain as no-ops, allowing future TLB\nimplementation without affecting current functionality.\n\nClose #500",
+          "timestamp": "2026-01-01T19:53:47+08:00",
+          "tree_id": "4b60e4216a020bb7d279f0d283531c9d581928a7",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0194225ab413de5931b42a05e138d837917626d5"
+        },
+        "date": 1767269567559,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1296,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 913.13,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
