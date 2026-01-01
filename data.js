@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767269569351,
+  "lastUpdate": 1767274782114,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40053,6 +40053,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 913.13,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "9756ea16856553e1b55f0e4adc39358e52645ffe",
+          "message": "Add TLB for MMU and fix trap handling",
+          "timestamp": "2026-01-01T09:25:45Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/660/commits/9756ea16856553e1b55f0e4adc39358e52645ffe"
+        },
+        "date": 1767274780677,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1290,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 940.585,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
