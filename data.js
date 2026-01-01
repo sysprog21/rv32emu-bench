@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767256288080,
+  "lastUpdate": 1767256308560,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39707,6 +39707,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 995.286,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "fb3a0d6f34462718ec928572c9b353750a4d9165",
+          "message": "Fix system emulation segfault with proper MMU\n\nThe system emulation crashed with SIGBUS/SIGSEGV during Linux boot due\nto flawed bounds checking logic in MMU memory access functions.\n\nRoot cause: The condition 'addr == vaddr || addr < mem_size' incorrectly\npassed when MMU was disabled (satp=0) because addr == vaddr is always\ntrue, but address could still exceed memory bounds, causing out-of-bounds\nhost memory access.\n\nThe fix prevents buffer overflow on multi-byte accesses near memory\nboundaries by validating the full range [addr, addr+size).",
+          "timestamp": "2026-01-01T16:21:45+08:00",
+          "tree_id": "3e38502c7b7410abd78aaff7473bd795d71c9185",
+          "url": "https://github.com/sysprog21/rv32emu/commit/fb3a0d6f34462718ec928572c9b353750a4d9165"
+        },
+        "date": 1767256307156,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1312,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 947.936,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
