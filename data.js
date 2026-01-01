@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767254751345,
+  "lastUpdate": 1767256288080,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -39677,6 +39677,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 930.184,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "fb3a0d6f34462718ec928572c9b353750a4d9165",
+          "message": "Fix system emulation segfault with proper MMU",
+          "timestamp": "2026-01-01T07:11:16Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/666/commits/fb3a0d6f34462718ec928572c9b353750a4d9165"
+        },
+        "date": 1767256286368,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1603,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 995.286,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
