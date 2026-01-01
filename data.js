@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767274784250,
+  "lastUpdate": 1767275177942,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40117,6 +40117,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 916.513,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c1768060f5c9b3ea562514b3aed0302ac7bb1a24",
+          "message": "Fix gdbstub exit handling for fd close syscalls\n\nThis adds on_exit detection to rv_step_debug() to match the behavior in\nblock-based execution. Without this, syscall_close() logs ERROR when the\nguest program closes fd 0, 1, 2 during exit, causing gdbstub-test to\nfail on macOS CI.",
+          "timestamp": "2026-01-01T21:37:30+08:00",
+          "tree_id": "e5754d17c8cd6bab980a8e3e9ea2cd46bc5ec5e3",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c1768060f5c9b3ea562514b3aed0302ac7bb1a24"
+        },
+        "date": 1767275176557,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1316,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 936.415,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
