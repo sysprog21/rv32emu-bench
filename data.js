@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767390147909,
+  "lastUpdate": 1767390151585,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41467,6 +41467,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1015.922,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "873320c9ef4e7a275f03ea2c69cf984520841281",
+          "message": "Fix MMU page fault handling in JIT block-trans\n\nThe MMU test crashes with JIT enabled because block_translate() uses\nassert(insn) which fails when mem_ifetch returns 0 due to a page fault.\nIn system emulation mode, page faults during instruction fetch are valid\nconditions that should trigger trap handling, not assertions. Changes:\n- block_translate(): Replace assert(insn) with graceful break when\n  instruction fetch fails. Add assertion to verify trap state is\n  consistent (rv->is_trapped must be true when insn==0 in SYSTEM mode).\n- rv_step(): Handle trap-pending condition when block_find_or_translate\n  returns NULL. If rv->is_trapped is set, invoke trap_handler() and\n  continue execution instead of halting with fatal error.\n- rv_step_debug(): Add trap state verification and invoke trap_handler()\n  when instruction fetch fails due to page fault.\n\nThe fix ensures page faults during block translation are handled by the\ntrap mechanism rather than causing assertion failures.",
+          "timestamp": "2026-01-03T05:33:06+08:00",
+          "tree_id": "a698f32647fd83995ce32b06c678ea7acdb7feb9",
+          "url": "https://github.com/sysprog21/rv32emu/commit/873320c9ef4e7a275f03ea2c69cf984520841281"
+        },
+        "date": 1767390149396,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1645,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1006.825,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
