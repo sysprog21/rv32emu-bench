@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767379357105,
+  "lastUpdate": 1767390147909,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41437,6 +41437,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1012.048,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "873320c9ef4e7a275f03ea2c69cf984520841281",
+          "message": "Fix MMU page fault handling in JIT block-trans",
+          "timestamp": "2026-01-02T20:41:54Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/674/commits/873320c9ef4e7a275f03ea2c69cf984520841281"
+        },
+        "date": 1767390146439,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1651,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1015.922,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
