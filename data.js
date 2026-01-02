@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767321229906,
+  "lastUpdate": 1767324520250,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40587,6 +40587,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 939.923,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "074b03595f9d44b44a736c6272b047df78445076",
+          "message": "Refine build system with Kconfig integration\n\nBuild System Improvements:\n- Add mk/common.mk with reusable define templates (compile-rule,\n  test-framework, make-dir) reducing code duplication\n- Add mk/kconfig.mk for Kconfig menu integration with environment\n  detection\n- Refactor mk/tests.mk using test-framework template (~50% reduction)\n- Refactor mk/external.mk with unified download/verify patterns\n\nKconfig Enhancements:\n- Add BUILD_TARGET choice menu (Native/WebAssembly) in configs/Kconfig\n- Add HAVE_EMCC detection via tools/detect-env.py --have-emcc\n- Auto-select CC=emcc when CONFIG_BUILD_WASM=y in mk/toolchain.mk\n- Add consistency warning when CC override conflicts with BUILD_WASM\n\nSource Code Simplification:\n- Simplify preprocessor conditionals in src/ based on Kconfig\n  constraints (JIT requires !EMCC, T2C requires JIT, etc.)\n- Replace nested #if with flattened logic where Kconfig guarantees\n  valid combinations",
+          "timestamp": "2026-01-02T11:20:00+08:00",
+          "tree_id": "411e029674918283508466d490280104aad87083",
+          "url": "https://github.com/sysprog21/rv32emu/commit/074b03595f9d44b44a736c6272b047df78445076"
+        },
+        "date": 1767324518609,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1316,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 945.894,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
