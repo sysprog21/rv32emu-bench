@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767331515956,
+  "lastUpdate": 1767331674455,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40903,6 +40903,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 929.147,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "ae978ec7287f368b7c4b7801676e651900f914a4",
+          "message": "Add instruction fusion patterns with SYSTEM_MMIO\n\nThis implements new macro-operation fusion patterns to reduce instruction\ndispatch overhead:\n- fuse6: LI a7, imm + ECALL -> Fused syscall dispatch\n  Optimizes common syscall prologue pattern where the syscall number is\n  loaded into a7 immediately before ecall. The handler correctly sets\n  rv->PC to the ECALL address (PC+4) for proper trap handling.\n- fuse7: Multiple consecutive ADDI -> Batched register updates\n  Fuses sequences of ADDI instructions to reduce dispatch overhead.\n- fuse8: LUI + ADDI -> 32-bit constant load (li pseudo-instruction)\n  Fuses the standard two-instruction sequence for loading 32-bit imm,\n  computing the result at decode time for JIT.\n\nLazy LW/SW fusion for SYSTEM_MMIO mode:\nWhen running in kernel boot mode (SYSTEM && !ELF_LOADER), memory ops may\ntarget MMIO regions with side effects, adding hybrid decode/execution\nfusion approach:\n  - At decode time: Mark consecutive LW/SW as \"fusion candidates\"\n  - At execution time: Verify addresses are RAM via GUEST_RAM_CONTAINS()\n  - If safe: Perform fusion; otherwise mark as failed (never retry)\n\n  Safety guards implemented:\n  - MMU guard: Disable lazy fusion when satp != 0 (virtual addresses)\n  - Hotness threshold: Only attempt after n_invoke >= 8\n  - Base register mutation: O(1) bitmask check for preceding writes\n  - Pointer chasing: Detect intra-sequence LW dependencies\n  - Overlapping candidates: Skip past sequence after marking\n  - Fused write tracking: Track all rd values before each fusion\n\n  Data structures added to block_t (SYSTEM_MMIO only):\n  - lazy_fusion_candidate_t array (max 8 candidates, ~136 bytes/block)\n  - lazy_fusion_done flag for finalization\n\nPerformance measurements:\n\n  NVIDIA Jetson AGX Orin (ARM Cortex-A78AE):\n  ------------------------------------------\n  Interpreter mode:\n  Benchmark       Baseline    With Fusion    Improvement\n  -----------     --------    -----------    -----------\n  fibonacci       45.40s      41.78s         +7.9%\n\n  JIT mode:\n  Benchmark       Baseline    With Fusion    Improvement\n  -----------     --------    -----------    -----------\n  fibonacci       44.60s      33.45s         +25.0%\n  jit-bf          0.86s       0.52s          +39.5%\n\nThe significant speedup on compute-bound benchmarks demonstrates the\neffectiveness of macro-operation fusion. The fuse8 pattern (LUI+ADDI)\nis particularly effective as it eliminates a full instruction dispatch\nfor every 32-bit constant load. The Orin results show even larger gains\n(+25% to +39.5% in JIT mode) on server-class ARM cores.\n\nVerified build configurations:\n  - make ENABLE_MOP_FUSION=1\n  - make ENABLE_JIT=1 ENABLE_MOP_FUSION=1\n  - make ENABLE_SYSTEM=1 ENABLE_MOP_FUSION=1\n  - make ENABLE_SYSTEM=1 ENABLE_JIT=1 ENABLE_MOP_FUSION=1\n\nAll tests pass in interpreter, JIT, and SYSTEM modes on both platforms.\n\nClose #298",
+          "timestamp": "2026-01-02T13:17:26+08:00",
+          "tree_id": "d39968d9ac390944cf0440e340e1e4250b28d514",
+          "url": "https://github.com/sysprog21/rv32emu/commit/ae978ec7287f368b7c4b7801676e651900f914a4"
+        },
+        "date": 1767331672968,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1285,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 906.228,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
