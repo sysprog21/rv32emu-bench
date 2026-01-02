@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767342207519,
+  "lastUpdate": 1767342281462,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41001,6 +41001,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1014.344,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "8d2a9a9a07553c1e2e1f8d52541b07e9f3607c41",
+          "message": "Add instruction fusion patterns with SYSTEM_MMIO",
+          "timestamp": "2026-01-02T05:00:25Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/671/commits/8d2a9a9a07553c1e2e1f8d52541b07e9f3607c41"
+        },
+        "date": 1767342279348,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1268,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 932.556,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
