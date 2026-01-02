@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767316949514,
+  "lastUpdate": 1767316993824,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -40425,6 +40425,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 936.776,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "40449dc6d9647319399655dd876979d864a5f8e0",
+          "message": "Implement SFENCE.VMA JIT block invalidation and TLB\n\nThis adds proper JIT block invalidation for SFENCE.VMA instruction and\nimplements TLB caching for improved MMU performance:\n\nSFENCE.VMA support:\n- Add 'invalidated' flag to block_t for explicit invalidation tracking\n- Implement cache_invalidate_satp() for global SFENCE.VMA (rs1=0)\n- Implement cache_invalidate_va() for address-specific SFENCE.VMA\n- Check invalidated flag in all block lookup paths\n- Fix page boundary calculation using (pc_end - 1) for last byte\n\nTLB implementation:\n- Add dtlb_lookup/dtlb_populate for data access translations\n- Add itlb_lookup/itlb_populate for instruction fetch translations\n- Integrate TLB fast path into mmu_translate and mmu_ifetch\n- Proper PPN extraction from Sv32 PTE format\n\nBug fixes:\n- Set need_handle_signal in ELF_LOADER mode for proper retry",
+          "timestamp": "2026-01-02T09:13:28+08:00",
+          "tree_id": "e310f48e8763028b171147e1070e40108982bbda",
+          "url": "https://github.com/sysprog21/rv32emu/commit/40449dc6d9647319399655dd876979d864a5f8e0"
+        },
+        "date": 1767316992271,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1125,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 869.358,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
