@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767351855976,
+  "lastUpdate": 1767363192627,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41159,6 +41159,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 932.79,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c0adf3e0e159b9f23ccbdcec2187e53aaaae83cf",
+          "message": "Add instruction fusion patterns and RAM fast-path\n\nThis implements new macro-operation fusion patterns and memory access\noptimizations to reduce instruction dispatch overhead:\n- fuse6: LI a7, imm + ECALL -> Fused syscall dispatch\n- fuse7: Multiple consecutive ADDI -> Batched register updates\n- fuse8: LUI + ADDI -> 32-bit constant load (li pseudo-instruction)\n- fuse9: LUI + LW -> Absolute/PC-relative word load\n  Fuses upper immediate load with word load for global variable access.\n- fuse10: LUI + SW -> Absolute/PC-relative word store\n  Fuses upper immediate load with word store for global variable writes.\n- fuse11: LW + ADDI (post-increment) -> Load with pointer bump\n  Fuses load followed by base register increment, common in memcpy/strlen.\n  Constraint: rd != rs1 prevents base clobbering before address use.\n- fuse12: ADDI + BNE -> Loop counter decrement-branch\n  Fuses counter decrement with conditional branch for countdown loops.\n  Preserves branch_taken/branch_untaken for block chaining.\n\nRAM fast-path optimization (non-SYSTEM mode):\nIn userspace emulation, memory accesses always target RAM, making I/O\ncallback indirection pure overhead. Added inline functions that bypass\nthe function pointer dispatch:\n- ram_read_w/s/b(): Direct memory read via memcpy (safe for unaligned)\n- ram_write_w/s/b(): Direct memory write via memcpy\n- MEM_READ/WRITE macros: Conditional dispatch based on SYSTEM mode\n\nAll load/store instructions (lb, lh, lw, lbu, lhu, sb, sh, sw) and their\ncompressed/float variants updated to use MEM_* macros.\n\nLazy LW/SW fusion for SYSTEM_MMIO mode (existing):\nWhen running in kernel boot mode, memory ops may target MMIO regions.\nHybrid decode/execution fusion verifies addresses are RAM before fusing.\n\nBenchmark results (interpreter mode, higher is better):\n\n  Dhrystone (DMIPS):\n  Machine          Arch      Baseline    Improved    Change\n  -------          ----      --------    --------    ------\n  Xeon E5-2650     x86-64    1041        1398        +34.3%\n  Jetson Orin      aarch64   1022        1208        +18.2%\n\n  CoreMark (Iterations/Sec):\n  Machine          Arch      Baseline    Improved    Change\n  -------          ----      --------    --------    ------\n  Xeon E5-2650     x86-64    799.66      843.50      +5.5%\n  Jetson Orin      aarch64   755.11      793.07      +5.0%\n\nThe RAM fast-path eliminates ~5-10 cycles of indirect call overhead per\nmemory access. Combined with new fusion patterns, this yields significant\nspeedups especially on x86-64 where deeper pipelines benefit more from\nreduced dispatch overhead.\n\nVerified build configurations:\n  - make (default interpreter)\n  - make ENABLE_JIT=1\n  - make ENABLE_SYSTEM=1\n  - make ENABLE_SYSTEM=1 ENABLE_JIT=1\n\nClose #298",
+          "timestamp": "2026-01-02T21:58:50+08:00",
+          "tree_id": "b10215d2659afb41aa58874a22f0d30291c7dcde",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c0adf3e0e159b9f23ccbdcec2187e53aaaae83cf"
+        },
+        "date": 1767363190934,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1654,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1017.645,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
