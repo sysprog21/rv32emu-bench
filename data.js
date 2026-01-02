@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767363264611,
+  "lastUpdate": 1767366487269,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41223,6 +41223,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 921.793,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6f5c90b54f5147949ab93f65cdfd3568b4fa842f",
+          "message": "Add instruction fusion patterns and RAM fast-path\n\nIntroduce fuse9-12 patterns for common instruction sequences:\n- fuse9: LUI+LW (absolute address load)\n- fuse10: LUI+SW (absolute address store)\n- fuse11: LW+ADDI (post-increment load)\n- fuse12: ADDI+BNE (loop counter pattern)\n\nAdd RAM fast-path functions for non-SYSTEM mode to bypass io callback\nindirection, eliminating ~5-10 cycles per memory access.\n\nFix signed integer overflow UB in fuse8/9/10 by casting ir->imm and\nir->imm2 to uint32_t before addition. This matches RISC-V wrapping\nsemantics and avoids undefined behavior when LUI produces INT32_MIN.",
+          "timestamp": "2026-01-02T22:54:58+08:00",
+          "tree_id": "5dab05eb48efd469b4aff5aed188d00d4a20d9ee",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6f5c90b54f5147949ab93f65cdfd3568b4fa842f"
+        },
+        "date": 1767366485455,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1912,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1047.338,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
