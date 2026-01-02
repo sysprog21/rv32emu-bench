@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767363192627,
+  "lastUpdate": 1767363264611,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41193,6 +41193,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1017.645,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "c0adf3e0e159b9f23ccbdcec2187e53aaaae83cf",
+          "message": "Add instruction fusion patterns and RAM fast-path optimization",
+          "timestamp": "2026-01-02T05:00:25Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/671/commits/c0adf3e0e159b9f23ccbdcec2187e53aaaae83cf"
+        },
+        "date": 1767363262690,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1236,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 921.793,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
