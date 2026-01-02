@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767390151585,
+  "lastUpdate": 1767390202329,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41501,6 +41501,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1006.825,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "4ebffecdc3554c4f9aef8052c9495c8b11e54aa2",
+          "message": "Refine build system with Kconfig integration\n\nBuild System:\n- Add Kconfig-based configuration with menuconfig support\n- Modularize Makefile into focused mk/ includes\n- Add POSIX-compatible SHA verification (sha1sum/sha256sum/shasum)\n- Improve wget portability (detect --show-progress support)\n- Fix multi-word SHA commands with xargs instead of find -exec\n- Add atomic git clone for kconfig tools (removes partial clones)\n- Use $(dir $@) instead of $(shell dirname $@)\n\nCI/Workflow:\n- Skip release tag fetch when artifacts cached\n- Add conditional SDL/extension checks\n\nConfiguration:\n- Add defconfig/oldconfig/savedefconfig targets\n- Add named defconfigs (jit_defconfig, wasm_defconfig)\n- Generate rv32emu_config.h from Kconfig\n\nExternal Dependencies:\n- Unified download/extract/verify templates\n- Auto-detect archive type (.zip/.tar.gz)",
+          "timestamp": "2026-01-03T05:35:49+08:00",
+          "tree_id": "71d4617c7707e5166a1d349d1c22106724baedf7",
+          "url": "https://github.com/sysprog21/rv32emu/commit/4ebffecdc3554c4f9aef8052c9495c8b11e54aa2"
+        },
+        "date": 1767390200197,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1900,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1041.202,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
