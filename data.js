@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767478520792,
+  "lastUpdate": 1767480510742,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42667,6 +42667,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 964.254,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "7a653602fc645bf3ffecad40ba647c0bfbe0fced",
+          "message": "Refine artifact build system\n\n- Add HTTP tool abstraction (prefer curl, fallback to wget)\n  * Fixes macOS CI where wget is unavailable by default\n  * Error if neither curl nor wget is available\n- Fix check-sentinels logic for multiple checksum files\n  * Previous: returned non-empty if ANY file existed\n  * Fixed: return \"yes\" only when ALL files exist\n- Add gdbstub-test to ARTIFACT_TARGETS and artifact dependency\n  * Ensures prebuilt binaries are fetched before gdbstub test runs\n  * Fixes CI failure where puzzle ELF was not found",
+          "timestamp": "2026-01-04T06:40:37+08:00",
+          "tree_id": "8439c627543525b6e75b9f5b753eae829d3ea281",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7a653602fc645bf3ffecad40ba647c0bfbe0fced"
+        },
+        "date": 1767480508924,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1642,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 959.083,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
