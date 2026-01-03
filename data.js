@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767462546484,
+  "lastUpdate": 1767478507528,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42603,6 +42603,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 995.809,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "beb5dc5dce7d31e5e84cc308c4d7979dd47ce22e",
+          "message": "Refine artifact build system\n\nThis consolidates prebuilt artifact handling with unified mode config:\n- Introduce ACTIVE_* variables to eliminate repeated mode checks\n- Centralize GitHub URLs into single PREBUILT_REPO source of truth\n- Add stamp files (.stamp-prebuilt, .stamp-linux-image, .stamp-sail)\n  to track successful artifact fetches\n- Fix re-fetch path to use $(BIN_DIR) instead of hardcoded 'build/'\n- Add re-verification after re-fetch before creating stamp file\n- Handle edge case where checksum files exist but are empty\n- Clean up distclean target to remove stamp and verify files",
+          "timestamp": "2026-01-04T06:06:37+08:00",
+          "tree_id": "19641426b615ad350fe3e019b6cdcd7c3b4dcd45",
+          "url": "https://github.com/sysprog21/rv32emu/commit/beb5dc5dce7d31e5e84cc308c4d7979dd47ce22e"
+        },
+        "date": 1767478505937,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1625,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 961.156,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
