@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767448817556,
+  "lastUpdate": 1767449936397,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42313,6 +42313,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1007.092,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e228af4d459e497f9cd52b9520210eb3cc0ca679",
+          "message": "Fix scause handling in MMU test\n\nThis resolves incorrect CAUSE_* macro definitions that used bit-shifted\nvalues instead of raw scause register values. The RISC-V privilege spec\ndefines scause values as 12 (instruction page fault), 13 (load page\nfault), and 15 (store page fault), not their bit positions.\n\nIt adds documentation explaining the Sv32 two-level page table, PTE flag\nbits, and the demand paging test flow.\n\nIt fixes missing PTE_G (Global) flags on kernel megapage mappings, which\nshould be set for mappings that exist across all address spaces.",
+          "timestamp": "2026-01-03T22:11:47+08:00",
+          "tree_id": "7c9df8e3b59d11dee6e80b0908a889efe31ba88a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e228af4d459e497f9cd52b9520210eb3cc0ca679"
+        },
+        "date": 1767449934073,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1895,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1050.439,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
