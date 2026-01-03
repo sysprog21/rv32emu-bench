@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767461055901,
+  "lastUpdate": 1767462546484,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42569,6 +42569,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1004.235,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "1616a767973a24a5ed7d123e6c1f878e8c1c7f61",
+          "message": "perf: block-level cycle counting and cross-block threading\n\nTwo interpreter optimizations:\n\n1. Block-Level Cycle Counting:\n   - Move cycle increment from per-instruction to per-block entry\n   - Capture cycle_cost = n_insn before fusion (original count)\n   - Remove cycle++ from RVOP macro\n   - Remove cycle increments from all 12 fused handlers\n   - Expected gain: 3-5% by eliminating per-insn overhead\n\n2. Cross-Block Threading for Fall-Throughs:\n   - Chain non-branch fall-through blocks via ir->next pointer\n   - Previously only branch_taken/untaken were used for chaining\n   - Proper cleanup of next pointers during block eviction\n   - Expected gain: 10-15% for sequential code paths",
+          "timestamp": "2026-01-04T01:41:54+08:00",
+          "tree_id": "f2ffba3eb4971d026720f82f1fce0fcba8d988bd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/1616a767973a24a5ed7d123e6c1f878e8c1c7f61"
+        },
+        "date": 1767462544994,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1744,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 995.809,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
