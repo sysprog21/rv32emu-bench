@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767448785741,
+  "lastUpdate": 1767448817556,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42283,6 +42283,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1001.175,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "0cf9780e011dff0f6d7d968ec646313035183330",
+          "message": "Fix scause handling in MMU test",
+          "timestamp": "2026-01-03T11:01:58Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/681/commits/0cf9780e011dff0f6d7d968ec646313035183330"
+        },
+        "date": 1767448815767,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1648,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1007.092,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
