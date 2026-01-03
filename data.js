@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767413095142,
+  "lastUpdate": 1767413613412,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -41971,6 +41971,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 962.02,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "817697c805407e8c2c02ef0086e1aba9a4aeb310",
+          "message": "Refine build system with Kconfig integration",
+          "timestamp": "2026-01-03T03:49:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/670/commits/817697c805407e8c2c02ef0086e1aba9a4aeb310"
+        },
+        "date": 1767413611568,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1650,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1006.039,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
