@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767444980570,
+  "lastUpdate": 1767445001682,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42215,6 +42215,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 999.465,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0e1d73eac4dd4a08fc5f111125a6c34c9f78378b",
+          "message": "Refine build system with Kconfig integration\n\nThis introduces a modular, Kconfig-based build system that improves\nmaintainability and user experience.\n\nBuild System Architecture:\n- Modularize Makefile into mk/*.mk components:\n  - common.mk: Shared utilities, feature macros, test framework\n  - kconfig.mk: Configuration menu and .config management\n  - toolchain.mk: Compiler detection (GCC/Clang/Emscripten)\n  - deps.mk: Dependency checking with SKIP_DEPS_CHECK optimization\n  - artifact.mk: Prebuilt binary handling with SHA verification\n  - external.mk: External data (Doom, Quake, Linux kernel)\n  - tests.mk: Test suite with parallel execution support\n  - tools.mk: Development tools (histogram, formatting)\n\n- Require explicit 'make defconfig' instead of parse-time generation\n  - Eliminates network calls during Makefile parsing\n  - Shows clear error message with configuration options\n  - Supports named configs: jit_defconfig, wasm_defconfig\n\nCode Improvements:\n- Add RV32_FEATURE_SYSTEM_MMIO derived feature macro, replacing\n  RV32_HAS(SYSTEM) && !RV32_HAS(ELF_LOADER)\n\n- Add detect-env.py for environment detection:\n  - Compiler type detection (GCC/Clang/Emscripten)\n  - Library availability (SDL2, LLVM 18, RISC-V toolchain)",
+          "timestamp": "2026-01-03T20:48:17+08:00",
+          "tree_id": "3a818a8bffa3e77bb2dc249513fae8c65e757507",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0e1d73eac4dd4a08fc5f111125a6c34c9f78378b"
+        },
+        "date": 1767445000122,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1556,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 969.376,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
