@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767480521804,
+  "lastUpdate": 1767502004840,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -42731,6 +42731,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 966.153,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2291327ec35c458db2236a8dc420079d912ff32b",
+          "message": "Refine artifact build system\n\nThis addresses regressions in the artifact fetching and verification:\n1. HTTP tool portability (curl/wget):\n   - Add unified HTTP wrapper macros (HTTP_GET, HTTP_DOWNLOAD,\n     HTTP_DOWNLOAD_QUIET)\n   - Prefer curl with wget fallback for cross-platform compatibility\n   - Detect wget --show-progress support for progress indication\n2. Sentinel verification fix:\n   - Fix check-sentinels macro that incorrectly returned \"yes\" when ANY\n     checksum file existed instead of requiring ALL files to be present\n   - Use foreach/if pattern to emit \"x\" for each MISSING file\n3. Add gdbstub-test to ARTIFACT_TARGETS:\n   - gdbstub-test now properly triggers artifact fetching\n   - Add 'artifact' as dependency in Makefile for gdbstub-test target\n4. GitHub API rate limiting fix:\n   - Add GH_TOKEN environment variable support for authenticated API calls\n   - Avoids 60 requests/hour rate limit for unauthenticated requests\n   - CI environments provide GH_TOKEN automatically via GITHUB_TOKEN secret",
+          "timestamp": "2026-01-04T12:37:59+08:00",
+          "tree_id": "2dd1cd8e68f755792f7f20e7bcdf58884d3d7cb5",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2291327ec35c458db2236a8dc420079d912ff32b"
+        },
+        "date": 1767502003260,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1611,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 968.423,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
