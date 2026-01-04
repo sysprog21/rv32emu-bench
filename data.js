@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767531158944,
+  "lastUpdate": 1767534316856,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43013,6 +43013,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 963.76,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "58f68309216f9d473be11846784a291cc2d3629a",
+          "message": "Refine artifact build system",
+          "timestamp": "2026-01-04T12:42:54Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/685/commits/58f68309216f9d473be11846784a291cc2d3629a"
+        },
+        "date": 1767534315127,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1633,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 960.891,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
