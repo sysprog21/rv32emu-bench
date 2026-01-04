@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767534316856,
+  "lastUpdate": 1767534324906,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43043,6 +43043,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 960.891,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "58f68309216f9d473be11846784a291cc2d3629a",
+          "message": "Refine artifact build system\n\nThis commit addresses multiple regressions in the artifact fetching and\nverification logic:\n\n1. HTTP tool portability (curl/wget):\n   - Extract unified HTTP macros to mk/http.mk for shared use\n   - Prefer curl with wget fallback for cross-platform compatibility\n   - Add retry logic (--retry 3 --retry-delay 2) for reliability\n   - Detect wget --show-progress support for progress indication\n\n2. Sentinel verification fix:\n   - Fix check-sentinels macro that incorrectly returned \"yes\" when ANY\n     checksum file existed instead of requiring ALL files to be present\n   - Use foreach/if pattern to emit \"x\" for each MISSING file\n\n3. Add gdbstub-test to ARTIFACT_TARGETS:\n   - gdbstub-test now properly triggers artifact fetching\n   - Add 'artifact' as dependency in Makefile for gdbstub-test target\n\n4. GitHub API rate limiting fix:\n   - Add GH_TOKEN environment variable support for authenticated API calls\n   - Avoids 60 requests/hour rate limit for unauthenticated requests\n   - CI environments provide GH_TOKEN automatically via GITHUB_TOKEN secret\n\n5. External data download reliability:\n   - Use shared HTTP macros for DOOM/QUAKE/Timidity downloads\n   - Add retry logic to prevent transient download failures in CI\n\n6. CI test loop optimization:\n   - Add 'cleanconfig' target that preserves artifacts while cleaning\n     build objects and config files\n   - Replace 'distclean' with 'cleanconfig' in CI test loops to prevent\n     redundant artifact re-downloads (eliminates ~55 downloads per run)\n   - Add artifact caching to macOS-arm64 job for faster CI execution\n\nThese changes ensure reliable artifact fetching across different CI\nenvironments and platforms (Ubuntu, macOS ARM64).",
+          "timestamp": "2026-01-04T21:37:09+08:00",
+          "tree_id": "8050cb9030d9e844f33d0683fa8cb2ae8528f822",
+          "url": "https://github.com/sysprog21/rv32emu/commit/58f68309216f9d473be11846784a291cc2d3629a"
+        },
+        "date": 1767534323051,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1639,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 964.147,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
