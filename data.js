@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767560064085,
+  "lastUpdate": 1767578772491,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43201,6 +43201,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 958.749,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "d8129e5936db132184b3041a50c5e8a2d375ba80",
+          "message": "Refactor JIT code generation infrastructure",
+          "timestamp": "2026-01-05T01:33:53Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/687/commits/d8129e5936db132184b3041a50c5e8a2d375ba80"
+        },
+        "date": 1767578770500,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1901,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 1016.605,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
