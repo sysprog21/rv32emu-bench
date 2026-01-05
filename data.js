@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767578772491,
+  "lastUpdate": 1767578794766,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43231,6 +43231,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 1016.605,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "d8129e5936db132184b3041a50c5e8a2d375ba80",
+          "message": "Refactor JIT code generation infrastructure\n\nThis refactors JIT code generation by:\n1. Simplifying RVOP macro from 3 to 2 parameters, removing now-unused\n   DSL-based GEN blocks from rv32_template.c.\n   This eliminates ~1300 lines of dead code that was obsoleted when\n   rv32_jit.c was added (commit 9cd48ea).\n2. Introducing JIT helper macros in rv32_jit.c to reduce duplication:\n   - GEN_BRANCH/GEN_CBRANCH for conditional branches\n   - GEN_ALU_IMM/GEN_ALU_REG for arithmetic operations\n   - GEN_SHIFT_IMM/GEN_SHIFT_REG for shift operations\n   - GEN_SLT_IMM/GEN_SLT_REG for set-less-than operations\n   - GEN_LOAD/GEN_STORE for memory operations with MMIO support\n3. Adding symbolic constants (JCC_*) in jit.h for jump condition codes,\n   improving cross-architecture clarity.\n4. Removing the deprecated gen-jit-template.py that was no longer used\n   after the manual JIT handler approach was adopted.\n\nThe interpreter and JIT now have clear separation of concerns:\n- rv32_template.c: Pure interpreter semantics\n- rv32_jit.c: Native code generation with helper macros\n\nClose #511",
+          "timestamp": "2026-01-05T09:09:18+08:00",
+          "tree_id": "b5f1471f9fd83f4a281c1de4ec5c88d116076f09",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d8129e5936db132184b3041a50c5e8a2d375ba80"
+        },
+        "date": 1767578792918,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1615,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 961.802,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
