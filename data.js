@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767647222183,
+  "lastUpdate": 1767863618253,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43330,6 +43330,40 @@ window.BENCHMARK_DATA = {
             "name": "CoreMark",
             "value": 1022.858,
             "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "7dad6676ad06456001eded1c55b42e0571a4ebdb",
+          "message": "Use memory pool for macro-op fusion arrays\n\nThis replaces malloc/free with mpool in macro-op fusion, eliminating\nper-allocation overhead and reduces memory fragmentation.\n\nThe fixed-size pool approach trades some memory (unused slot space for\nshort sequences) for allocation speed and cache locality. Sequences\nexceeding 16 instructions gracefully degrade to non-fused execution.",
+          "timestamp": "2026-01-08T17:04:56+08:00",
+          "tree_id": "42133175a46524bfad6078979b71b2924582f372",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7dad6676ad06456001eded1c55b42e0571a4ebdb"
+        },
+        "date": 1767863616393,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1623,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 998.988,
+            "unit": "Average iterations/sec over 10 runs"
           }
         ]
       }
