@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767863618253,
+  "lastUpdate": 1767864228483,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43364,6 +43364,36 @@ window.BENCHMARK_DATA = {
             "name": "Coremark",
             "value": 998.988,
             "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "7dad6676ad06456001eded1c55b42e0571a4ebdb",
+          "message": "Use memory pool for macro-op fusion arrays",
+          "timestamp": "2026-01-08T08:49:17Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/690/commits/7dad6676ad06456001eded1c55b42e0571a4ebdb"
+        },
+        "date": 1767864226572,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1657,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1017.224,
+            "unit": "iterations/sec"
           }
         ]
       }
