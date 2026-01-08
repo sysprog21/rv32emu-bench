@@ -29,7 +29,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.595,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -59,7 +59,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 981.191,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -89,7 +89,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.842,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -119,7 +119,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 994.537,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -153,7 +153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1131.669,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -183,7 +183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 999.025,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -213,7 +213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1134.029,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -243,7 +243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1132.121,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -273,7 +273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1133.984,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -303,7 +303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1005.696,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -333,7 +333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.475,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -363,7 +363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1098.546,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -393,7 +393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1131.483,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -423,7 +423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 998.528,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -453,7 +453,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1104.577,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -483,7 +483,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.557,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -513,7 +513,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.773,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -543,7 +543,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 933.034,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -573,7 +573,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1101.098,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -603,7 +603,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1103.815,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -633,7 +633,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1102.866,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -663,7 +663,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1010.928,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -693,7 +693,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1082.705,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -723,7 +723,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1202.143,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -753,7 +753,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1015.626,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -783,7 +783,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1060.277,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -813,7 +813,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1200.252,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -847,7 +847,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1059.54,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -881,7 +881,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1194.448,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -911,7 +911,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 987.419,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -945,7 +945,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.211,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -979,7 +979,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 984.096,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1009,7 +1009,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.574,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1043,7 +1043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 988.202,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1073,7 +1073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 813.513,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1103,7 +1103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 984.143,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1133,7 +1133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 836.547,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1163,7 +1163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 871.828,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1197,7 +1197,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1014.215,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1227,7 +1227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 872.683,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1261,7 +1261,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1014.908,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1295,7 +1295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 856.132,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1329,7 +1329,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1017.142,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1363,7 +1363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1021.535,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1397,7 +1397,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1024.827,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1427,7 +1427,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1024.756,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1461,7 +1461,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1023.706,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1495,7 +1495,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 897.752,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1529,7 +1529,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1020.681,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1563,7 +1563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1025.138,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1593,7 +1593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1023.061,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1623,7 +1623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1023.422,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1653,7 +1653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 855.891,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1683,7 +1683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 897.896,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1713,7 +1713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 929.887,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1743,7 +1743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1023.707,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1773,7 +1773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1024.352,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1803,7 +1803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 855.688,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1833,7 +1833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1024.476,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1863,7 +1863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 855.013,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1893,7 +1893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1022.821,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1923,7 +1923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1024.586,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1953,7 +1953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 896.982,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -1983,7 +1983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1023.585,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2013,7 +2013,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 861.432,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2043,7 +2043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1167.126,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2073,7 +2073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 991.182,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2103,7 +2103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1135.818,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2133,7 +2133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1257.61,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2163,7 +2163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1138.7,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2193,7 +2193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1255.403,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2227,7 +2227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1052.455,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2261,7 +2261,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1117.705,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2295,7 +2295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1242.639,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2325,7 +2325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1251.08,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2355,7 +2355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1134.673,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2385,7 +2385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1248.264,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2415,7 +2415,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1248.494,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2445,7 +2445,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1135.534,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2475,7 +2475,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1247.916,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2505,7 +2505,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1243.022,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2535,7 +2535,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1125.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2569,7 +2569,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1056.257,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2603,7 +2603,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1164.239,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2637,7 +2637,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1053.546,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2671,7 +2671,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1107.205,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2701,7 +2701,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.22,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2731,7 +2731,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1069.319,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2761,7 +2761,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1500.599,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2791,7 +2791,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1539.987,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2821,7 +2821,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1292.169,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2855,7 +2855,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1132.072,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2885,7 +2885,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1144.623,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2915,7 +2915,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1124.118,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2945,7 +2945,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1486.584,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -2975,7 +2975,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1485.616,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3005,7 +3005,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1474.369,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3035,7 +3035,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1481.281,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3065,7 +3065,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1155.8,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3095,7 +3095,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1478.631,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3125,7 +3125,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1149.915,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3155,7 +3155,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1431.712,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3185,7 +3185,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1443.153,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3215,7 +3215,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1431.286,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3249,7 +3249,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.212,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3279,7 +3279,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1435.919,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3309,7 +3309,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1447.526,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3339,7 +3339,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1437.66,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3369,7 +3369,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1436.513,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3399,7 +3399,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1434.4,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3429,7 +3429,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1447.863,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3459,7 +3459,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1442.523,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3489,7 +3489,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1443.45,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3519,7 +3519,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1518.021,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3549,7 +3549,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.036,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3579,7 +3579,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.229,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3609,7 +3609,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1525.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3639,7 +3639,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1514.876,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3669,7 +3669,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1520.096,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3699,7 +3699,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.162,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3729,7 +3729,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.547,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3759,7 +3759,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.048,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3789,7 +3789,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.358,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3819,7 +3819,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.749,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3849,7 +3849,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.177,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3879,7 +3879,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.361,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3909,7 +3909,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1492.39,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3939,7 +3939,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.745,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3969,7 +3969,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1488.265,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -3999,7 +3999,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.69,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4029,7 +4029,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.937,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4059,7 +4059,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.467,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4089,7 +4089,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1485.8,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4119,7 +4119,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1510.993,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4149,7 +4149,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.633,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4179,7 +4179,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1483.493,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4209,7 +4209,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.321,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4239,7 +4239,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.796,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4269,7 +4269,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.307,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4299,7 +4299,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.735,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4329,7 +4329,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.971,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4359,7 +4359,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1485.787,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4389,7 +4389,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1511.638,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4419,7 +4419,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.403,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4449,7 +4449,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1488.022,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4479,7 +4479,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.575,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4509,7 +4509,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4539,7 +4539,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.067,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4573,7 +4573,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1466.165,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4607,7 +4607,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1460.233,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4641,7 +4641,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1462.302,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4675,7 +4675,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1469.089,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4709,7 +4709,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1466.401,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4743,7 +4743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1475.885,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4777,7 +4777,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1453.167,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4811,7 +4811,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1475.659,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4845,7 +4845,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.573,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4875,7 +4875,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1475.146,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4905,7 +4905,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1474.449,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4935,7 +4935,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1468.952,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4965,7 +4965,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1512.029,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -4995,7 +4995,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1527.921,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5025,7 +5025,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1522.615,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5055,7 +5055,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1529.294,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5085,7 +5085,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1519.935,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5115,7 +5115,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1526.678,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5145,7 +5145,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1512.181,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5175,7 +5175,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.789,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5205,7 +5205,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1512.905,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5235,7 +5235,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1517.021,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5265,7 +5265,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1534.428,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5295,7 +5295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1523.871,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5325,7 +5325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1524.028,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5355,7 +5355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1519.533,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5385,7 +5385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1532.426,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5415,7 +5415,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1526.54,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5445,7 +5445,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1533.027,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5475,7 +5475,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1514.884,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5505,7 +5505,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1510.077,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5535,7 +5535,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1519.987,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5569,7 +5569,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1515.569,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5599,7 +5599,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1510.57,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5629,7 +5629,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1526.33,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5659,7 +5659,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1527.57,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5689,7 +5689,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1523.267,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5719,7 +5719,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1514.458,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5749,7 +5749,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1516.001,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5779,7 +5779,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1513.162,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5809,7 +5809,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1522.848,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5839,7 +5839,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1517.836,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5869,7 +5869,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1520.91,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5899,7 +5899,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1518.768,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5933,7 +5933,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1520.039,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5963,7 +5963,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1510.875,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -5993,7 +5993,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1521.159,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6023,7 +6023,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1515.902,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6053,7 +6053,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1517.306,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6083,7 +6083,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.682,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6113,7 +6113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.229,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6143,7 +6143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1522.872,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6173,7 +6173,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1484.53,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6203,7 +6203,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1472.295,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6233,7 +6233,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.549,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6263,7 +6263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1485.413,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6293,7 +6293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1526.805,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6323,7 +6323,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1513.913,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6357,7 +6357,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1480.653,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6387,7 +6387,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.229,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6417,7 +6417,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.334,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6447,7 +6447,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.491,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6477,7 +6477,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.012,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6507,7 +6507,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1487.216,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6537,7 +6537,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.526,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6567,7 +6567,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.794,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6597,7 +6597,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.992,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6627,7 +6627,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.89,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6657,7 +6657,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.262,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6687,7 +6687,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1468.348,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6717,7 +6717,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.914,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6747,7 +6747,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1487.323,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6777,7 +6777,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1497.89,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6807,7 +6807,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1477.877,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6837,7 +6837,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.348,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6867,7 +6867,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1475.074,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6897,7 +6897,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1470.627,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6927,7 +6927,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.678,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6957,7 +6957,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.76,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -6987,7 +6987,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.857,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7017,7 +7017,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.488,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7047,7 +7047,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.632,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7077,7 +7077,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1483.374,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7107,7 +7107,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1504.632,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7137,7 +7137,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.866,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7167,7 +7167,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.787,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7197,7 +7197,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1500.869,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7227,7 +7227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.812,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7257,7 +7257,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1504.607,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7287,7 +7287,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.164,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7317,7 +7317,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.58,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7347,7 +7347,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.814,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7377,7 +7377,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1507.51,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7407,7 +7407,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1488.118,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7437,7 +7437,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.073,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7467,7 +7467,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.411,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7497,7 +7497,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1527.756,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7527,7 +7527,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1521.03,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7557,7 +7557,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.683,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7587,7 +7587,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.468,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7617,7 +7617,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1511.072,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7647,7 +7647,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1508.833,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7677,7 +7677,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1504.619,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7707,7 +7707,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.69,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7737,7 +7737,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.081,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7767,7 +7767,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1486.026,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7797,7 +7797,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1464.476,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7827,7 +7827,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.948,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7857,7 +7857,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1464.677,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7887,7 +7887,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.143,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7917,7 +7917,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.699,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7947,7 +7947,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1470.934,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -7977,7 +7977,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.261,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8007,7 +8007,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.657,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8037,7 +8037,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1488.898,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8067,7 +8067,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.806,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8097,7 +8097,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.897,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8127,7 +8127,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.312,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8157,7 +8157,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1487.254,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8187,7 +8187,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.654,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8217,7 +8217,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.069,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8251,7 +8251,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1507.773,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8281,7 +8281,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1524.899,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8311,7 +8311,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1522.661,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8345,7 +8345,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.11,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8379,7 +8379,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.684,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8409,7 +8409,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1527.967,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8439,7 +8439,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1519.818,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8469,7 +8469,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1516.62,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8499,7 +8499,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1531.116,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8533,7 +8533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1500.619,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8563,7 +8563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1525.848,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8593,7 +8593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1520.527,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8623,7 +8623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.122,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8653,7 +8653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1507.036,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8683,7 +8683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1518.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8713,7 +8713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.659,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8743,7 +8743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1517.492,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8773,7 +8773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.433,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8803,7 +8803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1522.345,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8833,7 +8833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.809,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8867,7 +8867,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.187,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8897,7 +8897,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1517.908,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8931,7 +8931,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1486.308,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8965,7 +8965,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1500.847,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -8995,7 +8995,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1505.072,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9025,7 +9025,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1519.296,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9055,7 +9055,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1512.251,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9085,7 +9085,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.347,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9115,7 +9115,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1478.111,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9145,7 +9145,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1468.111,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9175,7 +9175,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1475.282,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9205,7 +9205,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1486.69,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9235,7 +9235,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1469.421,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9265,7 +9265,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1469.138,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9295,7 +9295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1471.539,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9325,7 +9325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1470.904,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9355,7 +9355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1478.909,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9385,7 +9385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1450.992,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9415,7 +9415,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1462.07,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9445,7 +9445,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1472.876,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9475,7 +9475,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1469.53,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9509,7 +9509,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1479.865,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9539,7 +9539,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1465.64,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9569,7 +9569,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1469.985,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9599,7 +9599,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.237,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9629,7 +9629,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.261,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9659,7 +9659,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1458.497,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9689,7 +9689,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1459.784,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9719,7 +9719,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1497.349,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9749,7 +9749,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.044,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9779,7 +9779,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.927,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9809,7 +9809,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1467.267,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9839,7 +9839,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1465.346,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9869,7 +9869,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.415,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9899,7 +9899,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.311,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9929,7 +9929,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.516,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9959,7 +9959,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.731,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -9989,7 +9989,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.801,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10019,7 +10019,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1496.771,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10049,7 +10049,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1508.17,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10079,7 +10079,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1470.578,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10109,7 +10109,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.162,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10139,7 +10139,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1501.56,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10169,7 +10169,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.738,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10199,7 +10199,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1508.675,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10229,7 +10229,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.282,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10259,7 +10259,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.307,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10289,7 +10289,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.582,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10319,7 +10319,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1498.848,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10349,7 +10349,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.506,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10379,7 +10379,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.706,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10409,7 +10409,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1486.736,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10439,7 +10439,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.009,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10469,7 +10469,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1472.53,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10503,7 +10503,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1511.811,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10533,7 +10533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1506.573,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10567,7 +10567,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1471.53,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10597,7 +10597,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.031,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10627,7 +10627,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1504.748,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10657,7 +10657,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1489.378,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10687,7 +10687,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1495.662,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10717,7 +10717,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.12,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10751,7 +10751,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1476.195,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10781,7 +10781,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1503.058,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10811,7 +10811,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.295,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10841,7 +10841,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.765,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10871,7 +10871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1474.188,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10901,7 +10901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1502.888,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10931,7 +10931,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1500.585,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10961,7 +10961,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1497.781,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -10991,7 +10991,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.428,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11021,7 +11021,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.068,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11051,7 +11051,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1493.719,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11081,7 +11081,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1569.296,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11111,7 +11111,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1499.792,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11141,7 +11141,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1504.291,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11171,7 +11171,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1497.964,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11205,7 +11205,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1492.807,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11235,7 +11235,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1492.714,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11265,7 +11265,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1488.85,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11295,7 +11295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1479.741,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11325,7 +11325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1491.765,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11355,7 +11355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1492.805,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11385,7 +11385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1457.984,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11415,7 +11415,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1494.056,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11445,7 +11445,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1479.155,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11475,7 +11475,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11505,7 +11505,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11535,7 +11535,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11565,7 +11565,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11595,7 +11595,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11625,7 +11625,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11655,7 +11655,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11685,7 +11685,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11715,7 +11715,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11745,7 +11745,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11775,7 +11775,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11805,7 +11805,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11835,7 +11835,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11865,7 +11865,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11895,7 +11895,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11925,7 +11925,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11955,7 +11955,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -11985,7 +11985,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12015,7 +12015,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12045,7 +12045,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12075,7 +12075,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12109,7 +12109,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12139,7 +12139,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12169,7 +12169,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12199,7 +12199,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12229,7 +12229,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12259,7 +12259,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12289,7 +12289,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12319,7 +12319,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12349,7 +12349,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12379,7 +12379,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12409,7 +12409,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12439,7 +12439,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12469,7 +12469,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12499,7 +12499,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12533,7 +12533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12563,7 +12563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12593,7 +12593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12623,7 +12623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12653,7 +12653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12683,7 +12683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12713,7 +12713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12743,7 +12743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12773,7 +12773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12803,7 +12803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12833,7 +12833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12863,7 +12863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.005,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12893,7 +12893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12923,7 +12923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12953,7 +12953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -12983,7 +12983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13013,7 +13013,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13043,7 +13043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13073,7 +13073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13103,7 +13103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13133,7 +13133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13163,7 +13163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13193,7 +13193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13223,7 +13223,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13253,7 +13253,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13283,7 +13283,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13313,7 +13313,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13343,7 +13343,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13373,7 +13373,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13403,7 +13403,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13433,7 +13433,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13463,7 +13463,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13493,7 +13493,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13523,7 +13523,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13553,7 +13553,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13583,7 +13583,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13613,7 +13613,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13643,7 +13643,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13673,7 +13673,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13703,7 +13703,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13733,7 +13733,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13763,7 +13763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13793,7 +13793,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13823,7 +13823,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13853,7 +13853,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13883,7 +13883,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13913,7 +13913,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13943,7 +13943,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -13973,7 +13973,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14003,7 +14003,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14033,7 +14033,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14063,7 +14063,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14093,7 +14093,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14123,7 +14123,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14153,7 +14153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14183,7 +14183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14213,7 +14213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14243,7 +14243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14273,7 +14273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14303,7 +14303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14333,7 +14333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14363,7 +14363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14393,7 +14393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14423,7 +14423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14453,7 +14453,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14483,7 +14483,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14513,7 +14513,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14543,7 +14543,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14573,7 +14573,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14603,7 +14603,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14633,7 +14633,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14663,7 +14663,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14693,7 +14693,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14723,7 +14723,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14753,7 +14753,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14783,7 +14783,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14813,7 +14813,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14843,7 +14843,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14873,7 +14873,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14903,7 +14903,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14933,7 +14933,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14963,7 +14963,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -14993,7 +14993,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15023,7 +15023,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15053,7 +15053,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15083,7 +15083,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15113,7 +15113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15143,7 +15143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15173,7 +15173,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15203,7 +15203,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15233,7 +15233,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15263,7 +15263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15293,7 +15293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15323,7 +15323,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15353,7 +15353,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15383,7 +15383,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15413,7 +15413,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15443,7 +15443,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15473,7 +15473,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15503,7 +15503,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15533,7 +15533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15563,7 +15563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15593,7 +15593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15623,7 +15623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15653,7 +15653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15683,7 +15683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15713,7 +15713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15743,7 +15743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15773,7 +15773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15803,7 +15803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15833,7 +15833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 0.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15863,7 +15863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1402.631,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15893,7 +15893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1490.998,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15923,7 +15923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1410.04,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15953,7 +15953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1416.705,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -15983,7 +15983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.811,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16013,7 +16013,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1398.035,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16043,7 +16043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1403.529,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16073,7 +16073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1402.368,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16103,7 +16103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.569,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16133,7 +16133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.431,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16163,7 +16163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1396.388,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16193,7 +16193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1405.282,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16227,7 +16227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1381.133,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16261,7 +16261,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1370.845,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16295,7 +16295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.83,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16329,7 +16329,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.761,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16359,7 +16359,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.005,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16389,7 +16389,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1414.795,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16419,7 +16419,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.062,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16449,7 +16449,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.866,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16479,7 +16479,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1387.891,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16509,7 +16509,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.541,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16539,7 +16539,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1375.699,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16569,7 +16569,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1381.388,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16599,7 +16599,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1389.763,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16629,7 +16629,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1410.217,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16659,7 +16659,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1433.079,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16689,7 +16689,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1404.09,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16719,7 +16719,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1398.073,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16749,7 +16749,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1399.571,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16779,7 +16779,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.737,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16809,7 +16809,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.081,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16839,7 +16839,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1392.841,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16869,7 +16869,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1427.276,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16899,7 +16899,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1421.271,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16929,7 +16929,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1380.125,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16959,7 +16959,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1412.688,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -16989,7 +16989,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.664,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17019,7 +17019,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.876,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17049,7 +17049,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1418.504,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17079,7 +17079,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.464,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17109,7 +17109,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.597,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17139,7 +17139,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1437.931,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17169,7 +17169,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.961,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17199,7 +17199,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1421.769,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17229,7 +17229,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1403.556,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17259,7 +17259,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1412.738,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17289,7 +17289,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1402.634,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17319,7 +17319,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1417.122,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17349,7 +17349,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1411.761,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17379,7 +17379,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1394.492,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17409,7 +17409,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1405.795,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17439,7 +17439,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1423.685,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17469,7 +17469,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1408.525,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17499,7 +17499,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1402.095,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17529,7 +17529,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1423.049,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17559,7 +17559,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1405.269,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17589,7 +17589,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1420.782,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17619,7 +17619,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1418.311,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17649,7 +17649,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1382.661,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17679,7 +17679,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.697,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17709,7 +17709,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1424.951,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17739,7 +17739,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.34,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17769,7 +17769,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1410.685,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17799,7 +17799,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.61,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17829,7 +17829,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1418.226,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17859,7 +17859,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1388.268,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17889,7 +17889,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.252,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17919,7 +17919,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1412.644,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17949,7 +17949,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1342.665,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -17979,7 +17979,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1423.532,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18009,7 +18009,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1376.92,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18039,7 +18039,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1399.064,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18069,7 +18069,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1406.118,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18099,7 +18099,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.177,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18129,7 +18129,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1380.265,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18159,7 +18159,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1414.587,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18189,7 +18189,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1431.449,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18223,7 +18223,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.86,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18253,7 +18253,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1440.037,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18283,7 +18283,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1439.218,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18313,7 +18313,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1403.237,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18343,7 +18343,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1434.13,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18373,7 +18373,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1443.763,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18403,7 +18403,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.559,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18433,7 +18433,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1429.364,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18463,7 +18463,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1417.151,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18493,7 +18493,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1438.531,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18523,7 +18523,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1436.26,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18553,7 +18553,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1433.173,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18583,7 +18583,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1430.998,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18613,7 +18613,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1441.967,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18643,7 +18643,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1427.213,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18673,7 +18673,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1401.96,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18703,7 +18703,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1445.447,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18733,7 +18733,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1435.744,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18763,7 +18763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1429.542,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18793,7 +18793,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1440.666,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18823,7 +18823,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1435.963,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18853,7 +18853,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1451.239,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18883,7 +18883,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1399.215,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18913,7 +18913,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1439.16,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18943,7 +18943,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1439.452,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -18973,7 +18973,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1418.863,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19003,7 +19003,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.262,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19033,7 +19033,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1431.327,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19063,7 +19063,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1434.435,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19093,7 +19093,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1439.396,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19123,7 +19123,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1429.072,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19153,7 +19153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1424.637,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19183,7 +19183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.387,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19213,7 +19213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1402.316,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19243,7 +19243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1427.412,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19273,7 +19273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1404.033,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19303,7 +19303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1426.45,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19333,7 +19333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1435.819,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19363,7 +19363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1443.231,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19393,7 +19393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1433.474,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19423,7 +19423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1421.621,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19453,7 +19453,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.833,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19483,7 +19483,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.257,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19513,7 +19513,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1415.078,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19543,7 +19543,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1444.799,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19573,7 +19573,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1435.698,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19603,7 +19603,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1434.657,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19633,7 +19633,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1449.122,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19663,7 +19663,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1393.074,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19693,7 +19693,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1420.683,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19723,7 +19723,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1417.099,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19753,7 +19753,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1426.81,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19783,7 +19783,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1403.675,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19813,7 +19813,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1439.724,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19843,7 +19843,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.498,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19873,7 +19873,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1416.118,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19903,7 +19903,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1431.72,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19933,7 +19933,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1397.778,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19963,7 +19963,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1420.243,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -19993,7 +19993,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1405.886,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20023,7 +20023,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.692,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20053,7 +20053,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1424.794,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20083,7 +20083,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1412.845,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20113,7 +20113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1400.104,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20143,7 +20143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1399.459,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20173,7 +20173,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1398.215,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20203,7 +20203,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.101,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20233,7 +20233,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1411.772,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20263,7 +20263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.384,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20293,7 +20293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1417.802,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20323,7 +20323,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1411.935,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20353,7 +20353,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1418.129,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20383,7 +20383,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1428.395,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20413,7 +20413,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.339,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20443,7 +20443,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1419.255,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20473,7 +20473,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1400.41,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20503,7 +20503,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1383.309,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20533,7 +20533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1433.05,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20563,7 +20563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1385.944,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20593,7 +20593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1424.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20623,7 +20623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.581,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20653,7 +20653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.348,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20683,7 +20683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1425.655,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20713,7 +20713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1412.829,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20743,7 +20743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1416.796,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20773,7 +20773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1433.342,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20803,7 +20803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1389.227,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20833,7 +20833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1390.744,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20863,7 +20863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1404.407,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20893,7 +20893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.874,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20923,7 +20923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1406.873,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20953,7 +20953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1391.306,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -20983,7 +20983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1400.444,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21013,7 +21013,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1416.996,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21043,7 +21043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1392.552,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21073,7 +21073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1410.132,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21103,7 +21103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1422.377,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21133,7 +21133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1368.115,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21163,7 +21163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1420.375,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21193,7 +21193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1395.971,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21223,7 +21223,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1417.18,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21253,7 +21253,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1394.866,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21283,7 +21283,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.871,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21313,7 +21313,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1413.536,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21343,7 +21343,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1395.912,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21373,7 +21373,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1407.756,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21403,7 +21403,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1414.019,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21433,7 +21433,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1427.067,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21463,7 +21463,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1383.368,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21493,7 +21493,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.235,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21523,7 +21523,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1409.44,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21553,7 +21553,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 979.653,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21583,7 +21583,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 979.976,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21613,7 +21613,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 979.275,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21643,7 +21643,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.239,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21673,7 +21673,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.749,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21703,7 +21703,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 977.65,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21733,7 +21733,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.043,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21763,7 +21763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.097,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21793,7 +21793,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.671,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21823,7 +21823,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.405,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21853,7 +21853,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.349,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21883,7 +21883,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.053,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21913,7 +21913,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.107,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21943,7 +21943,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.051,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -21973,7 +21973,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.187,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22003,7 +22003,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.266,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22033,7 +22033,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.689,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22063,7 +22063,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.31,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22093,7 +22093,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 973.118,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22123,7 +22123,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 950.448,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22153,7 +22153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.695,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22183,7 +22183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.922,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22213,7 +22213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.053,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22243,7 +22243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.815,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22273,7 +22273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.255,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22303,7 +22303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 976.216,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22333,7 +22333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.888,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22363,7 +22363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 944.765,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22393,7 +22393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.604,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22423,7 +22423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.39,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22453,7 +22453,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.189,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22483,7 +22483,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.638,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22513,7 +22513,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.938,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22543,7 +22543,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.761,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22573,7 +22573,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.171,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22603,7 +22603,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 954.7,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22633,7 +22633,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.162,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22663,7 +22663,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.262,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22693,7 +22693,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.511,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22723,7 +22723,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.35,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22753,7 +22753,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.909,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22783,7 +22783,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.857,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22813,7 +22813,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.001,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22843,7 +22843,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.155,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22873,7 +22873,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.758,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22903,7 +22903,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.299,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22933,7 +22933,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.43,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22963,7 +22963,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.861,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -22993,7 +22993,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.606,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23023,7 +23023,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.748,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23053,7 +23053,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.845,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23083,7 +23083,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.978,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23113,7 +23113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 954.362,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23143,7 +23143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.322,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23173,7 +23173,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.1,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23203,7 +23203,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.518,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23233,7 +23233,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.912,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23263,7 +23263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.966,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23293,7 +23293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.418,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23323,7 +23323,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.56,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23353,7 +23353,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.334,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23383,7 +23383,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.207,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23413,7 +23413,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.928,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23443,7 +23443,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.763,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23473,7 +23473,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.475,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23503,7 +23503,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.679,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23533,7 +23533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.899,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23563,7 +23563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.178,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23593,7 +23593,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.528,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23623,7 +23623,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.412,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23653,7 +23653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.711,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23683,7 +23683,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.204,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23713,7 +23713,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.565,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23743,7 +23743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 973.056,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23773,7 +23773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.859,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23803,7 +23803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.937,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23833,7 +23833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.869,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23863,7 +23863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.557,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23893,7 +23893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.092,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23923,7 +23923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.728,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23953,7 +23953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.3,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -23983,7 +23983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.865,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24013,7 +24013,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.744,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24043,7 +24043,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.199,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24073,7 +24073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.702,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24103,7 +24103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.154,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24133,7 +24133,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.884,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24163,7 +24163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.709,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24193,7 +24193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.191,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24227,7 +24227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.381,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24257,7 +24257,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.403,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24291,7 +24291,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.545,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24321,7 +24321,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.276,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24351,7 +24351,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.861,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24385,7 +24385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.167,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24419,7 +24419,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.063,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24449,7 +24449,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.898,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24483,7 +24483,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.155,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24513,7 +24513,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.236,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24547,7 +24547,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.976,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24577,7 +24577,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.511,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24611,7 +24611,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.562,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24641,7 +24641,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.432,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24671,7 +24671,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.08,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24701,7 +24701,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.785,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24731,7 +24731,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.643,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24761,7 +24761,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.943,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24791,7 +24791,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.001,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24821,7 +24821,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.822,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24851,7 +24851,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.216,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24881,7 +24881,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24911,7 +24911,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.349,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24941,7 +24941,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.179,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -24971,7 +24971,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.215,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25001,7 +25001,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.384,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25031,7 +25031,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.266,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25061,7 +25061,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.978,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25091,7 +25091,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.45,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25121,7 +25121,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.53,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25151,7 +25151,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.953,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25181,7 +25181,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.25,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25211,7 +25211,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.974,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25241,7 +25241,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.943,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25271,7 +25271,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.33,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25301,7 +25301,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.958,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25331,7 +25331,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.038,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25361,7 +25361,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.019,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25391,7 +25391,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.039,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25421,7 +25421,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.158,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25451,7 +25451,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.16,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25481,7 +25481,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.663,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25511,7 +25511,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.508,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25541,7 +25541,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.909,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25571,7 +25571,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.842,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25601,7 +25601,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.043,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25631,7 +25631,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.939,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25661,7 +25661,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.042,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25691,7 +25691,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.213,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25721,7 +25721,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.654,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25751,7 +25751,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.353,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25781,7 +25781,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.583,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25811,7 +25811,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.264,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25841,7 +25841,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.577,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25871,7 +25871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 949.671,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25901,7 +25901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.956,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25931,7 +25931,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.501,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25961,7 +25961,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.525,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -25991,7 +25991,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.979,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26021,7 +26021,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.94,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26051,7 +26051,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 944.881,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26085,7 +26085,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.249,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26115,7 +26115,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.885,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26149,7 +26149,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 978.782,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26179,7 +26179,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.044,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26213,7 +26213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 977.635,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26243,7 +26243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.175,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26277,7 +26277,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 979.617,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26307,7 +26307,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.535,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26337,7 +26337,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.555,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26367,7 +26367,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 944.63,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26397,7 +26397,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.99,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26427,7 +26427,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.793,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26461,7 +26461,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 978.921,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26495,7 +26495,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.77,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26525,7 +26525,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.341,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26555,7 +26555,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.046,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26589,7 +26589,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 977.81,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26619,7 +26619,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.253,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26653,7 +26653,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.001,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26687,7 +26687,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.861,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26717,7 +26717,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.903,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26747,7 +26747,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.611,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26781,7 +26781,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 980.068,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26811,7 +26811,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 931.224,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26845,7 +26845,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.969,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26879,7 +26879,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 980.838,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26909,7 +26909,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.348,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26939,7 +26939,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 944.185,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -26973,7 +26973,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.99,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27003,7 +27003,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.484,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27037,7 +27037,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.733,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27067,7 +27067,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 925.509,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27101,7 +27101,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 981.622,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27131,7 +27131,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.917,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27161,7 +27161,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 939.479,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27195,7 +27195,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 981.067,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27225,7 +27225,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 939.158,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27255,7 +27255,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.894,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27285,7 +27285,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 980.453,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27315,7 +27315,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 974.544,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27345,7 +27345,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.06,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27375,7 +27375,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.508,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27405,7 +27405,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.035,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27435,7 +27435,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.173,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27465,7 +27465,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 975.127,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27495,7 +27495,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.146,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27525,7 +27525,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.658,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27555,7 +27555,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.795,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27585,7 +27585,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.475,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27615,7 +27615,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.431,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27645,7 +27645,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.038,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27675,7 +27675,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.856,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27705,7 +27705,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.057,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27735,7 +27735,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.906,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27765,7 +27765,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.546,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27795,7 +27795,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.982,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27825,7 +27825,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.491,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27855,7 +27855,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.988,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27885,7 +27885,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.861,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27915,7 +27915,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.322,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27945,7 +27945,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 939.501,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -27975,7 +27975,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.573,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28005,7 +28005,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.867,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28035,7 +28035,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.757,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28065,7 +28065,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 937.092,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28095,7 +28095,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 937.077,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28125,7 +28125,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 929.824,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28155,7 +28155,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.562,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28185,7 +28185,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.629,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28215,7 +28215,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.229,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28245,7 +28245,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.321,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28275,7 +28275,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.165,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28305,7 +28305,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.979,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28335,7 +28335,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 897.93,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28365,7 +28365,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.338,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28395,7 +28395,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.702,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28425,7 +28425,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.142,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28455,7 +28455,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.947,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28485,7 +28485,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.234,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28515,7 +28515,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.981,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28545,7 +28545,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.075,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28575,7 +28575,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.539,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28605,7 +28605,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.816,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28635,7 +28635,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.871,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28665,7 +28665,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.938,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28695,7 +28695,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.445,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28725,7 +28725,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.162,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28755,7 +28755,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.289,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28785,7 +28785,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 901.116,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28815,7 +28815,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.343,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28845,7 +28845,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 910.651,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28875,7 +28875,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.14,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28905,7 +28905,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.678,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28935,7 +28935,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 912.259,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28965,7 +28965,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.268,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -28995,7 +28995,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.984,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29025,7 +29025,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.239,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29055,7 +29055,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.715,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29085,7 +29085,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 910.358,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29115,7 +29115,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.194,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29145,7 +29145,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.508,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29175,7 +29175,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.78,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29205,7 +29205,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.637,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29235,7 +29235,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.575,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29265,7 +29265,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.504,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29295,7 +29295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.126,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29325,7 +29325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.46,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29355,7 +29355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.691,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29385,7 +29385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 881.427,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29415,7 +29415,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.459,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29445,7 +29445,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.709,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29475,7 +29475,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 926.101,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29505,7 +29505,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 903.084,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29535,7 +29535,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.357,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29565,7 +29565,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 923.834,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29595,7 +29595,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 910.965,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29625,7 +29625,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.536,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29655,7 +29655,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 904.186,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29685,7 +29685,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.049,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29715,7 +29715,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.229,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29745,7 +29745,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.862,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29775,7 +29775,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.573,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29805,7 +29805,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.009,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29835,7 +29835,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 925.371,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29865,7 +29865,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.901,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29895,7 +29895,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.951,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29925,7 +29925,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 904.68,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29955,7 +29955,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 900.071,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -29985,7 +29985,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.35,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30019,7 +30019,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 900.293,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30049,7 +30049,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.985,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30079,7 +30079,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.461,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30113,7 +30113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.226,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30143,7 +30143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.892,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30177,7 +30177,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 902.578,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30211,7 +30211,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.822,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30241,7 +30241,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.5,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30271,7 +30271,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 923.471,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30305,7 +30305,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.561,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30339,7 +30339,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.567,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30369,7 +30369,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.974,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30399,7 +30399,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.547,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30433,7 +30433,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 923.558,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30467,7 +30467,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.738,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30497,7 +30497,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.707,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30527,7 +30527,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 911.774,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30561,7 +30561,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.467,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30595,7 +30595,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 899.314,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30625,7 +30625,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 924.646,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30659,7 +30659,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 897.375,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30689,7 +30689,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 905.509,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30723,7 +30723,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.624,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30753,7 +30753,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.586,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30787,7 +30787,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.836,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30817,7 +30817,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.254,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30847,7 +30847,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.308,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30881,7 +30881,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.224,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30911,7 +30911,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.647,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30945,7 +30945,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.879,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -30975,7 +30975,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.248,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31009,7 +31009,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.182,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31039,7 +31039,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.982,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31069,7 +31069,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 950.8,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31103,7 +31103,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.954,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31137,7 +31137,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.371,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31167,7 +31167,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.982,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31197,7 +31197,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 895.554,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31231,7 +31231,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 909.187,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31265,7 +31265,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.788,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31295,7 +31295,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.587,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31325,7 +31325,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.905,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31359,7 +31359,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 906.157,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31393,7 +31393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.777,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31423,7 +31423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.577,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31453,7 +31453,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.544,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31487,7 +31487,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.323,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31517,7 +31517,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.708,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31551,7 +31551,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 906.292,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31581,7 +31581,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.852,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31615,7 +31615,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.989,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31645,7 +31645,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.662,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31675,7 +31675,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.224,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31709,7 +31709,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 861.867,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31743,7 +31743,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 922.185,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31773,7 +31773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.558,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31807,7 +31807,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.812,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31837,7 +31837,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.843,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31871,7 +31871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.733,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31901,7 +31901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.417,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31931,7 +31931,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.437,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31961,7 +31961,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.592,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -31991,7 +31991,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.82,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32025,7 +32025,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.567,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32055,7 +32055,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.807,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32089,7 +32089,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.452,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32119,7 +32119,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.078,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32153,7 +32153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.737,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32183,7 +32183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.982,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32213,7 +32213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 857.13,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32243,7 +32243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.818,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32273,7 +32273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1020.849,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32303,7 +32303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.672,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32337,7 +32337,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.855,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32367,7 +32367,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.885,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32397,7 +32397,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.517,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32431,7 +32431,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 954.773,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32461,7 +32461,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.805,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32491,7 +32491,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.816,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32525,7 +32525,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32555,7 +32555,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.194,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32585,7 +32585,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.85,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32615,7 +32615,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.187,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32645,7 +32645,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.722,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32675,7 +32675,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.342,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32705,7 +32705,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.712,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32735,7 +32735,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.914,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32765,7 +32765,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.421,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32795,7 +32795,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.561,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32825,7 +32825,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.961,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32855,7 +32855,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.86,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32885,7 +32885,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.709,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32919,7 +32919,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.48,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32949,7 +32949,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.132,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -32979,7 +32979,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 912.286,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33009,7 +33009,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 897.539,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33039,7 +33039,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.019,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33073,7 +33073,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 902.645,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33107,7 +33107,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.874,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33137,7 +33137,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 911.157,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33167,7 +33167,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.513,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33197,7 +33197,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.848,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33227,7 +33227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.864,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33257,7 +33257,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.27,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33287,7 +33287,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.003,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33317,7 +33317,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.387,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33347,7 +33347,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.944,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33377,7 +33377,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.797,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33407,7 +33407,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 899.19,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33437,7 +33437,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.757,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33467,7 +33467,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 908.112,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33497,7 +33497,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.758,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33527,7 +33527,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 906.091,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33557,7 +33557,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.023,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33587,7 +33587,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 898.521,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33617,7 +33617,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 910.169,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33647,7 +33647,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 911.984,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33677,7 +33677,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.732,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33707,7 +33707,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.305,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33737,7 +33737,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.698,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33767,7 +33767,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.287,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33797,7 +33797,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1014.234,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33827,7 +33827,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.002,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33857,7 +33857,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 902.988,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33887,7 +33887,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.142,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33917,7 +33917,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.226,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33947,7 +33947,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.918,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -33977,7 +33977,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 911.168,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34007,7 +34007,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.187,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34037,7 +34037,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.094,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34071,7 +34071,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.702,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34101,7 +34101,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 910.244,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34135,7 +34135,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 893.112,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34165,7 +34165,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 908.801,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34199,7 +34199,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1004.06,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34229,7 +34229,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 907.062,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34263,7 +34263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.218,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34293,7 +34293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.221,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34323,7 +34323,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1013.179,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34357,7 +34357,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.776,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34387,7 +34387,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.55,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34417,7 +34417,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.729,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34447,7 +34447,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.01,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34477,7 +34477,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.441,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34507,7 +34507,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.12,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34537,7 +34537,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.055,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34571,7 +34571,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 906.865,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34601,7 +34601,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1006.254,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34635,7 +34635,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 918.921,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34669,7 +34669,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.996,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34699,7 +34699,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 890.747,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34733,7 +34733,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 911.566,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34763,7 +34763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 919.439,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34793,7 +34793,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.094,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34827,7 +34827,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 917.677,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34861,7 +34861,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.551,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34891,7 +34891,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.518,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34921,7 +34921,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.171,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34951,7 +34951,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.404,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -34981,7 +34981,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.213,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35011,7 +35011,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.973,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35045,7 +35045,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.277,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35075,7 +35075,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.957,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35109,7 +35109,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.612,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35143,7 +35143,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.594,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35173,7 +35173,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.046,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35203,7 +35203,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.008,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35233,7 +35233,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1015.554,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35267,7 +35267,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.558,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35297,7 +35297,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1016.621,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35331,7 +35331,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1005.938,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35361,7 +35361,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 972.144,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35391,7 +35391,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.941,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35421,7 +35421,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.284,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35455,7 +35455,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.024,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35485,7 +35485,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.613,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35515,7 +35515,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.451,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35545,7 +35545,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1019.591,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35575,7 +35575,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.049,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35605,7 +35605,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.364,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35639,7 +35639,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 924.799,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35669,7 +35669,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.772,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35703,7 +35703,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.874,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35733,7 +35733,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.286,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35763,7 +35763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1020.363,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35797,7 +35797,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.442,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35831,7 +35831,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.751,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35861,7 +35861,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.907,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35891,7 +35891,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.908,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35925,7 +35925,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.143,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35955,7 +35955,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.018,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -35985,7 +35985,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.94,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36019,7 +36019,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.098,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36049,7 +36049,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.519,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36083,7 +36083,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.005,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36113,7 +36113,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.681,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36147,7 +36147,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.653,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36181,7 +36181,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1016.175,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36211,7 +36211,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1019.206,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36241,7 +36241,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 949.728,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36275,7 +36275,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.856,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36305,7 +36305,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.822,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36339,7 +36339,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.242,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36369,7 +36369,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.451,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36403,7 +36403,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.234,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36433,7 +36433,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.9,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36463,7 +36463,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.998,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36497,7 +36497,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.318,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36527,7 +36527,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.623,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36557,7 +36557,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.678,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36587,7 +36587,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1018.151,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36617,7 +36617,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.917,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36651,7 +36651,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.431,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36681,7 +36681,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.221,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36715,7 +36715,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.949,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36749,7 +36749,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.311,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36779,7 +36779,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.625,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36809,7 +36809,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.453,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36843,7 +36843,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.192,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36873,7 +36873,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.827,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36907,7 +36907,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.436,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36937,7 +36937,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.225,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -36967,7 +36967,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1021.144,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37001,7 +37001,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.014,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37031,7 +37031,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.52,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37065,7 +37065,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.67,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37099,7 +37099,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.323,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37129,7 +37129,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.992,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37163,7 +37163,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 999.156,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37193,7 +37193,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.648,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37227,7 +37227,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1022.687,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37257,7 +37257,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.088,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37287,7 +37287,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.298,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37321,7 +37321,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.422,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37355,7 +37355,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.659,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37385,7 +37385,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 956.96,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37419,7 +37419,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.351,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37449,7 +37449,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.937,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37479,7 +37479,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.713,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37509,7 +37509,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 953.929,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37539,7 +37539,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.09,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37569,7 +37569,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.705,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37599,7 +37599,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.154,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37633,7 +37633,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.581,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37663,7 +37663,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 949.984,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37697,7 +37697,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.288,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37727,7 +37727,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.545,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37761,7 +37761,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.484,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37791,7 +37791,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 926.592,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37825,7 +37825,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.137,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37855,7 +37855,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.049,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37889,7 +37889,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.868,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37919,7 +37919,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.417,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37953,7 +37953,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.695,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -37983,7 +37983,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.06,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38017,7 +38017,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.256,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38047,7 +38047,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 954.895,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38081,7 +38081,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.951,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38111,7 +38111,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.95,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38145,7 +38145,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1009.761,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38175,7 +38175,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 950.293,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38205,7 +38205,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 970.744,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38239,7 +38239,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 899.278,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38273,7 +38273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 993.232,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38303,7 +38303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.006,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38333,7 +38333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.628,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38367,7 +38367,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.686,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38397,7 +38397,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.655,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38427,7 +38427,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.582,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38457,7 +38457,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.564,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38491,7 +38491,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 936.131,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38521,7 +38521,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.596,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38551,7 +38551,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.004,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38581,7 +38581,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.158,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38611,7 +38611,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 928.522,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38645,7 +38645,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.675,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38679,7 +38679,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 928.693,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38709,7 +38709,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 931.966,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38739,7 +38739,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.134,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38773,7 +38773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.35,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38807,7 +38807,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 949.402,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38837,7 +38837,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.382,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38871,7 +38871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 928.343,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38901,7 +38901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.62,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38931,7 +38931,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.875,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38965,7 +38965,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.884,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -38995,7 +38995,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 936.965,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39025,7 +39025,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 946.379,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39055,7 +39055,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.268,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39089,7 +39089,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.448,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39119,7 +39119,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.366,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39153,7 +39153,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 941.688,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39183,7 +39183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.768,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39213,7 +39213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.631,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39243,7 +39243,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.59,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39273,7 +39273,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.203,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39303,7 +39303,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 949.025,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39333,7 +39333,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.427,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39363,7 +39363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 951.266,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39393,7 +39393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.302,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39423,7 +39423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.798,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39457,7 +39457,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 937.819,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39487,7 +39487,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 952.514,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39521,7 +39521,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 923.535,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39551,7 +39551,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 926.377,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39581,7 +39581,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.13,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39615,7 +39615,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.876,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39645,7 +39645,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 948.549,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39675,7 +39675,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.184,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39705,7 +39705,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 995.286,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39739,7 +39739,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.936,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39773,7 +39773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 935.393,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39803,7 +39803,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.967,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39833,7 +39833,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1006.965,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39863,7 +39863,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.637,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39893,7 +39893,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.808,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39923,7 +39923,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.413,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39957,7 +39957,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.844,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -39987,7 +39987,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.35,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40017,7 +40017,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 930.391,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40051,7 +40051,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 913.13,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40081,7 +40081,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.585,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40115,7 +40115,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 916.513,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40149,7 +40149,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 936.415,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40179,7 +40179,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.854,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40209,7 +40209,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.007,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40239,7 +40239,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.687,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40269,7 +40269,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 924.01,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40299,7 +40299,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 942.76,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40329,7 +40329,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 936.19,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40363,7 +40363,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 931.472,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40393,7 +40393,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 939.005,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40423,7 +40423,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 936.776,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40457,7 +40457,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 869.358,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40491,7 +40491,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 994.512,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40521,7 +40521,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 914.69,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40555,7 +40555,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 943.499,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40585,7 +40585,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 939.923,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40619,7 +40619,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 945.894,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40649,7 +40649,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 933.218,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40679,7 +40679,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.476,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40709,7 +40709,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 940.455,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40739,7 +40739,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 938.576,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40773,7 +40773,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 947.449,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40807,7 +40807,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 950.713,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40837,7 +40837,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.937,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40871,7 +40871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 915.923,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40901,7 +40901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 929.147,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40935,7 +40935,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 906.228,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40965,7 +40965,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 933.884,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -40999,7 +40999,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1014.344,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41029,7 +41029,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.556,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41063,7 +41063,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1019.686,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41093,7 +41093,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 934.872,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41127,7 +41127,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.07,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41157,7 +41157,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 932.79,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41191,7 +41191,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1017.645,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41221,7 +41221,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 921.793,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41255,7 +41255,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1047.338,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41285,7 +41285,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 937.747,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41315,7 +41315,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 904.423,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41345,7 +41345,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 920.817,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41375,7 +41375,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 927.053,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41405,7 +41405,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.933,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41435,7 +41435,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1012.048,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41465,7 +41465,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1015.922,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41499,7 +41499,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1006.825,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41533,7 +41533,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1041.202,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41563,7 +41563,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1053.8,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41597,7 +41597,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 978.852,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41627,7 +41627,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1051.328,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41657,7 +41657,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1043.482,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41691,7 +41691,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.177,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41721,7 +41721,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1010.109,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41751,7 +41751,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1053.677,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41781,7 +41781,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 971.356,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41811,7 +41811,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1006.138,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41841,7 +41841,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1001.685,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41871,7 +41871,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1048.667,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41901,7 +41901,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.111,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41935,7 +41935,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.642,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41969,7 +41969,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.02,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -41999,7 +41999,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1006.039,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42029,7 +42029,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1005.232,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42059,7 +42059,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1004.662,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42089,7 +42089,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 993.995,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42119,7 +42119,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1008.762,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42149,7 +42149,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 996.158,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42183,7 +42183,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.955,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42213,7 +42213,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 999.465,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42247,7 +42247,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 969.376,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42281,7 +42281,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1001.175,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42311,7 +42311,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.092,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42345,7 +42345,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1050.439,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42375,7 +42375,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 994.254,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42409,7 +42409,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.992,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42439,7 +42439,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1007.248,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42473,7 +42473,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 957.749,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42503,7 +42503,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 983.337,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42537,7 +42537,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.376,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42567,7 +42567,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1004.235,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42601,7 +42601,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 995.809,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42635,7 +42635,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.156,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42665,7 +42665,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.254,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42699,7 +42699,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 959.083,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42729,7 +42729,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.153,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42763,7 +42763,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 968.423,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42793,7 +42793,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.46,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42823,7 +42823,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1026.872,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42857,7 +42857,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 955.819,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42887,7 +42887,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 967.226,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42917,7 +42917,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1036.339,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42947,7 +42947,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 962.069,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -42981,7 +42981,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 966.02,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43011,7 +43011,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 963.76,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43041,7 +43041,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 960.891,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43075,7 +43075,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.147,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43105,7 +43105,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1034.758,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43135,7 +43135,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.623,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43169,7 +43169,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 964.023,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43199,7 +43199,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 958.749,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43229,7 +43229,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 1016.605,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43263,7 +43263,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 961.802,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43293,7 +43293,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 965.643,
             "unit": "Average iterations/sec over 10 runs"
           }
@@ -43361,7 +43361,7 @@ window.BENCHMARK_DATA = {
             "unit": "Average DMIPS over 10 runs"
           },
           {
-            "name": "Coremark",
+            "name": "CoreMark",
             "value": 998.988,
             "unit": "Average iterations/sec over 10 runs"
           }
