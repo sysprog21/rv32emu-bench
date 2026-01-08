@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767867875923,
+  "lastUpdate": 1767867905809,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43555,6 +43555,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1039.859,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "412a88d404aa29261b32cde925a07e545691b823",
+          "message": "Harden memory pool with NULL safety",
+          "timestamp": "2026-01-08T09:39:59Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/692/commits/412a88d404aa29261b32cde925a07e545691b823"
+        },
+        "date": 1767867903782,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1915,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1033.92,
             "unit": "iterations/sec"
           }
         ]
