@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767867905809,
+  "lastUpdate": 1767871023857,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43585,6 +43585,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1033.92,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jim Huang",
+            "username": "jserv",
+            "email": "jserv@ccns.ncku.edu.tw"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "1c5112e959535586bcc1f57133324ee81ded3303",
+          "message": "Merge pull request #693 from sysprog21/bump-ci-version\n\nCI: Bump GitHub Actions versions",
+          "timestamp": "2026-01-08T11:10:05Z",
+          "url": "https://github.com/sysprog21/rv32emu/commit/1c5112e959535586bcc1f57133324ee81ded3303"
+        },
+        "date": 1767871022213,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1637.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1011.062,
             "unit": "iterations/sec"
           }
         ]
