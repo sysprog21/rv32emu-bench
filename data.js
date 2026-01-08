@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767885647087,
+  "lastUpdate": 1767885666179,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43647,6 +43647,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1003.099,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "d1423173c4e7cc4a97b35b1e240c2d3eac57c61c",
+          "message": "Reduce interpreter/JIT overhead\n\nThis introduces three optimizations:\n1. Block-level cycle counting\n   - Remove per-instruction cycle++ from RVOP macro\n   - Pre-compute block->cycle_cost at translation time\n   - Add cycle cost at block entry (interpreter) or exit (JIT)\n   - Maintains accurate cycle counts with less overhead\n2. Timer derivation from cycle counter\n   - Remove per-instruction rv->timer++ in SYSTEM mode\n   - Derive timer on-demand: timer = csr_cycle + timer_offset\n   - Compute timer only at interrupt check points (rv_check_interrupt)\n   - Extend CSR sync to TIME/TIMEH registers for correct derivation\n3. Page-boundary block termination with fallthrough chaining\n   - Terminate blocks at 4KB page boundaries\n   - Add page_terminated flag to block_t structure\n   - Implement fallthrough chaining for non-branch block endings\n   - Use branch_taken pointer for fallthrough to next block\n   - Enables future O(1) cache invalidation via page index\n\nThe combination maintains correctness while reducing per-instruction\noverhead. Block chaining still works across page-bounded blocks through\nthe fallthrough mechanism.",
+          "timestamp": "2026-01-08T23:02:33+08:00",
+          "tree_id": "eaafdb62b0cc0a503423b5dd787409cf7c04f451",
+          "url": "https://github.com/sysprog21/rv32emu/commit/d1423173c4e7cc4a97b35b1e240c2d3eac57c61c"
+        },
+        "date": 1767885664112,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1621,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 950.775,
             "unit": "iterations/sec"
           }
         ]
