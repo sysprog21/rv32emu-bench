@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767865775961,
+  "lastUpdate": 1767867738063,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43457,6 +43457,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1022.095,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "55fd9cce9bbf26eb89cabe39b36b56da09888f74",
+          "message": "Harden memory pool with NULL safety\n\n- Add NULL checks to mpool_{alloc,calloc,free,destroy}\n- Add mpool_create failure check in rv_create with proper cleanup path\n- Add SYSTEM_MMIO device cleanup on init failure\n- Use calloc for vblk/disk arrays to ensure zero-initialization",
+          "timestamp": "2026-01-08T18:03:43+08:00",
+          "tree_id": "d6c1fa598d089d0e7d811b2e630c95f334799142",
+          "url": "https://github.com/sysprog21/rv32emu/commit/55fd9cce9bbf26eb89cabe39b36b56da09888f74"
+        },
+        "date": 1767867736404,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1644,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 989.248,
             "unit": "iterations/sec"
           }
         ]
