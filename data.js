@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767865761740,
+  "lastUpdate": 1767865775961,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43423,6 +43423,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1025.5,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c2c6847a3739397b506e06da44a1ca2a007e8bb2",
+          "message": "Fix T2C thread synchronization\n\nThis addresses reliability issue in JIT parallel mode by fixing race\nconditions in the T2C.\n- Add portable ATOMIC_* macros in common.h with GNU __atomic builtins\n  as primary, C11 stdatomic fallback, and single-threaded fallback\n- Replace busy-wait polling with proper pthread_cond_wait in t2c_runloop\n- Change queue_entry_t from block pointer to cache key (PC|SATP) to\n  prevent use-after-free when blocks are evicted during compilation\n- Add defensive check in t2c_compile to skip already-compiled blocks\n- Use atomic operations for shared block fields\n- Proper shutdown sequence: signal under lock, join, cleanup queue",
+          "timestamp": "2026-01-08T17:31:04+08:00",
+          "tree_id": "cca476d2b7a5b1c1705e2463c1aab4b09b6f0c4e",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c2c6847a3739397b506e06da44a1ca2a007e8bb2"
+        },
+        "date": 1767865773946,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1644.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1022.095,
             "unit": "iterations/sec"
           }
         ]
