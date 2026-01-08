@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767864228483,
+  "lastUpdate": 1767865761740,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43393,6 +43393,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1017.224,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "c2c6847a3739397b506e06da44a1ca2a007e8bb2",
+          "message": "Fix T2C thread synchronization",
+          "timestamp": "2026-01-08T08:49:17Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/691/commits/c2c6847a3739397b506e06da44a1ca2a007e8bb2"
+        },
+        "date": 1767865760062,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1657.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1025.5,
             "unit": "iterations/sec"
           }
         ]
