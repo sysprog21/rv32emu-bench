@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767887337291,
+  "lastUpdate": 1767887383228,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43711,6 +43711,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1011.079,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2840569ac91db3b167fb066fe3f50b3c60a30730",
+          "message": "Reduce interpreter and JIT overhead\n\nThis introduces three optimizations:\n1. Block-level cycle counting\n   - Remove per-instruction cycle++ from RVOP macro\n   - Pre-compute block->cycle_cost at translation time\n   - Add cycle cost at block entry (interpreter) or exit (JIT)\n2. Timer derivation from cycle counter (SYSTEM mode)\n   - Remove per-instruction rv->timer++\n   - Derive timer on-demand: timer = csr_cycle + timer_offset\n   - Extend CSR sync to TIME/TIMEH registers\n3. Page-boundary block termination with fallthrough chaining\n   - Terminate blocks at 4KB page boundaries\n   - Implement fallthrough chaining via branch_taken pointer\n   - Add page_index_insert() for O(1) cache invalidation",
+          "timestamp": "2026-01-08T23:30:40+08:00",
+          "tree_id": "cdddad4b097ee6f5ad09e2b4861fd1b60ce1c480",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2840569ac91db3b167fb066fe3f50b3c60a30730"
+        },
+        "date": 1767887381648,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1566.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 939.023,
             "unit": "iterations/sec"
           }
         ]
