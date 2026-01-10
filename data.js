@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768006776256,
+  "lastUpdate": 1768006811859,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43869,6 +43869,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1011.426,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3283953ee959704c27dce0e5e7452dfb7a567885",
+          "message": "Reduce interpreter and JIT overhead\n\nThis introduces three optimizations:\n1. Block-level cycle counting\n   - Remove per-instruction cycle++ from RVOP macro\n   - Pre-compute block->cycle_cost at translation time\n   - Add cycle cost at block entry (interpreter) or exit (JIT)\n2. Timer derivation from cycle counter (SYSTEM mode)\n   - Remove per-instruction rv->timer++\n   - Derive timer on-demand: timer = csr_cycle + timer_offset\n   - Extend CSR sync to TIME/TIMEH registers\n3. Page-boundary block termination with fallthrough chaining\n   - Terminate blocks at 4KB page boundaries\n   - Implement fallthrough chaining via branch_taken pointer\n   - Add page_index_insert() for O(1) cache invalidation\n\nFix JIT register allocation in GEN_LOAD/GEN_STORE macros:\n   - After reset_reg(), vm_reg[0] was stale (not reallocated)\n   - Use temp_reg for paddr, properly allocate registers for mem_base\n   - Aligns with patterns used in fused instruction handlers",
+          "timestamp": "2026-01-10T08:38:18+08:00",
+          "tree_id": "2fa6bd43f48c6953df7a990f49336e34679cadd8",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3283953ee959704c27dce0e5e7452dfb7a567885"
+        },
+        "date": 1768006810061,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1643,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 934.243,
             "unit": "iterations/sec"
           }
         ]
