@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768008719635,
+  "lastUpdate": 1768008724194,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43933,6 +43933,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1011.203,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "50cc5bb80a46286298172ca9acd455a331693e8c",
+          "message": "Enable T2C-based system emulation with thread-safe jit_cache\n\nThis implements seqlock pattern for lock-free jit_cache reads in T2C:\n- Add seq field to jit_cache struct (odd=writing, even=stable)\n- Writer: RELEASE stores on seq bracket RELAXED entry/key writes\n- Reader (LLVM): ACQUIRE seq1 -> MONOTONIC data -> ACQ_REL fence -> seq2\n\nSFENCE.VMA synchronization with T2C compilation thread:\n- Hold cache_lock during block invalidation to prevent races\n- Reset hot2 atomically when invalidating blocks\n- Check block->invalidated after T2C compilation to discard stale code\n- Add jit_cache_clear_page() for selective VA-based invalidation\n\nCI changes:\n- Add system_jit_defconfig (SYSTEM + JIT + T2C)\n- Add T2C boot tests for host-x64 and host-arm64",
+          "timestamp": "2026-01-10T09:13:30+08:00",
+          "tree_id": "cbffe28d4b1340988aa7fb4849e8d3be55b2b48a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/50cc5bb80a46286298172ca9acd455a331693e8c"
+        },
+        "date": 1768008719692,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1603.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 986.838,
             "unit": "iterations/sec"
           }
         ]
