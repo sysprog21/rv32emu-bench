@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768008724194,
+  "lastUpdate": 1768011810993,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -43967,6 +43967,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 986.838,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "aef74ced37d7c86bc1e97c593f56aed53956dbe7",
+          "message": "Enable T2C-based system emulation with thread-safe jit_cache\n\nThis implements seqlock pattern for lock-free jit_cache reads in T2C:\n- Add seq field to jit_cache struct (odd=writing, even=stable)\n- Writer: RELEASE stores on seq bracket RELAXED entry/key writes\n- Reader (LLVM): RELAXED seq1 -> ACQUIRE fence -> RELAXED data loads\n  -> ACQUIRE fence -> RELAXED seq2 check\n\nARM64 memory ordering fix:\n- Add explicit ACQUIRE fence after seq1 check to order data loads\n- Critical on ARM64 where loads can be reordered past branches\n- Use ACQUIRE fence (not ACQ_REL) before seq2 as only read barrier needed\n\nSFENCE.VMA synchronization with T2C compilation thread:\n- Hold cache_lock during block invalidation to prevent races\n- Reset hot2 atomically when invalidating blocks\n- Check block->invalidated after T2C compilation to discard stale code\n- Add jit_cache_clear_page() for selective VA-based invalidation\n\nCI changes:\n- Add system_jit_defconfig (SYSTEM + JIT + T2C)\n- Add T2C boot tests for host-x64 and host-arm64",
+          "timestamp": "2026-01-10T09:46:56+08:00",
+          "tree_id": "0a6b742cb7e8d4d4a696d6fa45c15a28f5c06450",
+          "url": "https://github.com/sysprog21/rv32emu/commit/aef74ced37d7c86bc1e97c593f56aed53956dbe7"
+        },
+        "date": 1768011808927,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1647.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1001.487,
             "unit": "iterations/sec"
           }
         ]
