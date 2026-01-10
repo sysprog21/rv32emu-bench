@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768011810993,
+  "lastUpdate": 1768012877290,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44001,6 +44001,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1001.487,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2a3df42cba67201eab242998d5a1bf502c494d4f",
+          "message": "Enable T2C-based system emulation with thread-safe jit_cache\n\nThis commit enhances the T2C (tier-2 compilation) to support system\nemulation mode by implementing a thread-safe jit_cache lookup mechanism\nusing the seqlock pattern.\n\nKey changes:\n1. T2C configuration:\n   - Add T2C support to system mode CI testing (main.yml)\n   - Add system_jit_defconfig for system+T2C builds\n\n2. jit_cache initialization:\n   - Initialize jit_cache in t2c.c when JIT and T2C are enabled\n   - Support SYSTEM mode by using composite key (pc + satp)\n\n3. Thread-safe lookup (seqlock pattern):\n   - Generate LLVM IR for lock-free jit_cache reads\n   - Sequence counter validation for consistency\n   - ACQUIRE fences for ARM64 memory ordering\n   - Load entry as pointer type (not i64) for correct ARM64 codegen\n   - Fallback to interpreter on validation failure\n\n4. Integration points:\n   - jalr/c_jalr/c_jr: lookup cached JIT entries via seqlock\n\nMemory ordering on ARM64:\n- Relaxed loads for seq/key/entry (no ordering constraint)\n- ACQUIRE fence after seq check ensures key/entry loads happen after\n- ACQUIRE fence before seq2 ensures data loads complete first\n- This prevents load reordering that ARM64's weak memory model allows",
+          "timestamp": "2026-01-10T10:23:34+08:00",
+          "tree_id": "327bcec013231a64088c819e50a9af4af9d873ef",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2a3df42cba67201eab242998d5a1bf502c494d4f"
+        },
+        "date": 1768012875558,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1643.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1000.201,
             "unit": "iterations/sec"
           }
         ]
