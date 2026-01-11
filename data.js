@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768121567531,
+  "lastUpdate": 1768121612481,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44569,6 +44569,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1006.706,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "785a7fcdcf0c2638fdbd5efe34b85700a0a6071f",
+          "message": "Add page index for O(1) SFENCE.VMA cache invalidation\n\nImplement page-indexed cache invalidation for efficient SFENCE.VMA handling\nin system emulation mode with JIT compilation.\n\nKey changes:\n- Add page_index hash table for O(1) block lookup by virtual page\n- Require BLOCK_CHAINING for page index (page-bounded blocks guarantee)\n- Add page_index_incomplete flag for malloc failure graceful degradation\n- Fall back to O(n) scan when page index is incomplete or unavailable\n- Initialize page_index_incomplete in cache_create to avoid undefined behavior\n\nThe page index enables efficient cache invalidation when guest executes\nSFENCE.VMA, which is critical for TLB shootdown and page table updates.",
+          "timestamp": "2026-01-11T16:35:17+08:00",
+          "tree_id": "a3ebd15facf31af8d232e46e50691b24e85aa2a4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/785a7fcdcf0c2638fdbd5efe34b85700a0a6071f"
+        },
+        "date": 1768121610474,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1642.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 934.065,
             "unit": "iterations/sec"
           }
         ]
