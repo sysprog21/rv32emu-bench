@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768117586092,
+  "lastUpdate": 1768117632888,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44377,6 +44377,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1001.115,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a1c1be3eff0c45b4f9ccec7a5fe160970d4f70d3",
+          "message": "Require BLOCK_CHAINING for page index cache invalid\n\nThe page index optimization for O(1) cache invalidation relies on blocks\nbeing page-bounded (each block fits within a single 4KB page). However,\npage-terminated blocks are only created when BLOCK_CHAINING is enabled.\n\nWhen BLOCK_CHAINING is disabled, blocks can span multiple pages, causing\nthe page index lookup to miss blocks that cross page boundaries.\n\nRestructure the guards to:\n- Keep cache_invalidate_satp/cache_invalidate_va available when JIT +\n  SYSTEM are enabled (for SFENCE.VMA support)\n- Only enable page index data structures when BLOCK_CHAINING is also\n  enabled\n- Provide O(n) fallback in cache_invalidate_va when page index\n  is unavailable",
+          "timestamp": "2026-01-11T15:27:42+08:00",
+          "tree_id": "d77e0c49206062b2f567fc3a84bca02e64f59fed",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a1c1be3eff0c45b4f9ccec7a5fe160970d4f70d3"
+        },
+        "date": 1768117631144,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1607.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 933.979,
             "unit": "iterations/sec"
           }
         ]
