@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768117632888,
+  "lastUpdate": 1768118519097,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44411,6 +44411,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 933.979,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "e7a58a0d0d054fda415fd29a2c41145e024ddc80",
+          "message": "Fix JIT scratch register and cache invalidation correctness\n\n1. jit.c: Replace rv_reg_zero with ir->rd as scratch register in fuse10.\n   Using rv_reg_zero caused emit_load to return 0 (x0 hardwired behavior)\n   instead of loading jit_mmu.paddr, corrupting memory store addresses.\n   SW instruction doesn't write to rd, so it's safe to use as scratch.\n\n2. cache.c: Add page_index_incomplete flag for malloc failure handling.\n   When malloc fails in page_index_insert, set flag to force O(n) fallback\n   in cache_invalidate_va. This ensures SFENCE.VMA finds all blocks even\n   when page index is incomplete, maintaining RISC-V correctness guarantees.",
+          "timestamp": "2026-01-11T15:45:27+08:00",
+          "tree_id": "1e81fe17fdddb447f508f61d69b25482e9697344",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e7a58a0d0d054fda415fd29a2c41145e024ddc80"
+        },
+        "date": 1768118517078,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1865.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 989.896,
             "unit": "iterations/sec"
           }
         ]
