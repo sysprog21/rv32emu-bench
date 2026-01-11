@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768108444243,
+  "lastUpdate": 1768108477376,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44185,6 +44185,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1009.497,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3feae41ef04e585cbf629b110da24b99173e8e1d",
+          "message": "Fix JIT trap handling for system emulation\n\nAddress critical issues in JIT-generated code for proper trap handling\nduring demand paging:\n\n- Add PC field to jit_mmu structure to record faulting instruction address.\n  The trap handler uses this to set sepc/mepc correctly so the kernel\n  resumes at the right instruction after sret.\n\n- Set rv->PC before calling mem_translate in jit_mmu_handler. Page faults\n  invoke on_trap from inside mem_translate, which reads rv->PC for the\n  exception return address.\n\n- Never save x0 register - it's hardwired to zero. This allows using\n  rv_reg_zero as scratch without corrupting guest state.\n\n- Mark ALU destination registers as dirty so computed values get saved\n  back to rv->X[] before calling jit_mmu_handler.\n\n- Add proper emit_exit() at trap exit points in GEN_LOAD/GEN_STORE.\n  Previously, trap exits fell through to normal continuation code.\n\n- Fix fuse9/fuse10 (LUI+LW/SW fusion) to write LUI result to rd before\n  the memory operation, and handle trap exits correctly.\n\n- Fix GEN_STORE register allocation: load rs2 value before computing\n  address to avoid ra_load evicting the address register.\n\n- Check is_trapped flag after JIT block execution in emulate.c and\n  invoke trap_handler when set.\n\nThese fixes enable Linux kernel boot with JIT by properly handling\npage faults that occur during JIT-compiled code execution.",
+          "timestamp": "2026-01-11T12:56:43+08:00",
+          "tree_id": "741223a51e573902f578a37efe119389385cf9bd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3feae41ef04e585cbf629b110da24b99173e8e1d"
+        },
+        "date": 1768108475588,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1619,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 921.137,
             "unit": "iterations/sec"
           }
         ]
