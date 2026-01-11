@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768139046227,
+  "lastUpdate": 1768157403727,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44855,6 +44855,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 953.971,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "f8a154d5cec7566de1e49255f4d5c7c6cc92dda3",
+          "message": "Enable T2C-based system emulation with jit_cache\n\nThis enables T2C for system emulation mode with proper thread safety and\nmemory management.\n- Add seqlock pattern to jit_cache for lock-free readers with consistent\n  key/entry pairs\n- Store LLVM execution engine in block_t to prevent use-after-free when\n  compiled code is accessed after engine disposal\n- Dispose LLVM engines properly on block eviction (under cache_lock) and\n  shutdown (after T2C thread joins)\n- Initialize func and llvm_engine to NULL in block_alloc for safety\n- Remove demand paging debug output\n\nThe LLVM execution engine owns the memory where JIT-compiled code resides.\nPreviously, the engine was a local variable in t2c_compile() that was lost\nwhen the function returned, causing potential crashes when LLVM reclaimed\nthe compiled code memory.",
+          "timestamp": "2026-01-12T02:32:06+08:00",
+          "tree_id": "4f1c9c07594a62d673177e66e0c81d1635229dcf",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f8a154d5cec7566de1e49255f4d5c7c6cc92dda3"
+        },
+        "date": 1768157401819,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1625.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 945.978,
             "unit": "iterations/sec"
           }
         ]
