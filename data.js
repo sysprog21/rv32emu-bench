@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768124198858,
+  "lastUpdate": 1768125197765,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44667,6 +44667,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1036.973,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "2dc345716ace6fdaf6397f27a14a30e9e89adba1",
+          "message": "Fix system emulation reboot",
+          "timestamp": "2026-01-05T17:49:42Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/638/commits/2dc345716ace6fdaf6397f27a14a30e9e89adba1"
+        },
+        "date": 1768125195730,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1650.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1004.938,
             "unit": "iterations/sec"
           }
         ]
