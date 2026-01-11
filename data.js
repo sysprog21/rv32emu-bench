@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768114568205,
+  "lastUpdate": 1768114586222,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44249,6 +44249,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1011.277,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "b1ddc3119d3c16cb8d5beb6d24244039d30c217f",
+          "message": "Fix JIT jump offset patching for x86-64 trap handlers\n\nOn x86-64, conditional jumps (JNE, JE, etc.) use a 2-byte opcode\n(0x0f + condition byte) followed by a 4-byte offset, while\nunconditional jumps (JMP) use a 1-byte opcode (0xe9) followed by\na 4-byte offset.\n\nWhen patching jump targets for trap handling paths, the code was\nusing raw jump locations without accounting for opcode sizes. This\ncaused the patch to overwrite opcode bytes instead of the offset\nplaceholder, corrupting instructions and causing SIGSEGV during\nLinux kernel boot.\n\nAdd JUMP_TRAP (+2 for JNE) and JUMP_NORMAL (+1 for JMP) macros\nalongside existing JUMP_LOC_0/JUMP_LOC_1, and update all trap\nhandling jump patches in GEN_LOAD, GEN_STORE, and fuse handlers.\n\nFor ARM64, no offset adjustment is needed since the immediate is\nencoded within the instruction word itself.",
+          "timestamp": "2026-01-11T14:36:08+08:00",
+          "tree_id": "753cb4bb3d1834de3fcad487f6baa6d68c09f5e3",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b1ddc3119d3c16cb8d5beb6d24244039d30c217f"
+        },
+        "date": 1768114584553,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1610.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 934.599,
             "unit": "iterations/sec"
           }
         ]
