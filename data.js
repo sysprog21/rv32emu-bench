@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768121612481,
+  "lastUpdate": 1768124156428,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44603,6 +44603,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 934.065,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0f261dcb5a0b17a21d87fd7d9cf4b2556854863e",
+          "message": "Add page index for O(1) SFENCE.VMA cache invalid\n\nThis implements page-indexed cache invalidation for efficient SFENCE.VMA\nhandling in system emulation mode with JIT compilation.\n- Add page_index hash table for O(1) block lookup by virtual page\n- Require BLOCK_CHAINING for page index (page-bounded blocks guarantee)\n- Add page_index_incomplete flag for malloc failure graceful degradation\n- Fall back to O(n) scan when page index is incomplete or unavailable\n\nThe page index enables efficient cache invalidation when guest executes\nSFENCE.VMA, which is critical for TLB shootdown and page table updates.",
+          "timestamp": "2026-01-11T16:42:53+08:00",
+          "tree_id": "a3ebd15facf31af8d232e46e50691b24e85aa2a4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0f261dcb5a0b17a21d87fd7d9cf4b2556854863e"
+        },
+        "date": 1768124154396,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1649.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 929.303,
             "unit": "iterations/sec"
           }
         ]
