@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768117142798,
+  "lastUpdate": 1768117586092,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44347,6 +44347,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 937.79,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "a1c1be3eff0c45b4f9ccec7a5fe160970d4f70d3",
+          "message": "Reduce interpreter/JIT overhead",
+          "timestamp": "2026-01-11T05:53:32Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/694/commits/a1c1be3eff0c45b4f9ccec7a5fe160970d4f70d3"
+        },
+        "date": 1768117584355,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1658,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1001.115,
             "unit": "iterations/sec"
           }
         ]
