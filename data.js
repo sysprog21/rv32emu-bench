@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768120250257,
+  "lastUpdate": 1768120287987,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44505,6 +44505,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1009.809,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "75b46a5f2eb69ca5abab6305535a955817a8799e",
+          "message": "Fix uninitialized page_index_incomplete and fuse10 register aliasing\n\n1. cache.c: Initialize page_index_incomplete to false in cache_create.\n   Without explicit initialization, the flag could have undefined value\n   causing incorrect O(1)/O(n) path selection in cache_invalidate_va.\n\n2. emulate.c: Prevent LUI+SW fusion when rd == rs2 (value to store).\n   The JIT uses rd as scratch for address calculation, which would\n   overwrite the value before storing. Example: LUI x5, imm; SW x5, 0(x5)\n   would store the computed address instead of the original x5 value.",
+          "timestamp": "2026-01-11T16:13:45+08:00",
+          "tree_id": "a3ebd15facf31af8d232e46e50691b24e85aa2a4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/75b46a5f2eb69ca5abab6305535a955817a8799e"
+        },
+        "date": 1768120286304,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1647,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 932.566,
             "unit": "iterations/sec"
           }
         ]
