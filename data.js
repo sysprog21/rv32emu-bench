@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768201398387,
+  "lastUpdate": 1768201897631,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45363,6 +45363,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 933.457,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "5ba5c7e34ace6048cb3efafaef5c7fe8a83414c2",
+          "message": "Enable T2C-based system emulation with jit_cache\n\nThis refines T2C for system emulation with proper thread safety and\nmemory optimizations:\n\nThread-safe jit_cache design:\n- Add seqlock pattern for lock-free readers with consistent key/entry\n- Use acquire loads on seq1 and entry (generates LDAR on ARM64)\n- XOR hashing (pc ^ satp) reduces cache collisions across processes\n- Store LLVM execution engine in block_t to prevent use-after-free\n- Dispose LLVM engines on block eviction and shutdown\n\nPerformance optimizations:\n- Replace acquire fences with cheaper acquire loads\n- Reuse single SATP load for both hash and key comparison\n- Add ISB barrier on ARM64 for icache coherency when chaining blocks\n\nCI/UBSAN fixes:\n- Use distclean instead of cleanconfig for UBSAN tests\n- Add __attribute__((no_sanitize(\"function\"))) to avoid false positive\n  from LLVM cflags affecting type metadata",
+          "timestamp": "2026-01-12T14:53:10+08:00",
+          "tree_id": "8c538417e9f900a2019040e028665d5ab7ab6b06",
+          "url": "https://github.com/sysprog21/rv32emu/commit/5ba5c7e34ace6048cb3efafaef5c7fe8a83414c2"
+        },
+        "date": 1768201895674,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1632,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 943.976,
             "unit": "iterations/sec"
           }
         ]
