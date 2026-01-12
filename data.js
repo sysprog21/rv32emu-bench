@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768195130595,
+  "lastUpdate": 1768201398387,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45329,6 +45329,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 930.496,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "68af6e57fd0571eada1841627b9e8f47e21d2e99",
+          "message": "compact_ir: implement VOperand-style direct field access\n\nReplace regs16 packed format with separate byte fields for registers,\ninspired by rvdbt's QuickIR VOperand design pattern.\n\nKey changes:\n- rv_insn_fast_t is now a union with direct rd, rs1, rs2 byte access\n- Eliminates shift/mask extraction overhead (load+shift+mask -> load)\n- U/J-type instructions use u_type.imm32 for full 32-bit immediate\n- aux byte stores shamt/rm/rs3 for special instructions\n\nLayout:\n  [opcode][flags][rd][rs1][rs2][aux][imm16]  - default\n  [opcode][flags][rd][pad][imm32]            - U/J-type",
+          "timestamp": "2026-01-12T14:45:20+08:00",
+          "tree_id": "56af54f3ca3b77128257da7a7dc376262f37dadd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/68af6e57fd0571eada1841627b9e8f47e21d2e99"
+        },
+        "date": 1768201396396,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1605,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 933.457,
             "unit": "iterations/sec"
           }
         ]
