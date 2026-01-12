@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768191105797,
+  "lastUpdate": 1768191695123,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45103,6 +45103,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 936.126,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "80106f878658fcf90d533c3289e4a657fdb16b16",
+          "message": "compact_ir: implement Codex performance optimizations\n\n- regs16 packing: single uint16_t for rs1|rs2<<5|rd<<10 (single load extraction)\n- Opcode property tables: O(1) flag lookup via RV_INSN_LIST macro\n- malloc instead of calloc: avoid redundant zeroing\n- No sentinel: rely on FAST_FLAG_BLOCK_END for termination\n- Precompute last_idx: eliminate per-iteration is_last check\n- Prefetch hint: __builtin_prefetch in dispatch macro\n- Static inline functions: replace macros for better optimization\n\nThese optimizations reduce conversion overhead and improve cache behavior\nfor the compact IR infrastructure.",
+          "timestamp": "2026-01-12T12:03:35+08:00",
+          "tree_id": "3b0eb9ffdd55156f8a1878fd6413ea27d11b1487",
+          "url": "https://github.com/sysprog21/rv32emu/commit/80106f878658fcf90d533c3289e4a657fdb16b16"
+        },
+        "date": 1768191693160,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1639,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 930.427,
             "unit": "iterations/sec"
           }
         ]
