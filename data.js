@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768191818685,
+  "lastUpdate": 1768192703020,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45167,6 +45167,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 937.339,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3f4ba7048b3881dd17ccecb0d583383919bca021",
+          "message": "Enable T2C-based system emulation with thread-safe jit_cache\n\nEnable T2C for system emulation mode with proper thread safety and\nmemory optimizations:\n\nThread-safe jit_cache design:\n- Add seqlock pattern for lock-free readers with consistent key/entry\n- Use acquire loads on seq1 and entry (generates LDAR on ARM64)\n- XOR hashing (pc ^ satp) reduces cache collisions across processes\n- Store LLVM execution engine in block_t to prevent use-after-free\n- Dispose LLVM engines on block eviction and shutdown\n\nPerformance optimizations:\n- Replace acquire fences with cheaper acquire loads\n- Reuse single SATP load for both hash and key comparison\n- Add ISB barrier on ARM64 for icache coherency when chaining blocks\n\nCI/UBSAN fixes:\n- Use distclean instead of cleanconfig for UBSAN tests\n- Add __attribute__((no_sanitize(\"function\"))) to t2c_dispose_block_engine\n  to avoid false positive from LLVM cflags affecting type metadata",
+          "timestamp": "2026-01-12T12:13:19+08:00",
+          "tree_id": "6cf26b891cdccc21a30f09e75543f04e88aeb476",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3f4ba7048b3881dd17ccecb0d583383919bca021"
+        },
+        "date": 1768192701347,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1627.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 955.281,
             "unit": "iterations/sec"
           }
         ]
