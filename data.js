@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768187551237,
+  "lastUpdate": 1768187560405,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -44953,6 +44953,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 954.14,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "0d6a04992f3b11cac4200746cd3c5db976e41007",
+          "message": "Enable T2C-based system emulation with thread-safe jit_cache",
+          "timestamp": "2026-01-11T09:52:19Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/695/commits/0d6a04992f3b11cac4200746cd3c5db976e41007"
+        },
+        "date": 1768187558503,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1628.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 936.058,
             "unit": "iterations/sec"
           }
         ]
