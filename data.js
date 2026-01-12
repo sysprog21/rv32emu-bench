@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768192721175,
+  "lastUpdate": 1768194335877,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45231,6 +45231,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 929.648,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "599d9ec8b2a95e29b66104bcb34ccc861b60c5fe",
+          "message": "Implement compact IR dispatch for hot path execution\n\nSwitch the interpreter's hot path to use rv_insn_fast_t (8-byte)\ndispatch instead of rv_insn_t linked-list chaining. This provides:\n\n- Array-based dispatch (ir + 1) instead of pointer chasing (ir->next)\n- Table-based handler lookup instead of function pointer (ir->impl)\n- Better cache locality with 8-byte entries vs 48+ bytes\n\nKey changes:\n- Add compact handlers (do_compact_*) for all RV32I/M instructions\n- Create compact_dispatch_table[] for opcode-to-handler mapping\n- Modify execution loop to use compact dispatch when ir_compact exists\n- Add ir_insn_len() helper for instruction length lookup\n\nBranch instructions and fused operations exit to main loop for\nblock chaining, which still uses full IR pointers.",
+          "timestamp": "2026-01-12T12:47:07+08:00",
+          "tree_id": "7d107a7bae806c12bfeaf91b0a81a9ed354e16b2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/599d9ec8b2a95e29b66104bcb34ccc861b60c5fe"
+        },
+        "date": 1768194333848,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1582,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 933.577,
             "unit": "iterations/sec"
           }
         ]
