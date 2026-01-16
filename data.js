@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768552684558,
+  "lastUpdate": 1768554265238,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45623,6 +45623,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 948.475,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c5a3ee4374407f0cc15191d56c098f915fa1f6e7",
+          "message": "Add inline caching for T2C indirect jump resolution\n\nImplement inline cache optimization for T2C-compiled code:\n- Add inline_cache struct with (key, entry) pairs\n- Fast path: check inline cache before seqlock-based jit_cache lookup\n- Slow path: full jit_cache lookup + update inline cache on hit\n- Skip ISB on ARM64 for inline cache hits (already executed this target)\n- Clear inline cache on SFENCE.VMA, FENCE.I, and block eviction\n\nDocumentation and safety:\n- Document thread model (per-riscv_t, single-threaded access)\n- Document satp stability assumption (CSR writes serialized)\n- Document all invalidation paths\n- Add static_assert for 64-bit host requirement (atomic key loads)\n\nExpected benefit: 90%+ hit rate for stable branch patterns (returns,\nvirtual calls), removing seqlock overhead for hot paths.\n\nBenchmark: 44% faster on ARM64 (ISB avoidance), ~4% on x86_64.",
+          "timestamp": "2026-01-16T16:46:28+08:00",
+          "tree_id": "508de7e767a37f87d91bb3d983b52b82736ce836",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c5a3ee4374407f0cc15191d56c098f915fa1f6e7"
+        },
+        "date": 1768554263392,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1631.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 946.285,
             "unit": "iterations/sec"
           }
         ]
