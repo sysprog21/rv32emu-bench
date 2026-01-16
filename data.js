@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768555993945,
+  "lastUpdate": 1768556324949,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45755,6 +45755,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 953.076,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "50a75efe32761d79b2e9a569fb565e1ee3583618",
+          "message": "Simplify CSR field definitions and cycle sync",
+          "timestamp": "2026-01-16T03:42:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/700/commits/50a75efe32761d79b2e9a569fb565e1ee3583618"
+        },
+        "date": 1768556323070,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1624,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 950.045,
             "unit": "iterations/sec"
           }
         ]
