@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768551063080,
+  "lastUpdate": 1768552684558,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45589,6 +45589,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 946.027,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "52108543c492f91a0ef3a19f46d97f604fef68dd",
+          "message": "Add inline caching for T2C indirect jump resolution\n\nImplement inline cache optimization for T2C-compiled code:\n- Add inline_cache struct with (key, entry) pairs\n- Fast path: check inline cache before seqlock-based jit_cache lookup\n- Slow path: full jit_cache lookup + update inline cache on hit\n- Skip ISB on ARM64 for inline cache hits (already executed this target)\n- Clear inline cache on SFENCE.VMA, FENCE.I, and block eviction\n\nExpected benefit: 90%+ hit rate for stable branch patterns (returns,\nvirtual calls), removing seqlock overhead for hot paths.",
+          "timestamp": "2026-01-16T16:20:18+08:00",
+          "tree_id": "890867cc6c60dfdd9471a0694ae5eb6d226ae6c6",
+          "url": "https://github.com/sysprog21/rv32emu/commit/52108543c492f91a0ef3a19f46d97f604fef68dd"
+        },
+        "date": 1768552682746,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1618.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 948.475,
             "unit": "iterations/sec"
           }
         ]
