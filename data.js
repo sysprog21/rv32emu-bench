@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768556324949,
+  "lastUpdate": 1768557975113,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45785,6 +45785,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 950.045,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "5fe0bcb8a7ff28c6fbae74127a8fbc4e1b50b0ae",
+          "message": "Refine branch history table\n\nThis extracts duplicated BHT logic into reusable inline helpers:\n- bht_find_max_idx(): find most frequent indirect jump target\n- bht_find_min_idx(): find LFU replacement slot\n- bht_should_translate(): check JIT translation threshold",
+          "timestamp": "2026-01-16T17:47:25+08:00",
+          "tree_id": "899339d99e791cff0a8f102104a0521e8a2505e6",
+          "url": "https://github.com/sysprog21/rv32emu/commit/5fe0bcb8a7ff28c6fbae74127a8fbc4e1b50b0ae"
+        },
+        "date": 1768557973024,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1587.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 950.322,
             "unit": "iterations/sec"
           }
         ]
