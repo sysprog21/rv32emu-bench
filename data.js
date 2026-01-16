@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768554564922,
+  "lastUpdate": 1768555993945,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45721,6 +45721,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 947.117,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "50a75efe32761d79b2e9a569fb565e1ee3583618",
+          "message": "Simplify CSR field definitions and cycle sync\n\nThis refactors mstatus/sstatus register field definitions:\n- Use anonymous enum for true compile-time constants (usable in switch\n  cases, array sizes, static assertions)\n- Eliminate SSTATUS duplication by aliasing to MSTATUS values\n- Use unsigned literals (1U) to prevent sign-bit shift issues",
+          "timestamp": "2026-01-16T17:14:41+08:00",
+          "tree_id": "1e65b8b6430708c0289f241fa0841ea0ab7ec01a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/50a75efe32761d79b2e9a569fb565e1ee3583618"
+        },
+        "date": 1768555991949,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1656.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 953.076,
             "unit": "iterations/sec"
           }
         ]
