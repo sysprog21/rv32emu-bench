@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768554531550,
+  "lastUpdate": 1768554564922,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45691,6 +45691,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 951.776,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "df9727acb346f487fb6c504b0b05508a2201c5f3",
+          "message": "Add inline caching for T2C indirect jump",
+          "timestamp": "2026-01-16T03:42:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/699/commits/df9727acb346f487fb6c504b0b05508a2201c5f3"
+        },
+        "date": 1768554562843,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1593.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 947.117,
             "unit": "iterations/sec"
           }
         ]
