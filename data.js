@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768651990222,
+  "lastUpdate": 1768651995105,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45879,6 +45879,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 952.707,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "82205cbb16fcfc77b269d68d988382f1fa2971fe",
+          "message": "Fix FCVT illegal instruction handling\n\n- Add missing default case in op_op_fp() for FCVT.W.S/FCVT.WU.S to\n  properly reject illegal instruction encodings (rs2 != 0 or 1)\n- Remove unreachable code after exhaustive switch statements:\n  - op_misc_mem(): return after switch with default case\n  - op_cmisc_alu(): default after all 8 cases (0-7) handled\n  - op_ccr(): default after both cases (0, 1) of single-bit dispatch",
+          "timestamp": "2026-01-17T19:54:16+08:00",
+          "tree_id": "55ebfae5057198a801815e768558f77e1cd2b0ad",
+          "url": "https://github.com/sysprog21/rv32emu/commit/82205cbb16fcfc77b269d68d988382f1fa2971fe"
+        },
+        "date": 1768651993064,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1608.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 958.926,
             "unit": "iterations/sec"
           }
         ]
