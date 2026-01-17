@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768558113348,
+  "lastUpdate": 1768651990222,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45849,6 +45849,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 952.119,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "82205cbb16fcfc77b269d68d988382f1fa2971fe",
+          "message": "Fix FCVT illegal instruction handling",
+          "timestamp": "2026-01-16T23:03:35Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/704/commits/82205cbb16fcfc77b269d68d988382f1fa2971fe"
+        },
+        "date": 1768651988353,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1627.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 952.707,
             "unit": "iterations/sec"
           }
         ]
