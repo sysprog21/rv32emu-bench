@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768718652048,
+  "lastUpdate": 1768718679479,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46011,6 +46011,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 951.607,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "674f9d9844c5a4dd1ed4deb2b08058b1cbae38eb",
+          "message": "Fix spurious close(fd<3) errors for stripped ELFs",
+          "timestamp": "2026-01-18T05:33:07Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/706/commits/674f9d9844c5a4dd1ed4deb2b08058b1cbae38eb"
+        },
+        "date": 1768718677608,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1626,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 971.664,
             "unit": "iterations/sec"
           }
         ]
