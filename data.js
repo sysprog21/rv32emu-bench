@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768707197982,
+  "lastUpdate": 1768718652048,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45977,6 +45977,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 973.382,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "674f9d9844c5a4dd1ed4deb2b08058b1cbae38eb",
+          "message": "Fix spurious close(fd<3) errors for stripped ELFs\n\nStripped ELFs lack symbol tables, so the 'exit' symbol cannot be found\nand exit_addr remains uninitialized. This caused on_exit to never become\ntrue, resulting in spurious error messages when crt0 calls close(0,1,2)\nduring program termination.\n\nChanges:\n- Add exit_addr check in syscall_close to allow close(fd<3) when no exit\n  symbol was found (stripped ELF case)\n- Explicitly initialize exit_addr to 0 before symbol lookup\n- Also check for '_exit' symbol as fallback for different toolchains",
+          "timestamp": "2026-01-18T14:26:24+08:00",
+          "tree_id": "f1d0bbda9ffa45a05bc9f2c4e3cfc0be46c021f8",
+          "url": "https://github.com/sysprog21/rv32emu/commit/674f9d9844c5a4dd1ed4deb2b08058b1cbae38eb"
+        },
+        "date": 1768718650207,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1635.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 951.607,
             "unit": "iterations/sec"
           }
         ]
