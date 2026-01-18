@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768707167566,
+  "lastUpdate": 1768707197982,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45947,6 +45947,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 968.934,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "b26939d1a0a4aecb303182ef356efcf75c22a4c9",
+          "message": "Support LLVM 18-21 for T2C",
+          "timestamp": "2026-01-17T12:45:54Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/705/commits/b26939d1a0a4aecb303182ef356efcf75c22a4c9"
+        },
+        "date": 1768707196092,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1597.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 973.382,
             "unit": "iterations/sec"
           }
         ]
