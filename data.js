@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768651995105,
+  "lastUpdate": 1768707167566,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -45913,6 +45913,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 958.926,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "b26939d1a0a4aecb303182ef356efcf75c22a4c9",
+          "message": "Support LLVM 18-21 for T2C\n\n- Add LLVM version detection macros to mk/toolchain.mk using 'define'\n  for reusability: llvm-config-path, llvm-homebrew-config,\n  detect-llvm-config, llvm-version, llvm-check-libs, llvm-cflags,\n  llvm-libfiles\n- Support LLVM 18, 19, 20, and 21 (previously only LLVM 18)\n- Add compile-time version check in t2c.c with clear error/warning\n- Document MCJIT deprecation status: LLVM 22+ may deprecate MCJIT\n  in favor of ORC JIT; when upgrading, review MCJIT status and\n  LLVMGetInlineAsm signature changes\n- Allow user override via LLVM_CONFIG= make variable",
+          "timestamp": "2026-01-18T11:14:36+08:00",
+          "tree_id": "0d6e69db05ce3e80963ce72f9801a3f5195027ff",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b26939d1a0a4aecb303182ef356efcf75c22a4c9"
+        },
+        "date": 1768707165549,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1636.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 968.934,
             "unit": "iterations/sec"
           }
         ]
