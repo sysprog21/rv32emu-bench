@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768729550970,
+  "lastUpdate": 1768901467668,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46071,6 +46071,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 949.751,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "kaiii708",
+            "username": "kaiii708"
+          },
+          "committer": {
+            "name": "kaiii708",
+            "username": "kaiii708"
+          },
+          "id": "78cf51fcb64a404bbc0f66152db3dbcaeea110ec",
+          "message": "Add RTC timezone mode option",
+          "timestamp": "2026-01-17T13:21:48Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/709/commits/78cf51fcb64a404bbc0f66152db3dbcaeea110ec"
+        },
+        "date": 1768901465005,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1869.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1000.228,
             "unit": "iterations/sec"
           }
         ]
