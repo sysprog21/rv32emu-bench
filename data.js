@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769756348623,
+  "lastUpdate": 1769765602855,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46165,6 +46165,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 939.552,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "f89a1148070c5f91a2257ffa8c0413a68b049613",
+          "message": "Add L1 block cache and direct-mapped BHT\n\nThis introduces two lookup optimizations:\n1. L1 Direct-Mapped Block Cache (256 entries, interpreter only):\n  - Separated tag/pointer arrays: tag array (1KB) checked first, pointer\n    loaded only on hit for cache efficiency\n  - Invalid tag sentinel (0xFFFFFFFF) for clean miss detection\n  - EXT_C-aware index shift (1 vs 2 bits) to reduce conflict misses\n  - New block_lookup_or_find() as primary lookup with hash fallback\n2. Direct-Mapped Branch History Table (both JIT and non-JIT):\n  - O(1) lookup replacing O(n) linear search: index = (PC >> 2) & mask\n  - Remove idx field (non-JIT) and bht_find_min_idx() - no longer needed\n  - Update bht_find_max_idx() to scan all entries since zeros can appear\n    at any index with direct-mapped scheme\n  - Add static assert for power-of-2 HISTORY_SIZE\n\nBenchmarks on Intel Xeon E5-2650:\n- CoreMark: 804.66 -> ~887 iterations/sec (+10.2%)\n- Dhrystone: 1366 -> ~1382 DMIPS (+1.2%)",
+          "timestamp": "2026-01-30T17:14:46+08:00",
+          "tree_id": "73f08ab4404a1a1c940dd9958a1c486515a8da11",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f89a1148070c5f91a2257ffa8c0413a68b049613"
+        },
+        "date": 1769765600968,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1601.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1016.275,
             "unit": "iterations/sec"
           }
         ]
