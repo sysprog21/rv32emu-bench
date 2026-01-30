@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769756276129,
+  "lastUpdate": 1769756348623,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46135,6 +46135,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1017.673,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "a37c8121f86fd56112e006e26991bf18b12ddf0b",
+          "message": "Add L1 block cache and direct-mapped BHT",
+          "timestamp": "2026-01-28T07:04:06Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/711/commits/a37c8121f86fd56112e006e26991bf18b12ddf0b"
+        },
+        "date": 1769756346707,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1584,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 939.552,
             "unit": "iterations/sec"
           }
         ]
