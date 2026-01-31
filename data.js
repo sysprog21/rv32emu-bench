@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769855334568,
+  "lastUpdate": 1769861481709,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46259,6 +46259,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1017.119,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "0bf5ee2e08109c89584dc316de2c6cc831c97095",
+          "message": "Enhance build system for tarball distribution\n\nThis supports both git repositories and release tarballs by converting\ngit submodule operations to conditional clone logic.\n- Add ensure-submodule helper function with error handling\n- Convert parse-time shell to proper build targets (DTC_SENTINEL)\n- Add directory cleanup for pre-existing non-git directories\n- Fix injection risks via variable quoting and whitelist validation\n- Improve error messages with explicit stderr output",
+          "timestamp": "2026-01-31T19:53:16+08:00",
+          "tree_id": "664f590ece4e517d930b160891660829bca7e26a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/0bf5ee2e08109c89584dc316de2c6cc831c97095"
+        },
+        "date": 1769861479939,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1626,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1025.945,
             "unit": "iterations/sec"
           }
         ]
