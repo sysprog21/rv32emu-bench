@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772340232294,
+  "lastUpdate": 1772352582408,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46507,6 +46507,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1108.019,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "8092c66edef8b97886ebf835094ba37f1cdda62d",
+          "message": "Fix JIT jump table overflow in block chaining\n\ntranslate_chained_block() recursively chains translated blocks, each\nemitting jump targets into a fixed-size jumps[MAX_JUMPS] array. Deep\nchains (triggered by newer Linux kernel images with longer hot paths)\noverflow the array, hitting assert(n_jumps < MAX_JUMPS).\n\nThis adds a budget guard that checks remaining jump slots before\ntranslating each block: n_insn * JUMPS_PER_INSN + 2 accounts for the\nworst-case per-instruction emissions (5: SYSTEM_MMIO load or branch\nepilogue) plus the page-terminated block epilogue (2: emit_jmp +\nemit_exit).",
+          "timestamp": "2026-03-01T15:52:09+08:00",
+          "tree_id": "95497efdade583849f82bfa6bcdae37a1175924a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/8092c66edef8b97886ebf835094ba37f1cdda62d"
+        },
+        "date": 1772352580385,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1554.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1113.437,
             "unit": "iterations/sec"
           }
         ]
