@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772354951364,
+  "lastUpdate": 1772354977133,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46605,6 +46605,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1101.462,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "2a635b4d8e50379f1a5985fcaf3b3e3f28100347",
+          "message": "Use portable $(python) preprocessor for Kconfig",
+          "timestamp": "2026-03-01T08:32:05Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/719/commits/2a635b4d8e50379f1a5985fcaf3b3e3f28100347"
+        },
+        "date": 1772354974993,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1554,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1108.112,
             "unit": "iterations/sec"
           }
         ]
