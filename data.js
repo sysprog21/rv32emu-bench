@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772340149401,
+  "lastUpdate": 1772340232294,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46473,6 +46473,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1104.684,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6dca3b98c6ff43f4583e299179c9657515e5cf2b",
+          "message": "Use portable $(python) preprocessor for Kconfig\n\nThis replaces $(shell,...) call with portable $(python,...) preprocessor\nfunction from Kconfiglib for boolean environment detection. $(python)\nbuilt-in evaluates Python code in-process and returns \"y\"/\"n\" without\nspawning a shell, eliminating POSIX shell dependencies (2>/dev/null,\n|| echo) and improving Windows portability.\n\nSimple checks (SDL2, SDL2_mixer) are inlined directly using the\nrun()/shutil.which() helpers available in the $(python,...) namespace.\nComplex checks (compiler type, LLVM 18, RISC-V toolchain) delegate to\ndetect-env.py via run(sys.executable, ...) with exit-code signaling.\nCOMPILER_TYPE remains $(shell,...) since it requires string output.",
+          "timestamp": "2026-03-01T12:25:51+08:00",
+          "tree_id": "fc161338bbbe3af8aabd1ecd77e95f1e96ba6166",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6dca3b98c6ff43f4583e299179c9657515e5cf2b"
+        },
+        "date": 1772340230442,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1555.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1108.019,
             "unit": "iterations/sec"
           }
         ]
