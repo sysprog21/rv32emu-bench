@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772352582408,
+  "lastUpdate": 1772352641823,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46541,6 +46541,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1113.437,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "8092c66edef8b97886ebf835094ba37f1cdda62d",
+          "message": "Fix JIT jump table overflow in block chaining",
+          "timestamp": "2026-02-19T15:34:56Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/720/commits/8092c66edef8b97886ebf835094ba37f1cdda62d"
+        },
+        "date": 1772352639867,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1535.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1110.937,
             "unit": "iterations/sec"
           }
         ]
