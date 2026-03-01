@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772352641823,
+  "lastUpdate": 1772354951364,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46571,6 +46571,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1110.937,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2a635b4d8e50379f1a5985fcaf3b3e3f28100347",
+          "message": "Use portable $(python,...) preprocessor for Kconfig detection\n\nReplace all $(shell,...) calls with the portable $(python,...) preprocessor\nfunction from Kconfiglib.  The $(python,...) built-in evaluates Python code\nin-process and returns \"y\"/\"n\" without spawning a shell, eliminating POSIX\nshell dependencies (2>/dev/null, ||, echo) for cross-platform portability.\n\nSimple checks (SDL2, SDL2_mixer) are inlined directly using the run() and\nshutil.which() helpers available in the $(python,...) namespace.  Complex\nchecks (compiler type, LLVM 18, RISC-V toolchain) delegate to detect-env.py\nvia run(sys.executable, ...) with exit-code signaling.  COMPILER_TYPE is\nderived from the CC_IS_CLANG/CC_IS_GCC/CC_IS_EMCC booleans using pure\nKconfig conditionals, eliminating the last $(shell,...) call.\n\ndetect-env.py changes:\n- Boolean flags now use exit codes (0/1) via bool_exit() instead of\n  printing \"y\"/\"n\", matching the run() convention in $(python,...).\n- Compiler probing is lazy: --have-sdl2, --have-llvm18, etc. no longer\n  pay the cost of running CC --version when they don't need it.\n- get_compiler_version() captures both stdout and stderr to handle\n  emcc variants that emit version info on stderr.\n\nReference: https://github.com/sysprog21/Kconfiglib/pull/47",
+          "timestamp": "2026-03-01T16:32:49+08:00",
+          "tree_id": "01039215c0be29f7e95af48cb6b9349f90e688de",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2a635b4d8e50379f1a5985fcaf3b3e3f28100347"
+        },
+        "date": 1772354949045,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1562.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1101.462,
             "unit": "iterations/sec"
           }
         ]
