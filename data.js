@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772444420334,
+  "lastUpdate": 1772803980578,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46665,6 +46665,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1102.738,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "fourcolor",
+            "username": "fourcolor"
+          },
+          "committer": {
+            "name": "fourcolor",
+            "username": "fourcolor"
+          },
+          "id": "2138efe3ec8e0f7888610a820cd0db5e26fddd60",
+          "message": "Fix memory leak",
+          "timestamp": "2026-03-02T09:18:49Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/716/commits/2138efe3ec8e0f7888610a820cd0db5e26fddd60"
+        },
+        "date": 1772803978631,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1558.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1103.567,
             "unit": "iterations/sec"
           }
         ]
