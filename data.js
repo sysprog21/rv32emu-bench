@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775726721688,
+  "lastUpdate": 1777360135912,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46725,6 +46725,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1103.066,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "yc199911",
+            "username": "yc199911"
+          },
+          "committer": {
+            "name": "yc199911",
+            "username": "yc199911"
+          },
+          "id": "17ba12dd2405de39dabb06cb89c1e998419cf5f4",
+          "message": "Generate decoder from ISA descriptor",
+          "timestamp": "2026-03-19T10:31:00Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/725/commits/17ba12dd2405de39dabb06cb89c1e998419cf5f4"
+        },
+        "date": 1777360133535,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1536.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1108.564,
             "unit": "iterations/sec"
           }
         ]
