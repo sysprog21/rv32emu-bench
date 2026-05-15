@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778855364369,
+  "lastUpdate": 1778874704940,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47157,6 +47157,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1108.941,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "cyrilmhansen",
+            "username": "cyrilmhansen"
+          },
+          "committer": {
+            "name": "cyrilmhansen",
+            "username": "cyrilmhansen"
+          },
+          "id": "1456c8af0e9f8f77cfe1c83c7a1a697f6488f7fb",
+          "message": "Add ACT4 user-mode test coverage",
+          "timestamp": "2026-05-15T14:06:44Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/731/commits/1456c8af0e9f8f77cfe1c83c7a1a697f6488f7fb"
+        },
+        "date": 1778874702288,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1569.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1121.207,
             "unit": "iterations/sec"
           }
         ]
