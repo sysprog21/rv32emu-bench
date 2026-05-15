@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778842409101,
+  "lastUpdate": 1778842566293,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47063,6 +47063,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1107.76,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c51bccf8b5bbb825dc4d25dec0a521428aa72b03",
+          "message": "Refine WebAssembly user/system mode demos\n\nThis reworks the in-browser experience for both user and system mode\nemulation and brings the build infrastructure along with it.\n\nLayout and deploy:\n- Unify the deploy under one repo with /, /user/, /system/. demo-index.html\n  becomes the root landing page and cross-links between modes now work both\n  in production and under `make start-web`.\n- Split start-web into prepare-web + serve-web so both modes can be built\n  separately and served from a common demo/ tree.\n\nWASM bundle:\n- Drop DOOM1.WAD, Quake pak0.pak, and timidity from --embed-file.\n  User-mode WASM falls from ~45 MiB to ~7 MiB. user.html fetches the data\n  on demand, writes DOOM1.WAD and pak0.pak directly to MEMFS, and untars\n  timidity.tar.gz in-browser using DecompressionStream + a minimal ustar\n  parser. INITIAL_MEMORY is lowered to 320 MiB and AppleDouble entries are\n  filtered both at tar build time and in the JS untar path.\n\nSystem mode:\n- system.html opportunistically fetches disk.img and passes\n  -x vblk:disk.img,readonly to the emulator.\n- [NOT-WORKING] A new S99automount init script auto-mounts /dev/vda at\n  /mnt during boot, trying ext4/ext2/squashfs in turn. The script is\n  spliced into the cpio archive via tools/cpio-inject.py rather than\n  extract+repack, so character device nodes (/dev/console) survive.\n\nUI:\n- Fix a race in elfHandler that corrupted the \"Running ...\" banner with\n  output from the previous program; halt and wait before clearing the\n  terminal.\n- Reset the canvas dimensions when switching from an SDL program to a\n  non-SDL one so leftover pixels do not bleed through.\n- Surface real error info instead of [object Object] when asset fetch or\n  writeFile fails.\n\nEmulator core:\n- Add a tail-call yield budget at block boundaries so WASM does not blow\n  the stack during long-running guests; rv_step resumes from the saved\n  next_insn / PC after each unwind.\n- Add bounds checks to memory_read/write and ram_read_*/ram_write_* when\n  HAVE_MMAP is unavailable (Emscripten, Windows) to avoid raw WASM traps.\n- Export _indirect_rv_alive and _indirect_rv_cleanup so the page can detect\n  and tear down the previous VM cleanly between runs.\n\nBuild system:\n- Add an effective-config stamp so a config change invalidates objects and\n  the final binary, fixing stale WASM after `make wasm_defconfig` toggles.\n- Generate build/timidity.tar(.gz), build/pak0.pak, and\n  build/linux-image/rootfs.web.cpio as first-class build outputs.",
+          "timestamp": "2026-05-15T18:38:06+08:00",
+          "tree_id": "3fffcc4fd51dc67aeab4f7de68a08ebaa3930257",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c51bccf8b5bbb825dc4d25dec0a521428aa72b03"
+        },
+        "date": 1778842563916,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1495.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1117.704,
             "unit": "iterations/sec"
           }
         ]
