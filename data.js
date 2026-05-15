@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778834703152,
+  "lastUpdate": 1778837405047,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -46883,6 +46883,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1075.942,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "7e7c0a26eaa8cbad0731c5843f0f0fbaf740608e",
+          "message": "Refine WebAssembly user/system mode demos",
+          "timestamp": "2026-05-15T07:56:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/732/commits/7e7c0a26eaa8cbad0731c5843f0f0fbaf740608e"
+        },
+        "date": 1778837402322,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1530.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1105.009,
             "unit": "iterations/sec"
           }
         ]
