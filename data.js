@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778875216656,
+  "lastUpdate": 1778891403424,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47217,6 +47217,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1088.292,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3d11f133baf3720ab701e50481304039c532273e",
+          "message": "Implement RISC-V V integer and memory ops subset\n\nWire vector CSRs (vl/vtype/vlenb/vstart/vxrm/vxsat/vcsr) into the Zicsr\npath with read-only traps, vill semantics on unsupported vtype, and\ncorrect vsetvli/vsetivli/vsetvl rules including the \"keep vl\" form.\n\nImplement nearly all integer and memory V instructions: unit-stride /\nstrided / indexed / FoF / whole-register / mask / segmented loads-stores;\ninteger add/sub/rsub/mul/mulh*, div/rem, shifts, min/max, compares;\nmask producing/logical/popcount/find, viota, vid; merge, carry/borrow,\nfixed-point ops, reductions; widening/narrowing arithmetic and shifts;\nmultiply-accumulate (single-width and widening); gather/slide/compress\npermutations; vmv.v.{v,x,i} and vmv.{x,s} scalar-vector moves.\n\nValidation enforces vill, EMUL bounds, register-group alignment, and the\nV 1.0 cross-EEW lower-half overlap rule for widening/narrowing/indexed\nops via a single rvv_cross_eew_overlap_illegal predicate. vstart-aware\nresume in every body loop, atomic per-segment commit on FoF mid-segment\nfaults, byte-level trap propagation for EEW>8 memory accesses, and\nrvv_trap_illegal_state returning false to match the RVOP dispatcher\ncontract close the trap-discipline gaps that earlier rounds missed.\n\nA new tests/rvv-smoke.S (wired in via mk/tests.mk under CONFIG_EXT_V)\ncovers CSR plumbing, EEW>SEW load/store, vstart prestart-undisturbed,\nmask-aware vmsbf/viota, masked segmented load, widening/narrowing\ncorrectness including SEW=32 vsmul saturation, and the spec-correct\nvmadd/vnmsub operand mapping.",
+          "timestamp": "2026-05-16T08:12:11+08:00",
+          "tree_id": "d371bd97a60668172e3047ed32eb40408a23cc66",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3d11f133baf3720ab701e50481304039c532273e"
+        },
+        "date": 1778891401554,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1549.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1099.842,
             "unit": "iterations/sec"
           }
         ]
