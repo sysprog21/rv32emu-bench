@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779007966555,
+  "lastUpdate": 1779008043462,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47469,6 +47469,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1130.814,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "4fd2da8f8d76caad5a956a495e5a13e1245373f9",
+          "message": "Implement RISC-V Vector integer and memory operation subset",
+          "timestamp": "2026-05-15T13:00:29Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/733/commits/4fd2da8f8d76caad5a956a495e5a13e1245373f9"
+        },
+        "date": 1779008040529,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1807,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1160.675,
             "unit": "iterations/sec"
           }
         ]
