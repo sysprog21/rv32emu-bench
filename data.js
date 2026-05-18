@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779073272428,
+  "lastUpdate": 1779074471799,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47529,6 +47529,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1126.826,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6013f714ef06403d8296d0248a507b15d12efa49",
+          "message": "Close profiling output stream in rv_profile\n\nrv_profile fopen's the requested output path at the top and never\nfclose's it on the success path; the function returns with the FILE*\nstill owned by the process. clang 20's scan-build flags this with\n\n  src/riscv.c:1410:1: warning: Opened stream never closed.\n  Potential resource leak [unix.Stream]\n\nscan-build-18 missed the diagnostic, so the leak rode in unnoticed; the\nLLVM pin bump to 20 exposed it and the static-analysis CI job fails\nunder --status-bugs.\n\nThe leak itself is real: every rv_profile call leaves a flushed-but-open\nfile descriptor behind for the rest of the process's lifetime, with no\nexplicit fflush guarantee on abnormal exit. Add the matching fclose\nbefore the function returns.",
+          "timestamp": "2026-05-17T22:03:53-05:00",
+          "tree_id": "50d6b1baa016903d8fcb1ce8f23ec873b7f4846b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6013f714ef06403d8296d0248a507b15d12efa49"
+        },
+        "date": 1779074468688,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1560,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1099.54,
             "unit": "iterations/sec"
           }
         ]
