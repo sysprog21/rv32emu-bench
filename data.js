@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779126778128,
+  "lastUpdate": 1779292153738,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -47893,6 +47893,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1075.527,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "orbisai0security",
+            "username": "orbisai0security"
+          },
+          "committer": {
+            "name": "orbisai0security",
+            "username": "orbisai0security"
+          },
+          "id": "f281b95850a3b0706ab751f54173fd41b865a214",
+          "message": "fix: the mmu_ifetch function in src/system in system.c",
+          "timestamp": "2026-05-20T15:32:01Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/742/commits/f281b95850a3b0706ab751f54173fd41b865a214"
+        },
+        "date": 1779292150916,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1572.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1109.822,
             "unit": "iterations/sec"
           }
         ]
