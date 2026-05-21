@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779379014353,
+  "lastUpdate": 1779379061096,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -48307,6 +48307,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1117.158,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "6780cf1ccb7e75227116c68cdc88028f5c3fec52",
+          "message": "Inline dTLB fast path in JIT with superpage",
+          "timestamp": "2026-05-20T19:32:24Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/746/commits/6780cf1ccb7e75227116c68cdc88028f5c3fec52"
+        },
+        "date": 1779379058679,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1523,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1115.919,
             "unit": "iterations/sec"
           }
         ]
