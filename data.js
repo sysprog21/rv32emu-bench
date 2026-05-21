@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779378315613,
+  "lastUpdate": 1779379014353,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -48273,6 +48273,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1119.035,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6780cf1ccb7e75227116c68cdc88028f5c3fec52",
+          "message": "Initialize state->n_jumps in jit_state_init\n\nThe previous commit made `restart:` in translate_chained_block() read\n`state->n_jumps` before clearing it, but the field was never zeroed in\njit_state_init() — `state` comes from `malloc()`, not `calloc()`.  On\nthe very first jit_translate() call the garbage value could trigger a\nbuffer overrun in the memset() of state->jumps.\n\nSet it explicitly alongside the other zero-init fields.",
+          "timestamp": "2026-05-21T10:39:58-05:00",
+          "tree_id": "a2041190cb2ea0f8a506fb3f2828fe0e6259a29c",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6780cf1ccb7e75227116c68cdc88028f5c3fec52"
+        },
+        "date": 1779379011709,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1579.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1117.158,
             "unit": "iterations/sec"
           }
         ]
