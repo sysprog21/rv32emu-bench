@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779378268445,
+  "lastUpdate": 1779378315613,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -48239,6 +48239,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1159.653,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "4b2be2a9ef5e3c706adac46a58697fa05d57c937",
+          "message": "Avoid 1 MiB memset of state->jumps every JIT translation\n\nMAX_JUMPS was bumped from 1024 to 65536 to fit the inline TLB fast\npath's worst-case branch count.  state->jumps is sized accordingly\n(~1 MiB), and translate_chained_block() blanket-zeroes the whole array\nat every restart label.  On small-block workloads (Dhrystone, CoreMark)\nthis dominated per-translation cost — measured -11% Dhrystone and -8%\nCoreMark on master CI.\n\nOnly clear the portion the previous translation actually used.\nresolve_jumps() only reads [0, n_jumps), and emit_jump_target_offset()\noverwrites entries fresh, so anything past the prior high-water mark\nnever gets read.\n\nAlso pick up clang-format-20 reflow noticed by the coding-style check.",
+          "timestamp": "2026-05-21T10:27:21-05:00",
+          "tree_id": "1f34520933a4468796d0caaa4d8c2f2d606f4de6",
+          "url": "https://github.com/sysprog21/rv32emu/commit/4b2be2a9ef5e3c706adac46a58697fa05d57c937"
+        },
+        "date": 1779378313359,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1542,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1119.035,
             "unit": "iterations/sec"
           }
         ]
