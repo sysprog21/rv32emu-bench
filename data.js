@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779375413220,
+  "lastUpdate": 1779375428680,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -48047,6 +48047,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1375.911,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "dc702c5b689fc891a3d8fdc9e666856ad5e7a349",
+          "message": "Inline dTLB fast path in JIT with superpage\n\nSystem-mode JIT-translated load/stores previously trampolined into the C\nslow path on every memory access.  Add an inline TLB probe so hits stay\ninline, with the slow path reached only on miss.\n\nProbe checks the dTLB entry for: alignment, valid+VPN match, permission,\ndirty (stores), and that paddr is within mem_size (MMIO falls through to\nC).  On hit, RAM access is emitted inline with the level-appropriate\noffset mask (12-bit for 4 KiB, 22-bit for 4 MiB superpages) selected via\nCSEL (aarch64) / CMOVcc (x86-64).\n\nT1 covers both aarch64 and x86-64 SysV.  T2C emits the equivalent LLVM\nIR for 4 KiB pages; T2C superpage handling stays on the slow path to\navoid an intermittent crash with a select-based variant.\n\nGEN_LOAD/STORE in src/rv32_jit.c set up the allocator state once before\nthe probe (store_back + reset_reg + map_vm_reg(rd)) so the fast and slow\npaths land their result in the same host register.  The slow-path call\njit_mmu_handler now takes vaddr/type/pc as arguments instead of staging\nthem in rv->jit_mmu memory, and the SysV x86-64 call site keeps %rsp\n16-byte aligned through the trampoline.\n\nStatic asserts in src/jit.c and src/t2c.c lock the tlb_entry_t layout,\nTLB_SIZE bounds, and PTE/level constants used by the emitted code.\n\nValidated on aarch64 host with system+JIT+T2C (LLVM 20):\n - defconfig, jit_defconfig make check: all PASS\n - Linux boots to login under system+JIT+T2C\n - 4 MiB sha256+gzip workload, 5 paired iterations:\n     gzip -1: 1.120s -> 0.927s (-17.2%)\n     gzip -9: 1.119s -> 0.937s (-16.3%)\n     sha256:  5.089s -> 5.045s ( -0.9%)",
+          "timestamp": "2026-05-21T09:39:57-05:00",
+          "tree_id": "0b8efc0d36c03a6bd3aa65d8670a0b030d2232e7",
+          "url": "https://github.com/sysprog21/rv32emu/commit/dc702c5b689fc891a3d8fdc9e666856ad5e7a349"
+        },
+        "date": 1779375426638,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1544.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1079.897,
             "unit": "iterations/sec"
           }
         ]
