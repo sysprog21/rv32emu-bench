@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784919062748,
+  "lastUpdate": 1784919522434,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -48881,6 +48881,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1071.044,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "eac2b9fae201a4d766e23a174acbe37ba8469ac5",
+          "message": "Add zlib config detection logic and implement zlib logic ",
+          "timestamp": "2026-07-24T17:39:19Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/755/commits/eac2b9fae201a4d766e23a174acbe37ba8469ac5"
+        },
+        "date": 1784919519364,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1565,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1117.57,
             "unit": "iterations/sec"
           }
         ]
