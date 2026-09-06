@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788679059285,
+  "lastUpdate": 1788685790168,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50021,6 +50021,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1122.692,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "5ef88e638061754677f212a44bdf8d46030999ae",
+          "message": "Enable to boot Linux guestOS via gzip images",
+          "timestamp": "2026-09-06T06:56:20Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/755/commits/5ef88e638061754677f212a44bdf8d46030999ae"
+        },
+        "date": 1788685787931,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1558.667,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1071.506,
             "unit": "iterations/sec"
           }
         ]
