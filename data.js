@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788774262904,
+  "lastUpdate": 1788779387597,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50205,6 +50205,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1052.435,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "3ea8cae92ac7107e8071baec4d930331e1feebdc",
+          "message": "Fix memory-safety defects in ELF and virtio-blk",
+          "timestamp": "2026-09-07T09:36:17Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/764/commits/3ea8cae92ac7107e8071baec4d930331e1feebdc"
+        },
+        "date": 1788779385239,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1513.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1067.054,
             "unit": "iterations/sec"
           }
         ]
