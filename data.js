@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788717373433,
+  "lastUpdate": 1788774196156,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50141,6 +50141,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1069.283,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c7db3562ea4d691d40d4648013db206dbb2717de",
+          "message": "Use (void) for empty parameter lists\n\nA declaration written with an empty parameter list says nothing about\nthe arguments a function takes, which is why the compiler does not\ntreat it as a prototype and warns about the definition having none.\nSeventeen declarations and their definitions were written this way.\n\nGive them (void). Beyond silencing the warning, C23 changes what an\nempty list means, so spelling the intent out now avoids a silent shift\nin meaning later.\n\nTwo functions in jit.c had external linkage with no declaration in any\nheader. One is used only from a file included into the same\ntranslation unit and the other only from its own; both are now static.\n\nreset_rv_run_state() is declared in em_runtime.h behind an Emscripten\nguard and called only from the Emscripten teardown path, so its\ndefinition now sits behind the same guard rather than being built into\nevery target with no prototype in scope.",
+          "timestamp": "2026-09-07T17:16:58+08:00",
+          "tree_id": "9a65efd585b6a17de19175e4ceb5d6465eed64cd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c7db3562ea4d691d40d4648013db206dbb2717de"
+        },
+        "date": 1788774194007,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 1575.333,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1122.643,
             "unit": "iterations/sec"
           }
         ]
