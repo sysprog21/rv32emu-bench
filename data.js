@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789331696874,
+  "lastUpdate": 1789332517055,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50453,6 +50453,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1112.847,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c8d2afae6f229070df7ad8fa335de6ee6551ce9c",
+          "message": "Build guest regression checks for the base ISA\n\ncheck-fused-misalign and check-syscall-zero-write compiled their guests\nwith the cross compiler's default architecture, which includes the C\nextension, so they failed against emulators built with ENABLE_EXT_C=0.\nThey also ran whenever make check did, even on hosts without a RISC-V\ncross compiler, where the host compiler rejected the RISC-V assembly.\n\nTarget rv32i/ilp32 so the programs run under every extension-disabled\nbuild, and add the checks only when a cross compiler was detected and\nthe emulator is not RV32E.",
+          "timestamp": "2026-09-14T04:27:17+08:00",
+          "tree_id": "516e8961ea37f5f988db3c90f827407d22536b69",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c8d2afae6f229070df7ad8fa335de6ee6551ce9c"
+        },
+        "date": 1789332514583,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2311.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1618.326,
             "unit": "iterations/sec"
           }
         ]
