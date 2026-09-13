@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789332715445,
+  "lastUpdate": 1789332928255,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50517,6 +50517,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1067.768,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "7d9a6b46084d2680db4d6c573cf57ef3113e1ae9",
+          "message": "Let the local toolchain prefix be overridden\n\nThe home-directory toolchain probe used a fixed := assignment, so a\ndifferent install location, or no probe at all, could not be chosen\nfrom the command line or the environment. Make it a default instead.",
+          "timestamp": "2026-09-14T04:39:16+08:00",
+          "tree_id": "0a9ae9d143f7f81a26fff4b5ca45f14c551dfdda",
+          "url": "https://github.com/sysprog21/rv32emu/commit/7d9a6b46084d2680db4d6c573cf57ef3113e1ae9"
+        },
+        "date": 1789332926123,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2135.75,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1819.931,
             "unit": "iterations/sec"
           }
         ]
