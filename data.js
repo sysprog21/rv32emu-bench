@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789234769631,
+  "lastUpdate": 1789331422873,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50389,6 +50389,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1111.051,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "604e7f9aa2bc911ee70ef14c8d41b045737bbbaa",
+          "message": "Add native Huffman raw region continuation\n\nThe NBench Huffman merge region spans several blocks and two calls to\nthe __gesf2 helper, so even with a specialized entry it returns to\ngeneric dispatch many times per merge.\n\nAdd an experimental, default-off HUFFMAN_RAW_REGION option that\ncontinues the exact, image-pinned Huffman blocks in Linux host code on\nx86-64 or AArch64 and hands every exit it does not own back to the\noriginal decoded instruction. Sub-options select a scalar C reference\nrunner that serves as the behavioral oracle, the full multi-resume\nhost-assembly state machine (x86-64 only for now), and inlining of the\n42-word __gesf2 helper into either one. ARCH_TEST builds are excluded\nuntil raw stores can preserve tohost callbacks.",
+          "timestamp": "2026-09-14T02:53:14+08:00",
+          "tree_id": "097f69702946d30655524a984cd01b4c0018dcbf",
+          "url": "https://github.com/sysprog21/rv32emu/commit/604e7f9aa2bc911ee70ef14c8d41b045737bbbaa"
+        },
+        "date": 1789331420376,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2159.75,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1779.801,
             "unit": "iterations/sec"
           }
         ]
