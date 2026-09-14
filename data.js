@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789380845566,
+  "lastUpdate": 1789401478018,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50961,6 +50961,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 2627.788,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "22abc9593bc7c54fea3109188cba463236706729",
+          "message": "Specialize ADDI and shift interpreter handlers\n\nTwo common instruction forms paid for generality they never used: addi\nrd, rd, imm, the usual loop induction update, decoded rs1 and rd as\nindependent operands, and SLLI, SRLI and SRAI shared a helper that\nswitched on the opcode at run time.\n\nPoint in-place uncompressed ADDI records at a native packed handler\nthat updates the register directly, keeping the ADDI opcode so block\nand branch metadata are unaffected, and write each immediate shift\ndirectly in its own handler.",
+          "timestamp": "2026-09-14T23:43:49+08:00",
+          "tree_id": "5611756fe844ffbd0a29d15fb6ab400f69654e45",
+          "url": "https://github.com/sysprog21/rv32emu/commit/22abc9593bc7c54fea3109188cba463236706729"
+        },
+        "date": 1789401474199,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2621.6,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2421.354,
             "unit": "iterations/sec"
           }
         ]
