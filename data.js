@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789364655426,
+  "lastUpdate": 1789365123753,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50833,6 +50833,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1112.869,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c60b6db4c7eccad10500fdbf15414f5cda9857bc",
+          "message": "Add native EmFloat and Huffman continuations\n\nThe NBench EmFloat shift loops and the Huffman merge region still leave\nand re-enter the interpreter on every edge between their blocks, even\nwith fused traces and a specialized Huffman entry.\n\nAdd experimental, default-off EMFLOAT_NATIVE_RESIDENT and\nHUFFMAN_RAW_REGION options that continue these image-pinned regions in\nLinux host assembly. Every exit they do not own is handed back to the\noriginal decoded instruction, or to the dispatcher when that record has\nnot been translated yet. The backend follows the compiler's target, so a\ncross build assembles the right one, and the EmFloat backend is x86-64\nonly. Huffman also has an AArch64 backend, and on x86-64 requires either\nthe scalar C reference runner used as the behavioral oracle or the full\nmulti-resume state machine, optionally inlining the __gesf2 helper.\nARCH_TEST builds are excluded.",
+          "timestamp": "2026-09-14T13:37:11+08:00",
+          "tree_id": "10b6a0fd46c6e26d10af80314fca6125445e5b1d",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c60b6db4c7eccad10500fdbf15414f5cda9857bc"
+        },
+        "date": 1789365121195,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2213.5,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1798.875,
             "unit": "iterations/sec"
           }
         ]
