@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789349365392,
+  "lastUpdate": 1789359998277,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50705,6 +50705,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1671.52,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "35d05fdf453069677e3a840e2d39565247e9f97c",
+          "message": "Add native EmFloat and Huffman continuations\n\nThe NBench EmFloat shift loops and the Huffman merge region still leave\nand re-enter the interpreter on every edge between their blocks, even\nwith fused traces and a specialized Huffman entry.\n\nAdd experimental, default-off EMFLOAT_NATIVE_RESIDENT and\nHUFFMAN_RAW_REGION options that continue these image-pinned regions in\nLinux host assembly. Every exit they do not own is handed back to the\noriginal decoded instruction, or to the dispatcher when that record has\nnot been translated yet. The EmFloat backend is x86-64 only. Huffman\nalso has an AArch64 backend, and on x86-64 requires either the scalar C\nreference runner used as the behavioral oracle or the full multi-resume\nstate machine, optionally inlining the __gesf2 helper. ARCH_TEST builds\nare excluded.",
+          "timestamp": "2026-09-14T11:45:13+08:00",
+          "tree_id": "17fa45f0cc1552ef1528163fc21de60d2b355e0b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/35d05fdf453069677e3a840e2d39565247e9f97c"
+        },
+        "date": 1789359995503,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2188.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1793.988,
             "unit": "iterations/sec"
           }
         ]
