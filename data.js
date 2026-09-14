@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789380215352,
+  "lastUpdate": 1789380845566,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -50927,6 +50927,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1449.593,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "a9dae4f145fc37a7bb5c5c47ac87c62f6f8e82dd",
+          "message": "Specialize image-pinned NBench IDEA rounds\n\nEach NBench IDEA round spends most of its time in two fixed runs of\nmultiply, shift and halfword load instructions ending in a BEQ.\n\nExecute both runs in native packed handlers pinned to the guest image,\nso both the guest words at the known PC and every decoded record must\nmatch. Loads keep their own alignment traps, and the terminal BEQs stay\ngeneric for branch learning.",
+          "timestamp": "2026-09-14T17:28:14+08:00",
+          "tree_id": "0bceff2eaeefe8fcabf83c462c8df4f29323dbfa",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a9dae4f145fc37a7bb5c5c47ac87c62f6f8e82dd"
+        },
+        "date": 1789380842816,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3307.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2627.788,
             "unit": "iterations/sec"
           }
         ]
