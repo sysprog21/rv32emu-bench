@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789585561248,
+  "lastUpdate": 1789585596198,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51115,6 +51115,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1757.369,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "6ff5121f5efc2d4aa0a21d321df8b24570b69feb",
+          "message": "Declare cross-module entry points in a header\n\nSix functions implemented in syscall_sdl.c were declared by a local\nextern at each use site, spread across syscall.c, emulate.c and uart.c,\nand two of those spelled sdl_video_audio_cleanup with an empty parameter\nlist, which disables argument checking across the boundary. Nothing tied\nthe declarations to the definitions, so they could drift apart silently.\n\nDeclare them once in syscall_sdl.h and let the compiler check both\nsides. mus2midi turns out to be used only within syscall_sdl.c, so mark\nit static. em_runtime.c carried its own duplicate block of declarations\nthat em_runtime.h already provides; drop it.\n\nEnable -Wmissing-prototypes and -Wstrict-prototypes so the pattern\ncannot return. That immediately found five more instances in riscv.c\nwhich only the system build compiles, load_dtb among them, reachable\nfrom one file and now static. Suppress both warnings for the vendored\nSoftFloat sources, which do not conform and are not ours to change.\n\nAlso stop assigning a string literal to a plain char * when dumping\nregisters.",
+          "timestamp": "2026-09-17T02:41:05+08:00",
+          "tree_id": "5081f2bec3fe06d69e2eb737fbe4d0d388eff223",
+          "url": "https://github.com/sysprog21/rv32emu/commit/6ff5121f5efc2d4aa0a21d321df8b24570b69feb"
+        },
+        "date": 1789585595854,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2307.75,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1630.267,
             "unit": "iterations/sec"
           }
         ]
