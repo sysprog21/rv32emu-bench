@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789586528493,
+  "lastUpdate": 1789587613247,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51213,6 +51213,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1756.403,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "f7ed516c033125bc8f60899542546dcc1d664f39",
+          "message": "Rebuild the map on parent-linked red-black nodes",
+          "timestamp": "2026-09-16T14:27:30Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/776/commits/f7ed516c033125bc8f60899542546dcc1d664f39"
+        },
+        "date": 1789587612942,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2161.75,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1734.427,
             "unit": "iterations/sec"
           }
         ]
