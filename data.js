@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789585596198,
+  "lastUpdate": 1789586324575,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51149,6 +51149,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1630.267,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "2a9502b41c0611dfc29117f61f31e0fe00cc201c",
+          "message": "Give rv_destroy_t2c internal linkage\n\nEnabling -Wmissing-prototypes surfaced this only in T2C builds, which\nnone of the configurations exercised before the push compiled. The\nfunction is called twice, both within riscv.c, so it takes static like\nload_dtb did rather than growing a header declaration for nobody.\n\nVerified across twelve configurations locally this time, including\nJIT and T2C with and without system emulation, plus the full\n.ci/test-ext-disable.sh matrix.",
+          "timestamp": "2026-09-17T03:06:23+08:00",
+          "tree_id": "9b39edebda91adc84382b6215ab2cbc0bf5f8a76",
+          "url": "https://github.com/sysprog21/rv32emu/commit/2a9502b41c0611dfc29117f61f31e0fe00cc201c"
+        },
+        "date": 1789586323894,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2969.75,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2420.226,
             "unit": "iterations/sec"
           }
         ]
