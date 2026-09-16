@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789587617495,
+  "lastUpdate": 1789595961251,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51277,6 +51277,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1752.571,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "b654564fbb8e73ecc1f74676d56cb29b1b1d060f",
+          "message": "Declare cross-module entry points in a header\n\nSix functions implemented in syscall_sdl.c were declared by a local\nextern at each use site, spread across syscall.c, emulate.c and uart.c,\nand two of those spelled sdl_video_audio_cleanup with an empty parameter\nlist, which disables argument checking across the boundary. Nothing tied\nthe declarations to the definitions, so they could drift apart silently.\n\nDeclare them once in syscall_sdl.h and let the compiler check both\nsides. mus2midi turns out to be used only within syscall_sdl.c, so mark\nit static. em_runtime.c carried its own duplicate block of declarations\nthat em_runtime.h already provides; drop it.\n\nEnable -Wmissing-prototypes and -Wstrict-prototypes so the pattern\ncannot return. That found more instances in code only the system, JIT\nand T2C builds compile: load_dtb and others in riscv.c, rv_destroy_t2c,\nand three MMU and MMIO helpers in jit.c. Each is reachable from its own\nfile only, so it becomes static rather than growing a header declaration\nfor nobody. Suppress both warnings for the vendored SoftFloat sources,\nwhich do not conform and are not ours to change.\n\nAlso stop assigning a string literal to a plain char * when dumping\nregisters.",
+          "timestamp": "2026-09-17T05:47:11+08:00",
+          "tree_id": "b288a1f46a38d07d52e72eace43404c3fce7b1ee",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b654564fbb8e73ecc1f74676d56cb29b1b1d060f"
+        },
+        "date": 1789595960589,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 4523.6,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3382.57,
             "unit": "iterations/sec"
           }
         ]
