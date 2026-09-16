@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789587613247,
+  "lastUpdate": 1789587617495,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51243,6 +51243,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1734.427,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "f7ed516c033125bc8f60899542546dcc1d664f39",
+          "message": "Fix JIT prototypes and map review regressions",
+          "timestamp": "2026-09-17T03:26:07+08:00",
+          "tree_id": "1fb5dfcbb86af860c5c146916628ed25aa445cf4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f7ed516c033125bc8f60899542546dcc1d664f39"
+        },
+        "date": 1789587616869,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2166.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1752.571,
             "unit": "iterations/sec"
           }
         ]
