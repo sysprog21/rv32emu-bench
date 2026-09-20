@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789918776047,
+  "lastUpdate": 1789918872032,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51915,6 +51915,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1771.534,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "eedbf09d1124a4489a2f92bbd99b5e46ee1ecb3e",
+          "message": "Index block predecessors for CFG profiling",
+          "timestamp": "2026-09-20T11:05:09Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/780/commits/eedbf09d1124a4489a2f92bbd99b5e46ee1ecb3e"
+        },
+        "date": 1789918871313,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2219.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1738.31,
             "unit": "iterations/sec"
           }
         ]
