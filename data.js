@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789899495144,
+  "lastUpdate": 1789918776047,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51881,6 +51881,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 3384.984,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "eedbf09d1124a4489a2f92bbd99b5e46ee1ecb3e",
+          "message": "Keep block chain edges on the emulator thread\n\nEvery interpreted block transition took cache_lock to install a chain\nedge, because t2c_compile reaped the outgoing edges of blocks evicted\nwhile it was compiling, and that reaping mutates the incoming list of\nwhatever block the edge pointed at. In steady state the critical\nsection does nothing: the slot is already filled and all three tests\nfall through. The lock was paid once per dispatch to protect an update\nthat happens once per edge.\n\nThe compiler thread does not need to do that reaping. It finishes\nwalking the block's IR in t2c_trace_ebb before it publishes\nis_compiling, and the emulator only takes the deferred-free path after\nseeing that flag, so by then nothing is reading those edges. Unlink\nthem at the handoff instead, where cache_lock is already held for the\neviction, and the compiler thread stops touching edge lists entirely.\nChaining then runs unlocked.\n\nThat leaves one crossing. t2c_trace_ebb reads branch_taken and then\ndereferences it, which was safe only while both sides held the lock; a\ncomment there already noted the hazard. The emulator now writes that\nslot without the lock, so publish it with a relaxed atomic store and\nread it once, atomically, into a local on the other side. Relaxed is\nenough because nothing downstream of the pointer is published by the\nstore, and the block it names is in the cache and cannot be evicted\nwhile the tracer holds the lock, so either value is safe to follow.\nThe interpreter's own reads stay plain: they run on the thread that\ndoes the writing.\n\nThe profiling report keeps the lock, for the block fields the compiler\nthread publishes rather than for edges it no longer touches.",
+          "timestamp": "2026-09-20T23:16:08+08:00",
+          "tree_id": "ad3f4023e6aff1639089692302c6b20a87e83b9a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/eedbf09d1124a4489a2f92bbd99b5e46ee1ecb3e"
+        },
+        "date": 1789918775408,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2150.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1771.534,
             "unit": "iterations/sec"
           }
         ]
