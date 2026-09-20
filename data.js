@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789944369216,
+  "lastUpdate": 1789948612851,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52167,6 +52167,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1780.78,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "c758d9ca7ad5904383ed028d47bef000202e5874",
+          "message": "Register a reservation set for LR.W and SC.W\n\nSC.W stored and reported success unconditionally, because LR.W never\nregistered a reservation. Every store conditional therefore succeeded,\nincluding one issued with no preceding LR.W, one naming a different\naddress than was reserved, and a second one after the reservation had\nalready been consumed. A guest building a lock out of that pair could\ntake it twice.\n\nGive the hart a one word reservation, armed by LR.W once its load has\nsucceeded and consumed by SC.W whether or not it matches, so a failing\nstore conditional cannot be retried against a stale reservation. SC.W\nnow stores only when the reservation is still held and covers the same\naddress, and otherwise reports failure without writing memory.\n\nTraps and interrupts clear the reservation as well. That is what keeps\none task's reservation from being honoured after a context switch, and\nit costs nothing on the fast path because every trap already funnels\nthrough one macro. Resetting a hart clears it too, so a reboot cannot\nstart with one armed.\n\nStores are deliberately not hooked. The ISA only requires a reservation\nto be broken by a write from another hart or a device, and this is a\nsingle hart, so a same hart store may leave it intact. Failing an SC.W\nmore often is always permitted, but checking on every store would buy no\ncorrectness here.\n\nThe pair is marked untranslatable and the JIT and T2C backends reject\nit, so the interpreter is the only implementation to change.\n\ntests/lrsc.S covers the cases above and fails on the previous behaviour.",
+          "timestamp": "2026-09-21T07:41:15+08:00",
+          "tree_id": "e708853e6d39aa861dc2b45bf52d60f1d3d3fe05",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c758d9ca7ad5904383ed028d47bef000202e5874"
+        },
+        "date": 1789948612330,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2188,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1776.722,
             "unit": "iterations/sec"
           }
         ]
