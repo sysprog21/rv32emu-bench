@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789894522518,
+  "lastUpdate": 1789896889684,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51731,6 +51731,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1748.185,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "1e60dfa8544fcbcd992d55ae406f2e984d5ef9c9",
+          "message": "Support zlib on wasm platform",
+          "timestamp": "2026-09-20T07:00:19Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/778/commits/1e60dfa8544fcbcd992d55ae406f2e984d5ef9c9"
+        },
+        "date": 1789896889110,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3889.5,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3019.849,
             "unit": "iterations/sec"
           }
         ]
