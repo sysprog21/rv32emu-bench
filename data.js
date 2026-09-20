@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789918872032,
+  "lastUpdate": 1789920418988,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51945,6 +51945,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1738.31,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "3531d82d6f0590d0f504ec83fc3ea9074d5cc203",
+          "message": "Narrow the signed divide result to 32 bits\n\nThe 64-bit IDIV leaves a negative quotient or remainder sign-extended,\nand the writeback into the destination is a 64-bit move, so the mapped\nguest register no longer held the zero-extended word the rest of the\ngenerator assumes. Using that register as a memory base then adds the\nsign bits and addresses outside the guest mapping. Narrow the result\nafter the writeback, including when it was already in the destination\nand no move happened.\n\nThe regression covers it by dividing the stack pointer, which is above\n0x80000000 and so negative as int32, and loading through the quotient\nwith no branch in between: an intervening spill would reload the base\nfrom the register file and hide the stale half.\n\nbht_should_translate treated a recorded target of zero as an empty\nslot, so a hot indirect jump to guest address zero would never be\nspecialized. The observation count is the validity signal, and the\ntable initializes the program counters to all ones rather than to zero,\nso testing the count is both correct and shorter.\n\nThree emitters become unused in configurations that do not reach them -\nemit_alu64 on Arm64, emit_mov_sext without the M extension, and\nemit_guest_address where the indexed form is available - which\n-Wunused-function rejects. Mark them the way emit_sxtw already was\nbefore it was renamed.\n\nThe check gating was inconsistent in two ways. Only the base ISA was\nprobed, so a toolchain that assembles rv32i but not rv32im or rv32imc\nwould fail rather than skip; probe each string that is actually used.\nAnd only the new assembly checks were gated on the emulator being able\nto load a user ELF, so a system-mode build still tried to run hello and\nthe ELF checks and failed on them. Everything that runs a guest ELF now\nshares that gate, leaving the host-only trace-match check to run\neverywhere.\n\nAlias coverage extends to the shift and compare forms, which lower\nthrough their own macros with their own source-overwrite handling, and\nthe generated test binaries are ignored.",
+          "timestamp": "2026-09-20T23:53:21+08:00",
+          "tree_id": "bbe7be5c6dd057084bee1c4f0b80d09a2f95cadd",
+          "url": "https://github.com/sysprog21/rv32emu/commit/3531d82d6f0590d0f504ec83fc3ea9074d5cc203"
+        },
+        "date": 1789920418357,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2189.5,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1773.399,
             "unit": "iterations/sec"
           }
         ]
