@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789944333631,
+  "lastUpdate": 1789944369216,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52133,6 +52133,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1784.369,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "34e2e3417fbd11ce4a817af877915a021d743750",
+          "message": "Make the decoder check independent of its surroundings\n\nThree ways the freshness check could report the wrong answer or fail\nfor reasons unrelated to the decoder.\n\nclang-format searches upward from the file it formats, so a build\ndirectory outside the repository was formatted in the built-in style and\nthe check called a freshly generated decoder stale. Name the style file\nexplicitly rather than relying on where the temporary happens to live.\n\nThe check reads only the descriptor and the two scripts, but ran through\na target that requires .config, so it cloned Kconfiglib over the network\nbefore it could start. Let it run without a configuration, and drop the\ndefconfig step from the workflow.\n\nDeferring annotation evaluation keeps both scripts importable on\ninterpreters older than 3.10, which needs the generator registered in\nsys.modules before it is executed, because dataclasses resolves a\ndeferred field type through the defining module.\n\nAlso document the SYSTEM tag, which gates the supervisor instructions\nand is a build option rather than an ISA extension name.",
+          "timestamp": "2026-09-21T06:31:58+08:00",
+          "tree_id": "540ffed93639b5c3cab142c9fd70bde7b8bb5956",
+          "url": "https://github.com/sysprog21/rv32emu/commit/34e2e3417fbd11ce4a817af877915a021d743750"
+        },
+        "date": 1789944368653,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2173.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1780.78,
             "unit": "iterations/sec"
           }
         ]
