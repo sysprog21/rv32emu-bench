@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789893071371,
+  "lastUpdate": 1789894522518,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51701,6 +51701,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1743.288,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Charlie-Tsai1123",
+            "username": "Charlie-Tsai1123"
+          },
+          "committer": {
+            "name": "Charlie-Tsai1123",
+            "username": "Charlie-Tsai1123"
+          },
+          "id": "25152a03f3e3cb9733fb563c4c9f667109f1b934",
+          "message": "Migrate virtio-net from semu",
+          "timestamp": "2026-05-12T07:40:13Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/748/commits/25152a03f3e3cb9733fb563c4c9f667109f1b934"
+        },
+        "date": 1789894522243,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2089.25,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1748.185,
             "unit": "iterations/sec"
           }
         ]
