@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789841230234,
+  "lastUpdate": 1789877444203,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -51491,6 +51491,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 2676.518,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "9165c776c0bc88100692d0aa2050f3899847dc6f",
+          "message": "Fix wasm system music",
+          "timestamp": "2026-09-19T07:14:21Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/777/commits/9165c776c0bc88100692d0aa2050f3899847dc6f"
+        },
+        "date": 1789877443729,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 4744.8,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3098.873,
             "unit": "iterations/sec"
           }
         ]
