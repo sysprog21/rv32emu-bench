@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789951965686,
+  "lastUpdate": 1789952248424,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52295,6 +52295,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1779.555,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "99762f9c89a1de69861ea60292f33bf69b999b1e",
+          "message": "Commit nothing from a faulting LR.W\n\nThe reservation was already withheld when the load faulted, but the\nresult was still written back. A faulting translation returns a\nplaceholder rather than unwinding, so rd received that placeholder and\nthe instruction then retried from sepc. Where rd and rs1 are the same\nregister, the retry reads its address out of the register the failed\nattempt had just overwritten, and goes somewhere else entirely.\n\nWithhold both, so a faulting LR.W commits nothing.\n\nEvery other load writes rd the same way and has the same behaviour on a\nfault. That is older than this change and wants fixing across all of\nthem at once, rather than quietly in the one instruction that happens to\nbe under review here.\n\nAlso check memory in the failing store conditional case in tests/lrsc.S.\nWith rd as x0 the failure code cannot be observed, so without that check\nthe case rested entirely on x0 staying zero and a regression that stored\nanyway would have passed.",
+          "timestamp": "2026-09-21T08:46:24+08:00",
+          "tree_id": "46d51bf98c96bd31ed1db332e14e4d8d10dce6a2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/99762f9c89a1de69861ea60292f33bf69b999b1e"
+        },
+        "date": 1789952247991,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3357,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2599.176,
             "unit": "iterations/sec"
           }
         ]
