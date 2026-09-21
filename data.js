@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789948656055,
+  "lastUpdate": 1789951630500,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52231,6 +52231,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1773.236,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "distinct": true,
+          "id": "623fb370bdd9c7656151de80b725cf77cfe850f0",
+          "message": "Keep the reservation honest about faults and x0\n\nFour ways the new reservation set could be armed or reported wrongly,\nall reachable through paths the plain user mode tests never take.\n\nA faulting translation in system mode does not unwind. It records the\ntrap and returns, and the RVOP wrapper only inspects that flag once the\ninstruction body has finished, so LR.W was re-arming a reservation the\ntrap had just cleared. Arm it only when the access actually happened.\nSC.W had the mirror of the same problem, reporting success through rd\nfor a store that faulted and will be retried.\n\nLR.W skipped its load entirely when rd was x0. The result is discarded\nthere, but the access is not: it still faults on an inaccessible\naddress and still has the side effects of an MMIO read. Perform the\nload and make only the write back conditional.\n\nThe option that relaxes alignment for ordinary loads and stores was\nrelaxing it for LR.W and SC.W too, which have no misaligned form and\nwould otherwise reserve an address spanning two words. Check their\nalignment separately from that option.\n\nThe reservation records a virtual address, so SFENCE.VMA now clears it\nrather than leaving it pointing at whatever the address maps to next.\n\ntests/lrsc.S covers the two cases observable without an MMU: that LR.W\nwith rd=x0 still reserves, and that a failing SC.W leaves x0 alone\ninstead of writing its failure code into it.",
+          "timestamp": "2026-09-21T08:37:36+08:00",
+          "tree_id": "036b87c3ba73c3f8698de34a3994a4218007606b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/623fb370bdd9c7656151de80b725cf77cfe850f0"
+        },
+        "date": 1789951629899,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3949.8,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3054.616,
             "unit": "iterations/sec"
           }
         ]
