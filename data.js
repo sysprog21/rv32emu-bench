@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790539523175,
+  "lastUpdate": 1790541633348,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52779,6 +52779,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 1775.27,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "committer": {
+            "name": "sysprog21",
+            "username": "sysprog21"
+          },
+          "id": "9f829b8a1e20d5c30befecb96e834ac0bbaa61fa",
+          "message": "Benchmark JIT modes and make T1C the default",
+          "timestamp": "2026-09-27T19:01:42Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/783/commits/9f829b8a1e20d5c30befecb96e834ac0bbaa61fa"
+        },
+        "date": 1790541632821,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2267.5,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1668.931,
             "unit": "iterations/sec"
           }
         ]
