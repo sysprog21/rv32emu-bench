@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790589710608,
+  "lastUpdate": 1790590016831,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -52929,6 +52929,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "CoreMark",
             "value": 2128.415,
+            "unit": "iterations/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "committer": {
+            "name": "ChinYikMing",
+            "username": "ChinYikMing"
+          },
+          "id": "c60f28015f458950da430bfd0c56bb5a69e26621",
+          "message": "Speedup 3.6x boot time by using ext4 rootfs ",
+          "timestamp": "2026-09-27T20:18:05Z",
+          "url": "https://github.com/sysprog21/rv32emu/pull/785/commits/c60f28015f458950da430bfd0c56bb5a69e26621"
+        },
+        "date": 1790590016174,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 2837.5,
+            "unit": "DMIPS"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2146.966,
             "unit": "iterations/sec"
           }
         ]
