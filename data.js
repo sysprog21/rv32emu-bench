@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790988171542,
+  "lastUpdate": 1791036009758,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53182,6 +53182,72 @@ window.BENCHMARK_DATA = {
             "range": "± 11.126",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "caa306a247e32a801e90bc586b27424a7f227f98",
+          "message": "Merge pull request #789 from sysprog21/use-coro\n\nHarden hart coroutines for reboot and debugging",
+          "timestamp": "2026-10-03T21:45:20+08:00",
+          "tree_id": "7bb096473d080163013d75258a39f0586bc477f6",
+          "url": "https://github.com/sysprog21/rv32emu/commit/caa306a247e32a801e90bc586b27424a7f227f98"
+        },
+        "date": 1791036009478,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 18646,
+            "range": "± 12.669",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 11448.941,
+            "range": "± 30.997",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 73057.25,
+            "range": "± 513.494",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 23777.053,
+            "range": "± 210.929",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 3903.75,
+            "range": "± 41.121",
+            "unit": "DMIPS",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3035.868,
+            "range": "± 9.91",
+            "unit": "iterations/sec",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
           }
         ]
       }
