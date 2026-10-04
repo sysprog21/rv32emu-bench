@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791036009758,
+  "lastUpdate": 1791072143218,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53248,6 +53248,72 @@ window.BENCHMARK_DATA = {
             "range": "± 9.91",
             "unit": "iterations/sec",
             "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "68d6c748408635de4cd3683d1c93724eb5a26406",
+          "message": "Merge pull request #791 from sysprog21/refine\n\nHarden ELF loading against malformed files",
+          "timestamp": "2026-10-04T07:45:31+08:00",
+          "tree_id": "c99de183424212100c0c7571bbb216a14a0963d4",
+          "url": "https://github.com/sysprog21/rv32emu/commit/68d6c748408635de4cd3683d1c93724eb5a26406"
+        },
+        "date": 1791072142184,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 42474.4,
+            "range": "± 93.176",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 23950.043,
+            "range": "± 100.188",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41559,
+            "range": "± 224.018",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 16357.516,
+            "range": "± 37.56",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2217.25,
+            "range": "± 6.238",
+            "unit": "DMIPS",
+            "extra": "4 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1794.856,
+            "range": "± 10.07",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
         ]
       }
