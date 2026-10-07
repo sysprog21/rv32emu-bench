@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791346250947,
+  "lastUpdate": 1791347977056,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53380,6 +53380,72 @@ window.BENCHMARK_DATA = {
             "range": "± 0.167",
             "unit": "iterations/sec",
             "extra": "5 runs on Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1e5eeb48c1f4e48788e7d1aee05158c3efb6c53",
+          "message": "Merge pull request #785 from ChinYikMing/boot-guestos-with-vblk-disk\n\nSpeedup 3.6x boot time by using ext4 rootfs",
+          "timestamp": "2026-10-07T12:24:03+08:00",
+          "tree_id": "c1faad514bd585fcdd95392e454f169dce8230e2",
+          "url": "https://github.com/sysprog21/rv32emu/commit/f1e5eeb48c1f4e48788e7d1aee05158c3efb6c53"
+        },
+        "date": 1791347976546,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 18627.75,
+            "range": "± 24.336",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 11466.28,
+            "range": "± 7.271",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41666.25,
+            "range": "± 34.326",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 16394.608,
+            "range": "± 9.77",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2207.75,
+            "range": "± 7.182",
+            "unit": "DMIPS",
+            "extra": "4 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1778.712,
+            "range": "± 12.351",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
         ]
       }
