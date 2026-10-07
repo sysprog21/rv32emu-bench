@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791347977056,
+  "lastUpdate": 1791401371234,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53444,6 +53444,58 @@ window.BENCHMARK_DATA = {
             "name": "CoreMark",
             "value": 1778.712,
             "range": "± 12.351",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a5b5f9217fb2b4d8a73fcf4e572aa90ccc33f07c",
+          "message": "Merge pull request #796 from sysprog21/perf\n\nSpeed up tight loops in the interpreter and T1",
+          "timestamp": "2026-10-08T02:23:05+08:00",
+          "tree_id": "b1b68cc861d019297cc56a9531223302e9bd2a40",
+          "url": "https://github.com/sysprog21/rv32emu/commit/a5b5f9217fb2b4d8a73fcf4e572aa90ccc33f07c"
+        },
+        "date": 1791401370568,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 18377.75,
+            "range": "± 2.217",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 14231.208,
+            "range": "± 16.319",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41723.75,
+            "range": "± 20.807",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 16626.996,
+            "range": "± 112.767",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
