@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791956395056,
+  "lastUpdate": 1791957186383,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53630,6 +53630,72 @@ window.BENCHMARK_DATA = {
             "range": "± 7.836",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "58fbfa049b219aa36a75ec5cd51c4671b568b174",
+          "message": "Merge pull request #798 from eastWillow/fix/csr-writability-sign-extension\n\nFix CSR checks and unsupported access traps",
+          "timestamp": "2026-10-14T13:38:21+08:00",
+          "tree_id": "1e80997ab5a6b655049991aa8a409fa5f57a6f0a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/58fbfa049b219aa36a75ec5cd51c4671b568b174"
+        },
+        "date": 1791957185873,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 18501.8,
+            "range": "± 17.57",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 15730.747,
+            "range": "± 12.838",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 48224,
+            "range": "± 197.221",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 20728.297,
+            "range": "± 27.603",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2294.75,
+            "range": "± 46.507",
+            "unit": "DMIPS",
+            "extra": "4 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1783.276,
+            "range": "± 20.548",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
           }
         ]
       }
