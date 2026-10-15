@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792025200043,
+  "lastUpdate": 1792066522849,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53762,6 +53762,72 @@ window.BENCHMARK_DATA = {
             "range": "± 25.53",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b577edf9df12ebddd8743af4b1f86acc016d4900",
+          "message": "Merge pull request #804 from kaiii708/list-missing-defconfigs\n\nRefine the defconfig list shown without .config",
+          "timestamp": "2026-10-15T20:02:29+08:00",
+          "tree_id": "5ff769426c3be7faf4bd2cefae383c669f99aa70",
+          "url": "https://github.com/sysprog21/rv32emu/commit/b577edf9df12ebddd8743af4b1f86acc016d4900"
+        },
+        "date": 1792066522107,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 16061.8,
+            "range": "± 11.032",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 16130.209,
+            "range": "± 23.034",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41658.75,
+            "range": "± 53.238",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 16976.115,
+            "range": "± 31.185",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2987.8,
+            "range": "± 17.427",
+            "unit": "DMIPS",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2993.14,
+            "range": "± 21.781",
+            "unit": "iterations/sec",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
           }
         ]
       }
