@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791957186383,
+  "lastUpdate": 1792025200043,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53696,6 +53696,72 @@ window.BENCHMARK_DATA = {
             "range": "± 20.548",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "436fb1ebc2706b2ae8924070407a070f12a55a3c",
+          "message": "Merge pull request #802 from sysprog21/fix\n\nFix WebAssembly demo hangs and isolation bootstrap",
+          "timestamp": "2026-10-15T08:36:20+08:00",
+          "tree_id": "db476bbcdff8fe3f93aaef0e5b8cca249ae8e492",
+          "url": "https://github.com/sysprog21/rv32emu/commit/436fb1ebc2706b2ae8924070407a070f12a55a3c"
+        },
+        "date": 1792025199383,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 20707.6,
+            "range": "± 10.922",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 20854.09,
+            "range": "± 24.183",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 72816.5,
+            "range": "± 165.333",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 24541.111,
+            "range": "± 171.1",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 4715.4,
+            "range": "± 16.727",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3207.468,
+            "range": "± 25.53",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
           }
         ]
       }
