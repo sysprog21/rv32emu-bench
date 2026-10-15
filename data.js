@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792066522849,
+  "lastUpdate": 1792104537087,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -53828,6 +53828,72 @@ window.BENCHMARK_DATA = {
             "range": "± 21.781",
             "unit": "iterations/sec",
             "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9998444522b96ecfb3d2eddc6fd691ca7f7dd8a9",
+          "message": "Merge pull request #805 from sysprog21/fix\n\nFix wasm boot faults after interrupt traps",
+          "timestamp": "2026-10-16T06:19:28+08:00",
+          "tree_id": "551fc14d418a63a900f2be50200c3e6813bd68b0",
+          "url": "https://github.com/sysprog21/rv32emu/commit/9998444522b96ecfb3d2eddc6fd691ca7f7dd8a9"
+        },
+        "date": 1792104536800,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 38911.4,
+            "range": "± 137.473",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 28518.816,
+            "range": "± 239.874",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41684.2,
+            "range": "± 68.145",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 17022.995,
+            "range": "± 51.375",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2178.75,
+            "range": "± 9.142",
+            "unit": "DMIPS",
+            "extra": "4 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1890.89,
+            "range": "± 3.192",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
         ]
       }
