@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792511413359,
+  "lastUpdate": 1792553596751,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -54158,6 +54158,72 @@ window.BENCHMARK_DATA = {
             "range": "± 7.48",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9b22c068b2e0bac7fd38dba7bb6e2c070f3f57e",
+          "message": "Merge pull request #817 from sysprog21/deploy-webui\n\nRender Web UI pages in one rule and add a deploy script",
+          "timestamp": "2026-10-21T11:21:51+08:00",
+          "tree_id": "70528ef182c14503afb741fa4fe76e76286797ee",
+          "url": "https://github.com/sysprog21/rv32emu/commit/c9b22c068b2e0bac7fd38dba7bb6e2c070f3f57e"
+        },
+        "date": 1792553596021,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 46922.8,
+            "range": "± 196.778",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 37025.135,
+            "range": "± 192.057",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41474.2,
+            "range": "± 176.965",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 17152.913,
+            "range": "± 55.037",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 3591,
+            "range": "± 4.472",
+            "unit": "DMIPS",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2807.041,
+            "range": "± 6.426",
+            "unit": "iterations/sec",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
           }
         ]
       }
