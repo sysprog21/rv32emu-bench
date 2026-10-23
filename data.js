@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792622020320,
+  "lastUpdate": 1792751733993,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -54290,6 +54290,72 @@ window.BENCHMARK_DATA = {
             "range": "± 23.02",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "36ca377bee99572d2e1f1457a90fa7c4f85c282b",
+          "message": "Merge pull request #822 from visitorckw/uboot-support\n\nSupport booting Linux through S-mode U-Boot",
+          "timestamp": "2026-10-23T18:07:46+08:00",
+          "tree_id": "a83ae95765e0f45e5ffd0e9e7157b741bfd45902",
+          "url": "https://github.com/sysprog21/rv32emu/commit/36ca377bee99572d2e1f1457a90fa7c4f85c282b"
+        },
+        "date": 1792751733114,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 20053.6,
+            "range": "± 14.673",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 19723.373,
+            "range": "± 15.102",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 48342.4,
+            "range": "± 113.001",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 21034.616,
+            "range": "± 12.233",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2668.25,
+            "range": "± 2.363",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2016.867,
+            "range": "± 12.714",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
         ]
       }
