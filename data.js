@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792814213504,
+  "lastUpdate": 1792845516983,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -54488,6 +54488,72 @@ window.BENCHMARK_DATA = {
             "range": "± 8.65",
             "unit": "iterations/sec",
             "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb8dda6655daaafd5ff702f186f8b60d3e6733c1",
+          "message": "Merge pull request #826 from sysprog21/act4\n\nMigrate architecture tests to ACT4",
+          "timestamp": "2026-10-24T20:23:16+08:00",
+          "tree_id": "9d7eff9775ad34ed99f3ee17062a08ace9b3ea63",
+          "url": "https://github.com/sysprog21/rv32emu/commit/bb8dda6655daaafd5ff702f186f8b60d3e6733c1"
+        },
+        "date": 1792845516675,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 46641.4,
+            "range": "± 319.61",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 36988.053,
+            "range": "± 38.137",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 37504.5,
+            "range": "± 125.008",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 16175.794,
+            "range": "± 59.858",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2473.25,
+            "range": "± 6.449",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 1890.364,
+            "range": "± 16.83",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
           }
         ]
       }
