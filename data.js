@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792800274987,
+  "lastUpdate": 1792814213504,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -54422,6 +54422,72 @@ window.BENCHMARK_DATA = {
             "range": "± 15.736",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f5f9eb5c024c692451a5ca868a1d343974e77a7",
+          "message": "Merge pull request #821 from sysprog21/perf\n\nHarden and speed up system-mode JIT",
+          "timestamp": "2026-10-24T11:44:37+08:00",
+          "tree_id": "f64f80a8c25664a0b40959315aee7a722b61a416",
+          "url": "https://github.com/sysprog21/rv32emu/commit/5f5f9eb5c024c692451a5ca868a1d343974e77a7"
+        },
+        "date": 1792814213027,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 20086.5,
+            "range": "± 10.504",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 19708.363,
+            "range": "± 6.493",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 41512.6,
+            "range": "± 163.772",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 17059.006,
+            "range": "± 115.875",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 4290.4,
+            "range": "± 7.829",
+            "unit": "DMIPS",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3341.45,
+            "range": "± 8.65",
+            "unit": "iterations/sec",
+            "extra": "5 runs on INTEL(R) XEON(R) PLATINUM 8573C"
           }
         ]
       }
