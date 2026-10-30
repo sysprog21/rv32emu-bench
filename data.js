@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793287939409,
+  "lastUpdate": 1793358989152,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -54884,6 +54884,72 @@ window.BENCHMARK_DATA = {
             "range": "± 16.066",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e08f26d16fa7fe697f19f7b1180f3df8d2cf2930",
+          "message": "Merge pull request #834 from sysprog21/refine\n\nHarden guest memory paging and pool/set helpers",
+          "timestamp": "2026-10-30T18:51:39+08:00",
+          "tree_id": "4bf58e3f88a4c1dda61a5aab7e0f27a0e284501b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/e08f26d16fa7fe697f19f7b1180f3df8d2cf2930"
+        },
+        "date": 1793358988660,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 19986.8,
+            "range": "± 16.529",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 19646.822,
+            "range": "± 68.072",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 43486.6,
+            "range": "± 33.201",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 28283.676,
+            "range": "± 47.865",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 5245.4,
+            "range": "± 37.799",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 3363.599,
+            "range": "± 41.523",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
           }
         ]
       }
