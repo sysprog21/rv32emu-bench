@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793643693979,
+  "lastUpdate": 1794141137767,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -55082,6 +55082,72 @@ window.BENCHMARK_DATA = {
             "range": "± 9.129",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb6843f8664833e190aaeb548741e88b857d5a48",
+          "message": "Merge pull request #838 from ChinYikMing/git-revision\n\nClone simplefs artifact with commit hash",
+          "timestamp": "2026-11-08T20:20:48+08:00",
+          "tree_id": "f77c5082e18cbf7b299ff34da6ca8d6afaf59253",
+          "url": "https://github.com/sysprog21/rv32emu/commit/bb6843f8664833e190aaeb548741e88b857d5a48"
+        },
+        "date": 1794141137281,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 25932.8,
+            "range": "± 39.105",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 26951.219,
+            "range": "± 112.654",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 45527.6,
+            "range": "± 39.753",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 23384.921,
+            "range": "± 91.946",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 3292.5,
+            "range": "± 9",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2543.063,
+            "range": "± 68.108",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 9V74 80-Core Processor"
           }
         ]
       }
