@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794197719544,
+  "lastUpdate": 1794214533219,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -55214,6 +55214,72 @@ window.BENCHMARK_DATA = {
             "range": "± 52.536",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 9V45 96-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8e525ae4ceb858f9f63b9010b9329be70c7d4a1c",
+          "message": "Merge pull request #839 from sysprog21/t1c-port\n\nImprove T1C codegen and no-C misaligned jumps",
+          "timestamp": "2026-11-09T16:37:23+08:00",
+          "tree_id": "298c007148b1e13858cba1e9a453afba0049d19b",
+          "url": "https://github.com/sysprog21/rv32emu/commit/8e525ae4ceb858f9f63b9010b9329be70c7d4a1c"
+        },
+        "date": 1794214532889,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 22218.6,
+            "range": "± 23.713",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 19650.285,
+            "range": "± 131.592",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 53846,
+            "range": "± 70.161",
+            "unit": "DMIPS",
+            "extra": "5 runs on Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 22872.722,
+            "range": "± 8.935",
+            "unit": "iterations/sec",
+            "extra": "5 runs on Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2633.5,
+            "range": "± 2.646",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2022.647,
+            "range": "± 33.756",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
         ]
       }
