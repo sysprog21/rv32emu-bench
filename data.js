@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794214533219,
+  "lastUpdate": 1794256634705,
   "repoUrl": "https://github.com/sysprog21/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -55278,6 +55278,72 @@ window.BENCHMARK_DATA = {
             "name": "CoreMark",
             "value": 2022.647,
             "range": "± 33.756",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jserv@ccns.ncku.edu.tw",
+            "name": "Jim Huang",
+            "username": "jserv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb9be931f7a16fb6b496db59f41bee05c415935a",
+          "message": "Merge pull request #840 from sysprog21/rvv\n\nBring RVV closer to full 1.0 compliance",
+          "timestamp": "2026-11-10T04:22:51+08:00",
+          "tree_id": "8ac06e0d89178f21b1b9d368a5ec8575f8709e7a",
+          "url": "https://github.com/sysprog21/rv32emu/commit/cb9be931f7a16fb6b496db59f41bee05c415935a"
+        },
+        "date": 1794256634182,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone (T1C)",
+            "value": 22214,
+            "range": "± 18.371",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T1C)",
+            "value": 19512.676,
+            "range": "± 188.716",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone (T2C)",
+            "value": 45444.4,
+            "range": "± 71.115",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark (T2C)",
+            "value": 23375.07,
+            "range": "± 38.921",
+            "unit": "iterations/sec",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 2612,
+            "range": "± 2",
+            "unit": "DMIPS",
+            "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
+          },
+          {
+            "name": "CoreMark",
+            "value": 2031.339,
+            "range": "± 15.678",
             "unit": "iterations/sec",
             "extra": "5 runs on AMD EPYC 7763 64-Core Processor"
           }
